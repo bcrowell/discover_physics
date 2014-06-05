@@ -1,0 +1,63 @@
+Notes on how to LaTeX the book:
+
+Basically you just need to say ``make book'' from the
+Unix command line.
+
+LaTeX is free software. A little web searching should
+turn up a version that runs on your operating system.
+The book uses a bunch of .sty files, all of which are
+pretty standard. If you have the teTeX distribution,
+you probably have them all already. Otherwise, you
+can download them from CTAN.
+
+You need version 3.3 of wrapfig.sty; version 3.2 has a
+bug in it, and it won't work.
+
+You need version 2.5 of the titlesec
+package. A copy is included in the file titlesec.tar.gz.
+If you're upgrading from an earlier version of titlesec,
+make sure to delete all the old files first, or it won't work.
+The very first time you compile the book,
+you may get a bunch of error messages from titlesec; just
+keep hitting return, and on subsequent runs, you won't
+have the errors. The latest version of titlesec is normally
+available at this address:
+ftp://ftp.dante.de/tex-archive/macros/latex/contrib/supported/titlesec.zip
+However, version 2.5 is currently (Jan 2003) being distributed with a known
+bug in the file margin.tss (hsize is written as hsiz in one place).
+This mistake is corrected in the version of the package distributed
+along with the book.
+
+The figures are in EPS and JPG formats. If the implementation
+of LaTeX you use can't handle these, you may need to convert
+them. The EPS files can be converted to PDF, if necessary,
+using epstopdf. 
+
+You may get the following error message:
+  TeX capacity exceeded, sorry [pool size=...]
+If this happens, you need to edit your texmf.cnf file. On
+a Unix system, this file is in the directory $TEXMF, which
+points to something like /usr/share/texmf/web2c or 
+/usr/local/teTeX/share/texmf/web2c. To edit the file on a
+Unix system, you may need to do "sudo," e.g.
+"sudo vi texmf.cnf". The line that says "pool_size=..."
+needs to be changed. Changing it to 750000 worked for me.
+
+The fonts used are pretty standard, and are all available
+for free.
+
+The top of  the .cls file has some comments about how the book
+is implemented in TeX, which may be helpful if you're
+having trouble compiling it.
+
+I maintain the originals of the photos in PNG format, but
+I compress them and put them in JPG format before
+using them in the book.
+
+I did the line art for this book using an old version Adobe Illustrator (AI).
+If you want to get one of these in a format such as SVG that is editable using open-source software, the easiest
+method is probably to look in one of my other physics books at lightandmatter.com;
+almost all the figures in Discover Physics occur as well in one of these other
+books, and those are all in SVG. The figures in this source-code archive are
+in .eps format, which is difficult to convert to other formats, except using
+Illustrator (of which I no longer own a copy).

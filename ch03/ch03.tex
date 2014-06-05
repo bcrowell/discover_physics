@@ -1,0 +1,800 @@
+\mychapterwithopener{breakfast}{Breakfast table, by Willem Clasz. de Heda, 1631. A
+variety of images occur in the painting, some distorted, as a result of both reflection and
+refraction.}{Images}\label{ch:images}\index{images}\index{light!images}
+
+Images are the main reason you care about light rays:
+you want rays to paint images on your retina. It might seem as though
+this business of images was very complicated, and to understand them
+you'd have to memorize lots of facts about different image-producing
+devices --- cameras, telescopes, microscopes, fun-house mirrors ---
+but all these devices work according to a few simple principles, which
+you already know.
+You just need the rules from chapter
+\ref{ch:raymodel} governing specular
+reflection, and the rules of refraction which you discovered in lab.
+
+The eye of the octopus is a striking example of the subject's underlying simplicity.
+The last ancestor you had in common with an octopus was
+an animal having only primitive vision, so your eye and the octopus's developed by parallel
+evolution. Even though they evolved independently, they are
+remarkably similar, because the structure of an eye is
+dictated by the laws of physics.%
+\footnote{Fundamentalists who perceive a conflict between evolution\index{evolution}\index{creationism}\index{evolution!creationism}
+and their religion have claimed that the eye is such a
+perfect device that it could never have arisen through a
+process as helter-skelter as evolution, or that it could not
+have evolved because half of an \index{eye!evolution of}eye
+would be useless. Actually the evolution of the eye is
+well understood. We humans have
+a version of the eye that can be traced back to the
+evolution of a light-sensitive ``eye spot'' on the head of
+an ancient invertebrate. A sunken pit then developed so that
+the eye would only receive light from one direction,
+allowing the organism to tell where the light was coming
+from. (Modern \index{flatworm}flatworms have this type of
+eye.) The top of the pit then became partially covered,
+leaving a hole, for even greater directionality (as in the
+\index{nautilus}nautilus). At some point the cavity became
+filled with jelly, and this jelly finally became a lens,
+resulting in the general type of eye that we share with the
+bony fishes and other vertebrates. Far from being a perfect
+device, the vertebrate eye is marred by a serious design
+flaw due to the lack of planning or intelligent design in
+evolution: the nerve cells of the retina and the blood
+vessels that serve them are all in front of the light-sensitive
+cells, blocking part of the light. \index{octopus}Octopi and
+other \index{mollusk}mollusks have a more sensible
+arrangement, with the light-sensitive cells out in front.}
+
+
+\mysection[0]{Location and Magnification}\label{sec:imagelocation}
+\begin{envsubsection}{A flat mirror}\index{images!flat mirror}\index{images!location}
+The ray diagram in figure \figref{flatmirrorimageb} implies something
+strange and subtle, which you probably didn't fully absorb when you first
+saw it on page \pageref{fig:flatmirrorimage}. To appreciate it, try this
+experiment. First, bring this page so close to your face that it touches
+your nose. You can't focus your eyes on it, because it's
+too close. Now go in the bathroom and touch your nose against the mirror.
+Surprisingly, you can easily see your own eyes in focus.
+The experiment demonstrates that the image was not on the surface
+of the mirror. It was behind the mirror, as implied by the ray diagram.
+The reason you were able to focus on it was that it was twice as far away
+as the mirror's surface.
+
+\margup{-59mm}{\fig{flatmirrorimageb}{The flame's image is behind the mirror.}
+\spacebetweenfigs
+\fig{puddle}{The image is underground.}
+\spacebetweenfigs
+\fig{faceinmirror}{My nose reflects light rather than emitting it, but
+the ray diagram is just like figure \figref{flatmirrorimageb}.}}
+Of course there wasn't really any stuff behind the mirror: no light, and
+certainly no face. Nevertheless, we say that the image is at a definite
+point in space, behind the mirror. It's useful to say this, because the only
+way you can see things is if light rays go into your eyes, and when you catch
+those rays, they don't carry any history. We know the rays in 
+figure \figref{flatmirrorimageb} came from a point on the
+actual flame on the left, but they form exactly the same spreading pattern
+that would have been produced by a flame behind the mirror. It doesn't matter
+whether the object emits light or merely reflects it, as in figure \figref{faceinmirror}.
+The tip of my nose reflects light diffusely, so light rays move away from it in every direction,
+just as they do from a point on the flame.
+
+Summarizing, we can define an image like this:
+\begin{important}
+An image is where rays originating from the same point on the object either
+cross again or appear to have crossed.\index{image!defined}
+\end{important}
+\noindent Figure \figref{faceinmirror} shows the case where the rays only appear
+to have crossed at the image's location. Burning ants with a magnifying glass
+is an example of the other case: rays that originated from the same point
+on the sun are actually reunited on the ground.
+
+An image's location is important, as exemplified by the famous warning message
+on cars' rear-view mirrors, ``objects are closer than they appear.'' From the
+ray diagrams in figures \figref{flatmirrorimageb} and \figref{faceinmirror}, it's
+clear that a flat mirror produces an image whose distance behind the mirror is
+equal to the object's distance in front of it. Therefore, when we increase an
+object's distance from a flat mirror, the image's distance from the mirror increases
+as well. We represent this with the shorthand symbol $\upup$.
+(This is what high school
+geometry teachers refer to disparagingly as proof by drawing, but proof by drawing
+works, and we're going to do a lot of it.) 
+Although it was easy to see that a
+flat mirror would be $\upup$, the images made by lenses and curved mirrors are
+sometimes $\upup$ and sometimes $\updown$, and we need to discuss a couple
+of techniques that are more generally useful for determining this.
+
+\widefig{frontbackmethod}{Another way of determining that the image is $\upup$. 1. Find a ray
+that can get to the observer's eye without being blocked. 2. Rays from the paper airplane's
+tail are not blocked,
+so the tail is visible, not the nose. Therefore the image must be pointed away from the observer.
+3. If the plane got farther from the mirror, the image would too, so the image is $\upup$.}
+%
+One method is simply to draw ray diagrams for two different object distances.
+In the ray diagrams up to now, I've been drawing several rays, all of which
+appeared to come from the image point. There is really no need to do more than
+two such rays. We can also make life easy by choosing one ray to be the one
+that happens to head straight towards the mirror; this ray is reflected right
+back on itself. The full technique is demonstrated in figure
+\figref{flatmirrorchangedistance}. This method is straightforward for images made
+by flat and curved mirrors, but somewhat more cumbersome with lenses, both because
+refraction is more complicated than reflection and because a ray passing through a
+lens undergoes two refractions, one at each surface. Figure \figref{frontbackmethod}
+is an alternative.
+\end{envsubsection}
+%
+\begin{envsubsection}{A curved mirror}\index{images!curved mirror}\index{images!magnification}
+There are only a few uses for a flat mirror. Figure \figref{inbendingmirrorvirtual} shows
+the more interesting case: an image made by a curved mirror. (The figure only shows a section through
+one plane, not all three dimensions; we'll assume throughout this book that our mirrors are
+symmetric with respect to rotation about a central axis, like a dish, not a saddle or a potato chip.)
+Because the mirror is curved, the reflected rays are bent back inward a little, and are not
+diverging as strongly as the incident ones were.
+
+\margup{-107mm}{\fig{flatmirrorchangedistance}{The object is moved from its original position
+(heavy lines) to a new position farther from the mirror (light lines). For the ray
+that strikes the mirror at an angle, it's helpful to draw in the normal (perpendicular)
+to the mirror's surface. Since $r=i$, the new rays must fan in closer to the normal.
+As the object's distance increases, so does the image's, $\upup$.}
+\spacebetweenfigs
+\fig{inbendingmirrorvirtual}{A curved mirror.}
+}
+%
+The ray diagram in figure \figref{inbendingmirrorvirtual} shows that the image is farther from
+the mirror than the object. The techniques described above show that the image is
+still $\upup$, as with a flat mirror, but if we increase the object's distance from the
+mirror by, say, 1 cm, then the image's distance will increase not just by 1 cm but by
+some greater amount. All the front-back distances in Image-Land behind the mirror
+have been magnified. What about up-down distances, and distances into and out of the page?
+If you try drawing rays and locating the images of other points on the face, you'll find that
+all the distances are enlarged consistently, which means that the image-face has all the same
+proportions. In this particular example, the magnification is about two: all distances are
+doubled.
+\end{envsubsection}
+%
+\vfill
+%
+\mysection{Real and Virtual Images}\index{images!real and virtual}\index{real image}\index{virtual image}
+The image in figure \figref{inbendingmirrorvirtual} is $\upup$, but if we keep increasing
+the object distance, an increase in the image distance isn't the only effect we'll ever see.
+Eventually we'll get the completely different situation shown in figure \figref{inbendingmirrorreal}. 
+In figure \figref{inbendingmirrorvirtual}, the cone of rays intercepted by the mirror was spreading
+out strongly, and although the mirror bent them back in somewhat, the reflected rays were still spreading.
+In figure \figref{inbendingmirrorreal}, the rays coming out at the biggest angles miss the mirror
+entirely, and those that do reach the mirror form a cone that isn't diverging so
+strongly. The mirror is able to bend them enough so that they reconverge.
+This switch in behavior occurs when the object is at a certain distance from the mirror,
+called the mirror's focal\index{focal length}\label{focal-length-definition}
+length.\footnote{The interpretation of the focal length is elaborated on in
+homework problem \ref{hw:interpretfocallength} and lab \ref{ch:images}\ref{lab:telescope}.}
+
+\margup{-50mm}{\spacebetweenfigs
+\fig{inbendingmirrorreal}{A new kind of image.}}
+The image point in figure
+\figref{inbendingmirrorvirtual} is one where the rays only appear to have crossed; this is called
+a virtual image. In figure \figref{inbendingmirrorreal} the rays really do cross at the image point,
+and such an image is referred to as a real image. Only a real image can be projected onto a screen.
+A movie projector, an overhead projector, and the human eye all form real images. (The eye's
+``screen'' is the retina, a layer of light-sensitive cells connected to the brain by nerves.)
+
+
+\selfcheck{virtualtoreal}{%
+Starting with the object distance shown in figure 
+\figref{inbendingmirrorvirtual}, suppose we gradually move the object farther and farther away from the mirror.
+At some special object distance, the image changes from virtual to real. What do the reflected rays look like
+in this special case?%
+}
+
+\selfcheck{realisupdown}{%
+Use the methods shown in figures \figref{frontbackmethod} and
+\figref{flatmirrorchangedistance} to determine whether the image in figure
+\figref{inbendingmirrorreal} is $\upup$ or $\updown$.
+}
+
+\selfcheck{realmagnification}{%
+The image in figure \figref{inbendingmirrorreal} is smaller than the
+original object. Why smaller, and not bigger as in figure \figref{inbendingmirrorvirtual}
+on page \pageref{fig:inbendingmirrorvirtual}?
+}
+
+\vfill
+\mysection{Angular Magnification}\index{images!magnification!angular}\index{magnification!angular}
+Figure 
+\figref{telescope} 
+shows a real-life application of these concepts: a
+telescope. The curved mirror at the bottom of the tube forms a real image.
+Some professional telescopes are so large that a camera or even an astronomer's
+body can fit inside the tube. That's not possible with a smaller telescope like this,
+so a small second mirror is used. This flat diagonal mirror makes an image of the
+image, outside the tube where we can see it. (The setup shown in the figure
+will work, and is what amateur astronomers use for astronomical photography.
+When observing by eye, however, one usually includes a third optical element, an eyepiece lens, for
+greater magnification.)
+
+\marg{\fig{telescope}{The images formed by the telescope are smaller than the
+moon itself.}\label{telescope-figure}}\index{telescope}
+What's interesting about this example is that although we think of a telescope
+as a device for magnifying astronomical objects, the images are \emph{smaller} than the
+actual moon: a few centimeters across, compared to thousands of kilometers for the
+original object. The magnification is therefore a number much smaller than one,
+perhaps on the order of 0.000001. Rather than magnifying the moon, the telescope
+shrinks or ``minifies'' it. Why, then, do our eyes tell us that the image is
+\emph{bigger} than the moon? It's because closer objects appear larger. The actual
+moon is much larger than the image, but it's also millions of times farther away.
+Because the image is outside the telescope, you can move your head as close to the
+image as you like. The only limitation is that your eye can't focus on objects that
+are less than a few centimeters away.
+
+This shows that in many situations, it isn't magnification that we care about but
+angular magnification:
+\begin{align*}
+	\text{magnification}	&= \frac{\text{size of image}}{\text{size of object}}\\
+	\text{angular magnification}	&= \frac{\text{angular size of image}}{\text{angular size of object}}
+\end{align*}
+The reason a distant mountain looks smaller than a nearby tree is that your eye can
+only tell you the angular size of an object, not its actual size. The telescope gives
+a magnification much less than one (extreme ``minification''), but an angular magnification
+much greater than one (typically from 20 to 500).
+\vfill
+%===============================================================================
+%===============================================================================
+\begin{hwsection}
+
+\begin{hw}{abnormals}
+The figure shows the cross-section of a funhouse mirror. Some of the normals
+are correct, and some are incorrect. Print out a copy of the figure, and mark
+the correct and incorrect ones. Fix the ones that are incorrect.
+\end{hw}
+
+\margup{-15mm}{%
+\fig{abnormals}{Problem \ref{hw:abnormals}.}
+\spacebetweenfigs
+\fig{idoesntequalr}{Problem \ref{hw:idoesntequalr}.}%
+\spacebetweenfigs
+\fig{black-box}{Problem \ref{hw:black-box}.}
+}
+\begin{hw}{idoesntequalr}
+Which reflections are correct, and which are incorrect? Correct the ones that are wrong.
+\end{hw}
+
+\begin{hw}{invertedforehead}
+In figure \figref{inbendingmirrorreal} on page \pageref{fig:inbendingmirrorreal},
+only the image of my lips was located by drawing rays. Print out a copy
+of the figure, and trace a new
+set of rays coming from my forehead. By comparing the locations of the image of the
+lips and the image of the forehead, demonstrate that the image is in fact upside-down
+as suggested by the figure.
+\end{hw}
+
+\begin{hw}{walkingtowardmirror}
+A woman is walking directly toward a flat mirror at 1.0 m/s. At what rate is
+her distance from her image decreasing?
+\end{hw}
+
+\begin{hw}{reflectiononfloor}
+Walking down a long corridor at 1.0 m/s, you notice that the shiny floor is forming
+a reflection of a light fixture that is mounted on the ceiling ahead of you. \\
+(a) Does the image move? If so, at what speed is it moving? \hwendpart
+(b) What is the closest you ever get to this image? Draw a ray diagram to 
+locate the image at the point where the rays cross or appear to have crossed.
+Does this make you change your mind about your answer
+to part a?
+\end{hw}
+
+\begin{hw}{mirrorleftright}
+People say that mirrors switch left and right. Is this really true? The following are some
+suggestions for definite, specific examples that you may find it helpful to think about.
+If you face south into
+a mirror, and point your finger to the east, consider whether your image points east or west,
+and likewise think about the case where you're pointing in other directions, such as up, or
+south. What would a mirror
+on the ceiling over your head do? What about a mirror that was on your left, catching
+your profile?  State a general rule.
+\end{hw}
+
+\begin{hw}{black-box}
+The figure shows two mysterious devices that do something to light rays that pass through them.
+You don't know what kinds of mirrors or lenses might be inside these two black boxes, but you
+are able to observe what they do to the rays, as shown in the drawings. 
+Copy the drawings onto your paper. Locate the images, and classify them as real or virtual. Which
+device could be used in the same manner as the kind of overhead projector used in classrooms?
+\end{hw}
+
+
+\begin{hw}{interpretfocallength}\index{focal length!interpreted as strength}
+Does a more strongly curved mirror have a shorter focal length, or a longer one? Explain
+using a ray diagram,
+making explicit use of either the definition on page
+\pageref{focal-length-definition} or the one on page \pageref{alt-focal-length-definition}.
+\end{hw}
+
+\begin{hw}{possiblemagnifications}
+Consider a converging mirror, i.e., one whose hollowed-out side is silvered.
+(a) Can the magnification of a real image formed by such a mirror ever be greater than one?\hwendpart
+(b) Can the magnification of a virtual image formed by such a mirror ever be a number greater than
+zero but less than one?\hwendpart
+If you answer yes to one of these questions, give an example with a ray diagram to prove
+that you're right. If you answer no, explain why it's not possible.
+\end{hw}
+
+\pagebreak[4]
+
+\begin{hw}{outbendingupdown}
+All of the curved mirrors shown in this chapter were hollowed out, like a dish,
+but it's also possible to have a mirror that bulges outward.\\
+(a) Draw a ray diagram to show
+how an image is formed by such a mirror. Your answers to the rest of the questions
+should be explained by referring to this ray diagram. (You may want to add to it
+or draw additional ones.)\hwendpart
+(b) Is the image real, or virtual?\hwendpart
+(c) Is the magnification less than one or greater than one? Explain how you can tell
+from the ray diagram.\hwendpart
+(d) If you increase the object distance, what happens to the image distance?
+Make explicit use of one of the two methods discussed in section \ref{sec:imagelocation},
+and show your work.
+\end{hw}
+
+\hwnote{%
+Problems \ref{hw:lens-underwater}-\ref{hw:goggles}
+are to be done after you've completed all the labs, and know about refraction and
+lenses. A converging lens\index{lens!converging!defined} is one that tends to bend
+light rays closer together. A typical converging lens is a piece of glass or plastic that's
+thickest in the middle, like an M\&M. A diverging lens\index{lens!diverging!defined}
+tends to spread rays apart, and is thinnest in the middle.
+}
+
+\begin{hw}{explain-lens}
+Based on the rules you've learned for refraction, explain why light rays passing
+through the edges of a converging lens are bent more than ones that pass through parts
+closer to the center. It might seem like it should be the other way arond, since the rays
+at the edge pass through less glass --- shouldn't they be affected less? As part of
+your explanation, draw a big close-up ray diagram showing the cross-section of the lens.
+\end{hw}
+
+\begin{hw}{lens-underwater}
+Suppose a converging lens is made out of a material
+in which the speed of light is less than in air, but greater than in water. How will the
+lens's behavior be different if it's placed underwater?
+\end{hw}
+
+\begin{hw}{lens-to-film}
+When you focus your camera on something farther away, does the lens have to move farther from
+the film, or closer to it? Explain.
+\end{hw}
+
+\begin{hw}{misinterpretfocallength}
+In your answers to both part a and part b, give full explanations,
+making explicit use of either the definition of focal length given on page
+\pageref{focal-length-definition}, or the
+one on page \pageref{alt-focal-length-definition}.\hwendpart
+(a) Is the focal length of a lens a fixed property that could be permanently stamped on it,
+or does it depend on how you use it?\hwendpart
+(b) In a camera, does the distance from the lens to the film equal the lens's focal
+length?
+\end{hw}
+
+\margup{-55mm}{\fig{eye-cross-sections}{Problem \ref{hw:goggles}.}}
+\begin{hw}{goggles}
+When you're swimming underwater, why is it that you can see much more clearly when you're
+wearing goggles consisting of flat pieces of plastic
+that trap air in front of your eyes? Give an explanation that includes a ray
+diagram. For simplicity, consider the case where the object you're looking at is very far away,
+and lies along the optical axis (i.e., the line perpendicular to the goggles).
+
+The figure may help you to understand how the human eye works under normal conditions.
+The first drawing is a realistic cross-section of the eye.
+For our purposes, however, it will be sufficient to consider the simplified version shown
+below: a ball of clear jelly with a bump on it. Light passes into the
+eye through the bump, and almost all the refraction happens at that point. (The small
+interior ``lens'' is really only a secondary fine-adjustment device --- it doesn't bend the rays
+of light very much, because the speed of light in it is not very different from the speed of
+light in the other jellylike substances that surround it.)
+\end{hw}
+
+
+\end{hwsection}
+
+%========================================== labs ===============================================
+%--------------------------------- images lab --------------------------------------
+
+\begin{lab}[0]{Images}\label{lab:images}
+
+\apparatus
+\equip{plastic box with water in it}\\
+\equip{laser}\\
+\equip{ruler}\\
+\equip{protractor}\\
+\equip{paperclips}
+
+\goal{Locate an image in a tub of water by ray tracing,
+and compare with its location as measured by eye using parallax.}
+
+\labpart{Parallax}
+
+The figures show the basic idea of the lab. When you view the setup
+from the side, you're seeing an image of the submerged pointer, not the
+pointer itself. This is an example of an image formed by refraction rather than
+reflection.
+By closing one eye and then the other, you can see the
+parallax of each pointer. By moving the top pointer, you can get it to have
+the same parallax as the image of the submerged one, which means it's at the same
+distance as the image of the submerged one. Parallax is strongest when you're
+as close as possible to the object, so put the tub of water at the edge of the
+desk, and crouch down with your face very close to it.
+
+\labfigcaption{lab-image-top-view}{Make two pointers of different heights out
+of paperclips. The taller pointer's tip is above the
+water, while the shorter one's is submerged.}
+
+\labfigcaption{lab-image-side-view}{The same setup viewed from the side.
+One pointer is directly above the other.}
+
+Measure the object and image distaces from the front surface of the tub.
+When I did this, I was able to locate the image's position to within about
+a millimeter, and I got good agreement between the parallax method, opening
+one eye at a time, and depth perception, with both eyes open.
+
+\labpart{Changing the location}
+
+Make a ray diagram, showing how each ray moves through the water, is refracted, and
+goes off through the air.
+Use one of the two methods described in section \ref{sec:imagelocation} to predict
+whether the image should be $\upup$ or $\updown$. 
+If you have time, do the other method too, and verify that you get the same
+answer.
+
+\labfigcaption{lab-spreading}{Light rays spread out from the finger by
+diffuse reflection. The emerging rays all appear to have come from a point
+inside the box.}
+
+Now check your prediction by taking data at a different object distance.
+It will be convenient if you do this by
+substituting your finger, pressed against the back of the tub, for the submerged
+pointer. Your data should now consist of two object distances and two image
+distances.
+
+\labpart{Ray tracing}
+Now you're going to see if you can reproduce the image location from
+part B by ray tracing.
+Trace the outline of the box on a piece of paper,
+remove the box, mark the location of the image, and put
+the box back on the paper. Shine the laser at the point
+where your finger was originally touching the box, observe
+the refracted beam, and draw it in. Repeat this whole
+procedure several times, with the laser at a variety of
+angles. Finally, extrapolate the rays leaving the box back
+into the box. They should all appear to have come from the
+same point, where you saw the image.
+
+
+\labfigcaption{lab-ray-tracing}{Simulating one of the rays using the laser.}
+
+\vfill
+
+\end{lab}
+
+%--------------------------------- real image lab --------------------------------------
+
+\begin{lab}{A Real Image}\label{lab:real-image}
+
+\apparatus
+\equip{concave mirror and holder}\\
+\equip{pointer}\\
+\equip{illuminated object}\\
+\equip{optical bench}
+
+\begin{goals}
+
+\item[] Observe a real image formed by a curved mirror.
+
+\item[] Make qualitative observations of the image and explain them using ray diagrams.
+
+\end{goals}
+
+\labpart{Initial observations}
+
+Put the mirror in the holder and put the holder in the clamp that holds it on the optical
+bench. Right now you're just using the hardware as a hands-free way to hold the mirror in
+position. Your mirror may be silvered on both sides; you're going to be using the hollowed-out
+(concave) side.
+
+Standing a couple of meters away, look at the reflection of your own face in the
+mirror. Now move your face closer and closer to the mirror, and observe the changes that
+occur. 
+
+\labpart{Distant, fixed object}
+
+Part A was a quick and dirty way to get acquainted with what's going on, but it's a little
+complicated to understand, because as you move closer to the mirror, you're moving both
+the object (your face) and your point of view. Let's now try some observations in which
+you leave an object in one place, and observe it from different points of view.
+Position yourself and the optical bench so that, from a distance of a couple of meters,
+you can look at the mirror and see the reflection of something that's behind you, over
+your shoulder and far behind you. Move closer and closer, while observing the image
+of the stationary object behind you. 
+You'll see various changes in the image, but let's concentrate on one thing: when the
+image is clearly visible and when it's impossible to focus on it.
+
+\pagebreak[4]
+
+Draw a ray diagram to show how this image is being formed:
+
+\newcommand{\labspaceforraydiagram}{\vspace{30mm}}
+\labspaceforraydiagram
+
+Use your ray diagram to explain your observations.
+Don't go on to the next part until you understand the observations you've made. Ask your
+instructor for help if necessary.
+
+\labpart{Close, fixed object}
+
+Now repeat part B, but with an object only 5 or 10 cm from the mirror. The most convenient
+way to do this is to stick the upright pointer in the optical bench, so your hands are free.
+
+\labspaceforraydiagram
+
+Again make sure you can explain your observations in terms of your ray diagram.
+You'll have found that there's a difference between parts B and C in terms of the eye positions
+from which you can't see the image, or can't see it clearly; make sure you understand why this is.
+
+\labpart{Moving object}
+Replace the pointer with the illuminated object, and slide it all the way to the far end
+of the optical bench, so it's as far from the mirror as it can be. By putting a small piece of paper at the right
+point in space, you should be able to get the mirror to project an image of the object onto
+the paper. Note that although you want everything located approximately along the line
+of the optical bench, you don't want the paper to block all the light from getting from
+the object to the mirror. To avoid this, you may want to angle the mirror a tiny bit, and
+put the paper a tiny bit off to the side. Draw a ray diagram, and indicate on the diagram
+the special point in space where you can put the paper in order to see a clear image.
+
+\labspaceforraydiagram
+
+Now move the object closer to the mirror. What do you have to do to get a clear image again?
+Move the object closer and closer to the mirror, and keep going as far as you can with this
+setup.
+
+Is your image $\upup$ or $\updown$? Explain this observation with a ray diagram similar to
+figure \figref{flatmirrorchangedistance} on
+page \pageref{fig:flatmirrorchangedistance}.
+
+\labspaceforraydiagram
+
+\labpart{You're in my light!}
+Imagine --- but don't do it yet! --- that with the setup from part D, you cover half of the
+mirror with your hand. What effect do you think this would have on the image? To make
+your prediction, use your ray diagram.
+
+\newcommand{\labprediction}{prediction:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+\labprediction
+
+Now try it. If your prediction was wrong, figure out what happened.
+
+Now what do you think would happen if you covered half of the object?
+
+\labprediction
+
+Again, try it, and, if necessary, back up and think again.
+
+\labpart{Magnification (optional)}
+With a setup like the one in part D, measure the magnification of the image produced at three
+different object distances: the two extreme ones plus one in the middle. What trend do you
+observe, and why does it occur?
+
+\end{lab}
+
+%--------------------------------- lenses lab --------------------------------------
+
+\begin{lab}[0]{Lenses}\index{lens!lab}
+
+\apparatus
+\equip{converging and diverging lenses}\\
+\equip{illuminated object}\\
+\equip{optical bench}
+
+\begin{goals}
+
+\item[] Find all the types of images that can be made with lenses, and explain each
+type using a ray diagram.
+
+\item[] Use ray diagrams to predict whether a real image made by a lens
+ is $\upup$ or $\updown$, and
+test your prediction.
+
+\end{goals}
+
+Like mirrors, lenses come in two types: a converging type that brings rays together
+and a diverging type that spreads them apart. By convention, converging lenses are
+described with positive focal lengths and diverging lenses with negative ones.
+As with mirrors, it's also sometimes possible
+for the same lens to make either a virtual or a real image, depending on the object distance.
+
+The basic setup for this lab is like the one used in lab \thechapter\ref{lab:real-image}. However, some of
+your images will be virtual, which means you can't project them onto a piece of paper.
+When you get a real image, take numerical measurements to show how the changing the object distance
+affects the image distance ($\upup$ or $\updown$), and check this against what you find by
+drawing ray diagrams with different object distances.
+When you get a virtual image, just draw a ray diagram showing what's going on.
+
+You should get a total of three qualitatively different types of image formation. That is,
+in principle you could use either a converging lens or a diverging one, and you could
+use either one to make either a real or a virtual image, resulting in a total of four
+possibilities. However, one of these turns out not to be possible, so you'll end up with
+only three cases.
+
+
+
+\end{lab}
+
+%--------------------------------- telescope lab --------------------------------------
+
+
+\begin{lab}{The Telescope}\index{telescope}\label{lab:telescope}
+
+\apparatus
+\equip{optical bench}\\
+\equip{lens, longest available focal length}\\
+\equip{lens, 50 mm focal length}\\
+
+\begin{goals}
+
+\item[] Construct a telescope.
+
+\item[] Measure its angular magnification, and compare with theory.
+
+\end{goals}
+
+\labintroduction
+
+The credit for invention of the telescope is disputed, but
+Galileo was probably the first person to use one for
+astronomy. He first heard of the new invention when a
+foreigner visited the court of his royal patrons and
+attempted to sell it for an exorbitant price. Hearing
+through second-hand reports that it consisted of two lenses,
+Galileo sent an urgent message to his benefactors not to buy
+it, and proceeded to reproduce the device himself. An early
+advocate of simple scientific terminology, he wanted the
+instrument to be called the ``occhialini,'' Italian for
+``eye-thing,'' rather than the Greek ``telescope.''
+
+His astronomical observations soon poked some gaping holes
+in the accepted Aristotelian view of the heavens. Contrary
+to Aristotle's assertion that the heavenly bodies were
+perfect and without blemishes, he found that the moon had
+mountains and the sun had spots (the marks on the moon
+visible to the naked eye had been explained as
+atmospheric phenomena). This put the heavens on
+an equal footing with earthly objects, paving the way for
+physical theories that would apply to the whole universe,
+and specifically for Newton's law of gravity. He also
+discovered the four largest moons of Jupiter, and demonstrated
+his political savvy by naming them the ``Medicean satellites''
+after the powerful Medici family. That they
+revolved around Jupiter rather than the earth helped make
+more plausible Copernicus' theory that the planets did not
+revolve around the earth but around the sun. Galileo's ideas
+were considered subversive, and many people refused to look
+through his telescope, either because they thought its images were
+illusions or simply because it was supposed to show things
+that were contrary to Aristotle.
+
+\labfigcaption{lab-telescope}{A refracting telescope. The rays
+coming from the object first encounter a relatively weak lens,
+called the objective. An intermediate real image is formed, but
+what your eye sees is an image of the image, created by the
+eyepiece lens. The solid lines are two rays that are both
+coming from the same point in the sky; because the celestial object
+is so far away, they're essentially parallel. The dashed lines
+are coming from some other point. The angles are exaggerated in order to
+demonstrate the angular magnification, and because of this, the
+solid-line rays aren't even going to get into the person's eye.}
+
+\vfill\pagebreak[4]
+\labsubsection{Why It Works}
+
+The figure above
+shows the simplest refracting telescope.
+The point of the whole arrangement is angular magnification.
+The small angles on the left are converted to large angles
+on the right, because the eyepiece is more strongly curved,
+and therefore bends the rays more. The strength of a lens
+is measured by its focal length (homework problem
+\ref{hw:interpretfocallength}).
+For example, if the ratio of the two lenses' focal
+lengths is eight, then the eyepiece
+bend the rays eight times as much, and the angular magnification
+will theoretically equal eight. To get the maximum angular magnification,
+you want the eyepiece to be as strong as possible, and the objective
+as \emph{weak} as possible! (Remember, dividing by a small number gives
+a big result.)
+
+Here's a second, alternative way of thinking about it. The objective
+creates a real image. This image is located near you, where you can increase
+its apparent size simply by getting close to it. In fact, it's possible to
+use the telescope without an eyepiece at all! However, now that you've got
+this nice convenient nearby image, you can also magnify it some more by
+looking at it through a magnifying glass, just like any other small, nearby
+thing. The eyepiece is the magnifying glass. This makes it clear why a strong
+eyepiece lens gives a greater magnification, but why does a weaker objective
+lens give a greater magnification as well? Well, the size of an image is always
+proportional to its distance from the lens making it. The longer the focal length
+of the objective, the greater the distance from it to the real image, so we conclude
+that a longer focal length for the objective (a weaker lens) gives a bigger image,
+which will appear even bigger when viewed through the eyepiece.
+
+\labobservations
+
+\labpart{The focal lengths}
+
+To start with, let's try to get a feel for the physical meaning
+of the focal length. Use one of the lenses to project an image
+of the overhead lights onto the floor. If we make the approximation
+that the overhead lights are infinitely far above, then the distance
+from the lens to the image equals the lens's focal length.\index{focal length!alternative definition}\label{alt-focal-length-definition}
+This is different from the definition of the focal length given on page
+\pageref{focal-length-definition}. To see that they're equivalent definitions,
+take a look at the figure below.
+
+\labfig{lab-focal-length}
+
+If we interpret the point on the right where the rays cross as the object, then the
+image is infinitely far off to the left. This corresponds to the original definition
+of the focal length: the cross-over point between real and virtual images.
+If the object was a little closer, then the rays on the left would be diverging slightly,
+and the image would be a virtual one far off to the right. If the object was a little farther,
+then the rays on the left would be converging a little, and there would be a real image
+very far to the left.
+
+However, the laws of physics have time-reversal symmetry, so if the diagram is valid for
+rays traveling from right to left, it's also valid for rays going left to right. In this
+case, the object (think of the overhead lights) is infinitely far off to the left,
+and the point on the right where the rays cross is the location of the real image
+(projected on the floor in our case).
+
+By projecting the image of the overhead lights onto the floor, verify the
+focal lengths printed on their plastic housings.
+
+\labpart{The telescope's magnification}
+
+Use your optical bench and your two lenses to build a
+telescope. Take the data you will need for a rough
+determination of its angular magnification. One easy method
+is to observe the same object with both eyes open, with one
+eye looking through the telescope and one seeing the object
+without the telescope.
+
+If you find that you can't focus on both things at once,
+try making small adjustments to the distance between the
+lenses. The reason this problem can occur is that neither
+the focal lengths printed on the lenses nor the focal
+lengths you measured in part A are terribly accurate,
+so the distance between the lenses isn't quite what it
+should be. The rays coming to your eye are therefore not
+quite parallel, which means that the image they form is
+not at infinity. Your body is not capable of simultaneously 
+focusing one eye at infinity and one at a short distance.
+\end{lab}
+
+%========================================== self-check answers ===============================================
+
+
+
+\startscanswers{ch:images}
+\scanshdr{virtualtoreal}{The reflected rays are parallel. This can be interpreted by saying that
+the image is at infinity: as you make two lines closer and closer to being parallel, the point
+at which they cross gets farther and farther away, and eventually becomes infinitely distant.}
+\scanshdr{realisupdown}{First let's use the front-back method. The
+reflected rays are going to the left, so an observer would have to be standing on the left in order
+to see the image. Rays from the face can get to the mirror, but the rays from the back of
+the head are blocked by the head. If the image-face is visible from the left, then the image-head
+must be facing to the left, which is the way it's shown in figure \figref{inbendingmirrorreal}.
+The nose on the real face is the face's closest point to the mirror, but on the image-face it's the
+farthest from the mirror. Therefore the image is $\updown$: greater object distances result in
+smaller image distances. You can also easily verify this result using a ray diagram. As the
+object moves farther from the mirror, the incident and reflected rays fan out from the normal.}
+\scanshdr{realmagnification}{From the ray diagram, we can see that the distance from the image
+to the mirror is less than the distance from the object to the mirror. The other distances are
+in the same proportion.}
+
+
+

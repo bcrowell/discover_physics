@@ -1,0 +1,431 @@
+\mychapterwithopener{dizzy}{Why do I get dizzy? Am I really spinning, or is the world
+going around me? Humans are naturally curious about the universe they live in.}{The Rules of the Rules}\label{ch:symmetry}
+
+Since birth, you've wanted to discover things. You started out by putting every available object in your
+mouth. Later you began asking the grownups all those ``why'' questions. None of this makes you unique ---
+humans are naturally curious animals. What's unusual is that you've decided
+to take a physics course. There are easier ways to satisfy a science requirement, so evidently you're
+one of those uncommon people who has retained the habit of curiosity into adulthood, and
+you're willing to tackle a subject that requires sustained intellectual effort. Bravo!
+
+A reward of curiosity is that as you learn more, things get simpler. ``Mommy, why do you have to go
+to work?'' ``Daddy, why do you need keys to make the car go?'' ``Grandma, why can't I have that toy?''
+Eventually you learned that questions like these, which as a child you thought to be unrelated,
+were actually closely connected: they all had to do with capitalism and property. 
+As a scientific example, William Jones\index{Jones, William} announced in 1786
+the discovery that many languages previously thought
+to be unrelated were actually connected. Jones realized, for example, that there was a relationship
+between the words
+``bhratar,'' ``phrater,'' ``frater,'' and ``brother,'' which mean the same thing
+in Sanskrit, Greek, Latin, and English. Many apparently unrelated languages of Europe and
+India could thus be brought under the same roof and understood in a simple way.
+For an even more dramatic example, imagine trying to learn chemistry hundreds of years
+ago, before anyone had discovered the periodic table or even the existence of atoms.\index{atoms}
+Chemistry has gotten a lot simpler since then!\index{chemistry}
+
+Sometimes the subject gets simpler, but it takes a while for the textbooks to catch up.
+For hundreds of years after Hindu mathematicians incorporated negative numbers into
+algebra, European texts still avoided them, which meant that students had to endure
+a lot of confusing mumbo jumbo when it came to solving an equation like $x+7=0$.
+Physics has been getting simpler, but most physics books still haven't caught up.
+(Can you detect the sales pitch here?) The newer, simpler way of understanding physics
+involves symmetry.
+
+\pagebreak[4]
+
+\mysection[0]{Symmetry}\index{symmetry}
+
+\margup{-12mm}{\fig{noether}{Emmy Noether (1882-1935). The daughter of a prominent German mathematician, she did not show
+any early precocity at mathematics --- as a teenager she was more interested in music and dancing.
+She received her doctorate in 1907 and rapidly built a world-wide reputation, but the University
+of G\"{o}ttingen refused to let her teach, and her colleague Hilbert had to advertise her courses in the
+university's catalog under his own name. A long controversy ensued, with her opponents asking
+what the country's soldiers would think when they returned home and were expected to learn
+at the feet of a woman. Allowing her on the faculty would also mean letting her vote
+in the academic senate. Said Hilbert, ``I do not see that the sex of the candidate is against
+her admission as a privatdozent [instructor]. After all, the university senate is not a bathhouse.''
+She was finally admitted to the faculty in 1919. A Jew, Noether fled Germany in 1933 and
+joined the faculty at Bryn Mawr in the U.S.}}
+%
+The concept of symmetry goes back to ancient times, but the deep link between
+physics and symmetry was 
+discovered by Emmy Noether.\index{Noether, Emmy}
+What do we mean by symmetry?\index{symmetry!defined}\index{symmetry!mirror}\index{symmetry!reflection}\index{symmetry!180-degree rotation}
+Figure \figref{singlesymmetries} shows
+two examples. The galaxy has a symmetry because it looks the same when
+you turn your book upside-down. The orchid has a different type of symmetry: it looks the
+same in a mirror. Reflection and 180-degree rotation are examples of transformations, i.e.,
+changes in which every point in space is systematically relocated to some other
+place. We say that a thing has symmetry when transforming it doesn't change it.
+As shown in figure \figref{moresymmetries}, some objects have more
+than one symmetry, although most have none.
+
+\widefig{singlesymmetries}{Two types of symmetries.}
+\widefig{moresymmetries}{Most object have no symmetries. Some have more than one.}
+
+\selfcheck{playingcards}{What symmetry is possessed by most of the designs in a deck of cards? Why are
+they designed that way?}
+
+\begin{eg}{Palindromes}\index{palindromes}
+A palindrome is a sentence that is the same when you reverse it: \\
+I maim nine men in Saginaw; wan, I gas nine men in Miami.
+\end{eg}
+
+\pagebreak[4]
+
+\dqheader
+\begin{dq}
+What symmetries does a human have? Consider internal features,
+external features, and behavior. 
+If you woke up one morning after having been reflected, would
+you be able to tell? Would you die? What if the rest of the world
+had been reflected as well?
+\end{dq}
+
+\vfill
+
+\mysection[4]{A Preview of Noether's Theorem}\index{Noether's theorem!rough statement}
+
+\margup{-150mm}{\fig{skaters}{What will happen when the two ice skaters push off from each
+other?}
+\spacebetweenfigs
+\fig{checkersinitial}{The starting position in checkers.}
+\spacebetweenfigs
+\fig{checkerslater}{The board after two moves.}}
+How does symmetry relate to physics? Long before Noether's work, it had been
+recognized that some physical systems had symmetry, and their symmetries could
+be helpful for predicting their behavior. If the skaters in
+figure \figref{skaters} have equal masses, symmetry tells us that they will
+move away from each other at equal speeds after they push off. 
+The one on the right looks bigger, however, so the symmetry argument doesn't
+quite work. If you look at the world around you, you will see many approximate
+examples of symmetry, but none that are perfect. Most things have
+no symmetry at all. Until Noether's work, that was the whole story.
+Symmetry was on the sidelines of physics.\label{original-skaters}
+
+Noether's approach was different. The universe is made out of particles, and
+these particles are like the players on a soccer field
+or the pieces on a checkerboard. The arrangement of the players on the
+soccer field normally has no symmetry at all. The symmetry is in the rules:
+the rules apply equally to both sides. Likewise, the physical arrangement
+of the checkers on the board in figure \figref{checkersinitial} has
+180-degree rotation symmetry, but this is spoiled in figure \figref{checkerslater}
+after a couple of moves. We don't care about the asymmetry of the pieces.
+In Noether's approach, what's important is the symmetry of the rules.
+If we think of the checkerboard as a little universe, then these rules are like
+the laws of physics, and their symmetry allows us to predict certain things
+about how the universe will behave. For instance, suppose we balanced the board
+carefully on a knife edge running from left to right below its centerline. The
+position in figure \figref{checkersinitial} balances, and so does the one
+in figure \figref{checkerslater}. The rules required both red and black to
+move one piece diagonally forward one step, so we were guaranteed that after
+each side had made one move, the setup would balance again.\footnote{This
+symmetry won't continue indefinitely, because at some point one player will
+jump one of the other player's pieces, or get a king and make a backwards
+move. That just shows that a game like checkers is an imperfect metaphor for
+the laws of physics. The particles in the universe don't take turns moving,
+so we don't have situations where one particle sits still while another
+one ``jumps'' it. It is possible for a particle of matter and a particle of
+antimatter to annihilate one another --- the process is probably occurring in
+the room you're in right now, due to natural radioactivity --- but neither particle
+exists afterwards, so the symmetry is more perfect than in checkers.
+The laws of physics are also deterministic; there is
+no choice involved, as in a game.}
+
+Noether's greatest achievement was a principle known as Noether's theorem.
+We are not yet ready to state Noether's theorem exactly, but roughly speaking,
+here's what it says: The laws of physics have to be the way they are because
+of symmetry.
+
+\mysection[0]{What Are The Symmetries?}
+What are the actual symmetries of the laws of physics? It's tempting to try to
+determine them by pure reason, or by aesthetic arguments. Why, for example, would
+God have chosen laws of physics that didn't treat right and left the same way? That
+would seem ugly. The trouble with this approach is that it doesn't work.
+
+For example, prehistoric peoples observed the rising and setting of the sun, the moon,
+the stars, and the four naked-eye planets. They all appeared to be going in circles,
+and a circle is a very symmetric shape: it remains the same under rotation through
+any angle at all. It became accepted dogma among the ancient astronomers that these
+heavenly bodies were attached to spinning crystal spheres. When careful observations
+showed that the motion of the planets wasn't quite circular, they patched things up by imagining
+smaller crystal spheres riding on the big ones. This bias toward spheres and circles
+was hard to shake because the symmetry of the shapes was so appealing. The astronomer
+Johannes Kepler (1571-1630) inherited from his predecessor Tycho Brahe (1546-1601)\index{Kepler, Johannes}\index{Brahe, Tycho}
+a set of the best observations ever made of the motions of the planets. Kepler
+labored for years trying to make up a set of spheres riding on spheres that would
+fit the data, but because the data were so accurate, he finally realized what nobody
+could have known based on the older, less precise observations: it simply wasn't
+possible. Reluctantly, Kepler gave up his mystical reverence for the symmetry of the
+circle. He eventually realized that the planets' orbits were ovals of a specific
+mathematical type called an ellipse. The new observations showed that the laws of physics
+were less symmetric than everyone had believed.
+
+\margup{-145mm}{\fig{startrails}{Due to the earth's rotation, the stars appear to go in circles. In this
+time-exposure photograph, each star makes an arc.}
+\spacebetweenfigs
+\fig{checkerstranslational}{A chess board has a kind of translational symmetry: it
+looks the same if we slide it one square over and one square up.}
+\spacebetweenfigs
+\fig{sodastraw}{The soda straw has translational symmetry. The flea exploring along its length
+doesn't see anything different from one location to another.}
+}
+Sometimes experiments show that physics is \emph{more} symmetric than expected. One good
+example of this is translational symmetry.\index{symmetry!translational} A translation is a type of transformation
+in which we slide everything without rotating it, as in figure \figref{checkerstranslational},
+where we can slide the chess board so that the black squares are again in the places previously
+occupied by black squares.\footnote{The chess board lacks complete translational symmetry
+because it has edges. As far as we know, the laws of physics don't specify that there are
+edges to the universe beyond which nothing can go. However, this is different from the
+question of whether the universe has infinite volume. We can easily make a chessboard that
+is finite but has no edges. We simply wrap the right and left edges around to form a tube,
+and then bend the tube into a doughnut. We still don't know with certainty whether the
+universe is finite or infinite, although the latest data seem to show it's infinite.
+Einstein's theory of general relativity allows either possibility.}
+The ancient Greek philosopher Aristotle\index{Aristotle} believed that the rules were different in some
+parts of the universe than in others. In modern terminology, we say that he didn't
+believe in translational symmetry. When you drop a rock, it falls. Aristotle explained
+this by saying that the rock was trying to go back to its ``natural'' place, which is
+the surface of the earth. He applied the same kind of explanation to rising smoke: it rises
+because it wants to go to its own natural place, which is higher up. In Aristotle's
+theory, different parts of the universe had their own special characteristics.
+Only after an interval of two thousand years was the true translational symmetry of
+the laws of physics uncovered by Isaac Newton.\index{Newton, Isaac} In Newton's theory of gravity,
+a rock falls because every atom in the universe is attracted to every other atom.
+The rock's atoms are attracted to the planet earth's atoms. We don't prefer Newton's
+version just because it sounds better. Aristotle was proved wrong by
+experiments. The original evidence was indirect, but we have more straightforward
+proof now. If Aristotle had been right, the huge boulder in figure \figref{schmidtonmoon}
+would long since have fallen to its ``natural'' place on the surface of our planet
+(and so would the astronaut!).\label{space-translation-symmetry}
+
+\widefigsidecaption{schmidtonmoon}{Astronaut Harrison Schmidt on the moon in 1972.}
+
+Translational symmetry is also deeply embedded in the way we practice the scientific
+method. One of the assumptions of the scientific method is that experiments should
+be reproducible. For example, a group at Berkeley recently claimed to have produced
+three atoms of a new element, with atomic number 118. Other labs, however, were
+unable to reproduce the experiment, and eventually suspicious members of the Berkeley
+team checked and found that one of their own scientists had fabricated the data.
+Although the episode (and another case of fraud at Bell Laboratories around the same
+time) caused considerable editorializing about what might be wrong with the
+scientific profession, I see it as a textbook example of how the scientific method
+is supposed to work, since the fraud was eventually discovered. A basic assumption
+here is that scientists in different places should be able to get the same
+results. If translational symmetry was violated, then the results might be different
+because the laws of physics were different in different places. The assumption of
+translational symmetry is so deeply ingrained that normally it doesn't
+even occur to us that we were making it. When engineers design a space probe to
+go to Mars, they don't even stop to ask themselves whether the laws of physics
+are the same on Mars as on earth.
+
+\dqheader
+
+\begin{dq}\label{dq:ozma}
+Imagine that you establish two-way radio communication with aliens. You laboriously
+teach each other your languages, e.g., by sending two beeps followed by the word
+``two.'' However, neither of
+you is able to figure out exactly where the other's planet is, and you can't
+come up with any celestial landmarks that you both recognize. Can you communicate
+the definition of the terms ``right'' and ``left'' to them? The wonderful popular science
+writer Martin Gardner proposes calling this the ``Ozma problem.'' (The name comes
+from the Ozma project, which was the first serious attempt to detect signals from
+aliens using radio telescopes. The Ozma project was in turn named after a character
+in one of L. Frank Baum's Oz stories.) In general, every
+symmetry of the laws of physics can be stated as an Ozma problem.\index{Ozma problem!for left and right}
+\end{dq}
+
+%===============================================================================
+%===============================================================================
+
+\vfill\pagebreak[4]
+\noindent\includegraphics[width=100mm]{\chapdir/figs/flowers}\label{fig:flowers}
+\marg{%
+\raisebox{100mm}[0mm][0mm]{%
+\parbox{52mm}{
+\noindent\formatlikecaption{These flowers are referred to in homework problems
+\ref{hw:flowersa} and \ref{hw:flowersb}.}\\
+\noindent\includegraphics[width=52mm]{\chapdir/figs/flowernames}
+}}}
+
+\vfill\pagebreak[4]
+\begin{hwsection}
+
+\hwnote{%
+Problems \ref{hw:flowersa} and \ref{hw:flowersb} refer to the photos of flowers on
+page \pageref{fig:flowers}. Since the flowers are living things, they don't have
+exact, perfect mathematical symmetry. Just think in terms of approximate symmetries.
+}
+
+\begin{hw}{flowersa}
+(a) Which of the flowers shown in the photos have reflection symmetry but not 180-degree
+rotation symmetry? \hwendpart
+(b) Which have 180-degree rotation symmetry but not reflection symmetry?\hwendpart
+(c) Which have both\hwendpart
+(d) Which have neither?\hwendpart
+Note that in flowers 1 and 2, the lobes of
+the petals overlap in a clockwise or counterclockwise screw pattern.
+You can tell from the photo that flower 1 has a curved tube. Flower 2 doesn't have a curved tube.
+\end{hw}
+
+\begin{hw}{flowersb}
+In the text, I've only discussed rotational symmetry with an angle of 180 degrees.
+Some of the flowers in the photos have symmetry with respect to other angles. Discuss
+these.
+\end{hw}
+
+\begin{hw}[2]{flowersresearch}
+The following are questions about the symmetries of plants that you can try to
+answer by collecting data at an arboretum, nursery, botanical garden, or florist.
+(You could also websurf, but it wouldn't be as enjoyable.) You probably won't be
+able to answer all of them. You can't do this problem without actually going out
+and collecting detailed data; you'll have to turn in the data (drawings, notes
+on which plants you looked at, etc.) and then base your conclusions on your data.
+\begin{itemize}
+ \item[] Symmetry of flowers is an easy way to classify plants. Is it also a good way?
+  To be a good way, it should correspond to evolutionary relationships, and it
+  should therefore correlate with other features of plants. Another feature
+  that's easy to check is leaf structure: are the fibers in the leaves all
+  parallel (e.g., grass), or do they branch out (e.g., a maple). Does leaf structure
+  seem to correlate at all with flower symmetry?
+ \item[] The photos on page \pageref{fig:flowers} include some flowers whose petals or
+  petal-lobes overlap in a pattern like a clockwise or counterclockwise screw. When this
+  happens, how systematic is the pattern of overlapping? Do you observe right-handed and
+  left-handed screw-patterns in different flowers on the same plant? In different plants
+  that are genetically identical (e.g., grown from cuttings from the same parent) but
+  have been exposed to different environments? In genetically different plants of the same
+  species?
+ \item[] Can you find any plants in which the arrangement of the leaves follows a definite
+  pattern, but lacks reflection symmetry?
+\end{itemize}
+\end{hw}
+
+\begin{hw}{noethernotobjects}
+Noether's theorem refers to symmetries of the laws of physics, not symmetries of
+objects.
+Which of the following do you think could qualify as a law of physics, and which
+are mere facts about objects? In other words, which ones are \emph{not} true
+in some situations, at some times, on different planets, etc? They are all true
+where I live!
+\begin{enumerate}
+ \item The sun rises in the east and sets in the west.
+ \item High tide occurs when the moon is overhead or underfoot, and low tide
+   when it's on the horizon.
+ \item Inheritance works through genes, so an acquired trait can't be inherited.
+ \item In a chemical reaction, if you weigh all the products, the total is the same
+   as what you started with.
+ \item A gas compressed to half its original volume will have twice its original pressure
+	(assuming the temperature is the same).
+\end{enumerate}
+In each case, explain your reasoning.
+\end{hw}
+
+\begin{hw}{ninetydegreerotation}
+If an object has 90-degree rotation symmetry, what other symmetries must it have as well?\\
+\end{hw}
+
+\begin{hw}{onethirtyfivedegreerotation}
+Someone describes an object that has symmetry under 135-degree rotation (3/8 of a circle).
+What's a simpler way to describe the same symmetry? (Hint: Draw a design on a piece of
+paper, then trace it onto another piece of paper. Rotate the top piece of paper, then
+copy the new design. Keep going. What happens?)
+\end{hw}
+
+\begin{hw}{oneeightyandreflection}
+(a) Give an example of an object that has 180-degree rotation symmetry, and also has reflection
+symmetry. \\
+(b) Give an example with symmetry under 180-degree rotation, but \emph{not} under reflection.
+\end{hw}
+
+\begin{hw}{elephant}
+Suppose someone tells you that the reason the Ozma problem for left and right is
+difficult is because you can't get together with the aliens and show them what you're
+referring to. Is this correct? How is this different from trying to describe an elephant
+over the radio to someone who's never seen an elephant or a picture of one?
+\end{hw}
+
+\end{hwsection}
+
+
+%========================================== labs ===============================================
+
+\begin{lab}{Scaling}\index{scaling}
+
+\apparatus
+\equip{paper and card stock}\\
+\equip{ruler}\\
+\equip{scissors}
+
+\goal{Find out whether the laws of physics have scaling symmetry.}
+
+\labintroduction
+
+From Gulliver to Godzilla, people have always been fascinated with
+scaling.\index{Gulliver}\index{Godzilla}\index{Galileo}
+Gulliver's large size relative to the Lilliputians obviously had some strong
+implications for the story. But is it only \emph{relative} size that matters?
+In other words, if you woke up tomorrow, and both you and your house had been
+shrunk to half their previous size, would you be able to tell before stepping
+out the door? Galileo was the first to realize that this type of question was
+important, and that the answer could only be found by experiments, not by looking
+in dusty old books. In his book \emph{The Two New Sciences}, he illustrated
+the question using the idea of a long wooden plank, supported at one end, that
+was just barely strong enough to keep from breaking due to gravity. The testable
+question he then posed was whether this just-barely-strong-enough plank would
+still have the just-barely-strong-enough property if you scaled it up or down,
+i.e., if you multiplied all its dimensions --- length, width, and height ---
+by the same number.
+
+\labfigcaption{lab-galileo-board}{Galileo's illustration of his idea.}
+
+You're going to test the same thing in lab, using the slightly less picturesque
+apparatus shown in the photo: strips of paper. The paper bends rather than breaking,
+but by looking at how much it droops, you can see how able it is to support its
+own weight.
+The idea is to cut out different
+strips of paper that have the same proportions, but different sizes. If the
+laws of physics are symmetric with respect to scaling, then they should all
+droop the same amount. Note that it's important to scale all three dimensions
+consistently, so you have to use thicker paper for your bigger strips and
+thinner paper for the smaller ones. Paper only comes in certain thicknesses,
+so you'll have to determine the widths and lengths of your strips based on
+the thicknesses of the different types of paper you have to work with. 
+In the U.S., some common thicknesses of paper and card-stock are
+78, 90, 145, and 200 grams per square meter.\footnote{A student at Ohlone College,
+using the same brand of paper I use at Fullerton College,
+noticed that the numbers given on the packaging in units of pounds
+do not correspond at all closely to the thickness or weight of the paper. The
+densities are also a little different, but not too different, so it's not such
+a bad assumption to assume that weight relates directly to thickness.}
+We'll assume that these numbers also correspond
+to thicknesses. For instance, 200 is about 2.56 times greater than 78, so the
+strip you cut from the heaviest card stock should have a length and
+width that are 2.56 times greater than the corresponding dimensions of
+the strip you make from the lightest paper.
+
+\labfig{lab-paper-strip}
+
+\labsection{To Think About Before Lab}
+
+1. If the laws of physics are symmetric with respect to
+scaling, would each strip droop by the same number of centimeters,
+or by the same angle? In other words, how should you choose to
+define and measure the ``droop?''
+
+2. If you find that all the strips have the same droop,
+that's evidence for scaling symmetry, and if you find that they droop
+different amounts, that's evidence against it. Would either observation
+amount to a proof? What if some experiments showed scaling symmetry and
+others didn't?
+
+
+\end{lab}
+
+
+%========================================== self-check answers ===============================================
+\startscanswers{ch:symmetry}
+\scanshdr{playingcards}{They have 180-degree rotation symmetry. They're designed that way
+so that when you pick up your hand, it doesn't matter which way each card is turned.}
+
+%========================================== toc decoration ===============================================
+\addtocontents{toc}{\protect\figureintoc{schmidtonmoon}}

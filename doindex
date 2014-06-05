@@ -1,0 +1,2 @@
+#!/bin/csh
+makeindex dp.idx

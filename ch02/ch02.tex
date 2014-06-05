@@ -1,0 +1,914 @@
+\mychapter{The Ray Model of Light}\label{ch:raymodel}\index{light!ray model}
+
+\mysection[0]{Rays Don't Rust}
+
+If you look at the winter night sky on a clear, moonless night far from any city
+lights, something strange will soon catch your eye. Near the constellation of Andromeda\index{Andromeda galaxy}
+is a little white smudge. What is it? You can easily convince yourself that it's
+not a cloud, because it moves along with the stars as they rise and set. What you're
+seeing is the Andromeda galaxy, a fantastically distant group of stars very similar
+to our own Milky Way.%
+\footnote{If you're in the
+southern hemisphere, you have a more scenic sky than we in the north do, but
+unfortunately you can't see any naked-eye objects that are as distant as the
+Andromeda galaxy. You can enjoy the Magellanic Clouds and the Omega Centauri
+cluster, but they're an order of magnitude closer.}
+We can see individual stars within the Milky Way galaxy because
+we're inside it, but the Andromeda galaxy looks like a fuzzy patch because we can't
+make out its individual stars.
+The vast distance to the Andromeda galaxy is hard to fathom, and it won't help
+you to imagine it if I tell you the number of kilometers is 2 followed by 
+19 zeroes.
+Think of it like this: if the stars in our own galaxy were as close together
+as the hairs on your skin, the Andromeda galaxy would be thousands of kilometers
+away.
+
+\margup{-75mm}{\fig{andromedamap}{How to locate the Andromeda galaxy.}}
+The light had a long journey to get to your eyeball! A well-maintained car might
+survive long enough to accumulate a million kilometers on its odometer, but
+by that time it would be a rickety old rust-bucket, and the distance it had covered would
+still only amount to a fraction of a billionth of a billionth of the distance
+we're talking about. Light doesn't rust. A car's tracks can't
+go on forever, but the trail of a light beam can. We call this
+trail a ``ray.''
+
+\mysection[0]{Time-Reversal Symmetry}\index{symmetry!time-reversal}
+
+The neverending motion of a light ray is surprising compared
+with the behavior of everyday objects, but in a way it makes sense. A car is
+a complex system with hundreds of moving parts. Those parts can break,
+or wear down due to friction. Each part is itself made of atoms, which can
+do chemical reactions such as rusting. 
+Light, however, is fundamental: as far as we know, it isn't
+made of anything else. 
+My wife's car has a dent in it that preserves the record of the time she
+got rear-ended last year. As time goes on, a car accumulates more and more history.
+Not so with a light ray. Since a light ray carries no history, there is no way
+to distinguish its past from its future. Similarly, some brain-injured people
+are unable to form long-term memories. To you and me, yesterday is different
+from tomorrow because we can't remember tomorrow, but to them there is no such
+distinction.
+
+Experiments --- including some of the experiments you're going to do in this
+course --- show that the laws of physics governing light rays are perfectly
+symmetric with respect to past and future. If a light ray can go from A to
+B, then it's also possible for a ray to go from B to A. I remember as a child
+thinking that if I covered my eyes, my mommy couldn't see me. I was almost
+right: if I couldn't see her eyes, she couldn't see mine. 
+
+\begin{eg}{Why light rays don't stop}\label{eg:tiredlight}
+Once the experimental evidence convinces us of time-reversal symmetry, it's
+easy to prove that light rays never get tired and stop moving. Suppose
+some light was headed our way from the Andromeda galaxy, but it
+stopped somewhere along the way and never went any farther. Its trail,
+which we call the ``ray,'' would be a straight line ending at that
+point in empty space. Now suppose we send a film crew along in a space ship to document
+the voyage, and we ask them to play back the video for us, but backwards.
+Time is reversed. The narration is backwards. Clocks on the wall go counterclockwise.
+In the reversed documentary, how does the light ray behave? At the beginning
+(which is really the end), the light ray doesn't exist. Then, at some random moment
+in time, the ray springs into existence, and starts heading back towards the
+Andromeda galaxy. In this backwards version of the documentary, the light ray
+is not behaving the way light rays are supposed to. Light doesn't just appear
+out of nowhere in the middle of empty space for no reason. (If it did, it would
+violate rotational symmetry, because there would be no physical reason why this
+out-of-nowhere light ray would be moving in one direction rather than another.)
+Since the backwards video is impossible, and all our accumulated data have shown that
+light's behavior has time-reversal symmetry, we conclude that the forward video is
+also impossible. Thus, it is not possible for a light ray to stop in the middle of empty
+space.
+\end{eg}
+
+\marg{\fig{apollomirror}{The mirror left on the moon by the Apollo 11 astronauts.}}
+\begin{eg}{The Apollo lunar ranging experiment}\label{eg:lunarranging}
+In 1969, the Apollo 11 astronauts made the first crewed landing on the moon, and
+while they were there they placed a mirror on the lunar surface. Astronomers
+on earth then directed a laser beam at the landing site. The beam was reflected
+by the mirror, and retraced its own path back to the earth, allowing the distance
+to the moon to be measured extremely accurately (which turns out to provide important
+information about the earth-moon system). Based on time-reversal symmetry,
+we know that if the reflection is a 180-degree
+turn, the reflected ray will behave in the same way as the outgoing one, and retrace
+the same path. (Figure \figref{cornerreflector} on page
+\pageref{fig:cornerreflector} explains the clever trick used to make sure the reflection
+would be a 180-degree turn, without having to align the mirror perfectly.)
+\end{eg}
+
+\pagebreak[4]
+
+\begin{eg}{Looking the wrong way through your glasses}
+If you take off your glasses, turn them around, and look through them the other
+way, they still work. This is essentially a demonstration of time-reversal
+symmetry, although an imperfect one. It's imperfect because you're not
+time-reversing the entire path of the rays. Instead of passing first through
+the front surface of the lenses, then through the back surface, and then
+through the surface of your eye, the rays are now going through the three
+surfaces in a different order. For this reason, you'll notice that things look
+a little distorted with your glasses reversed. To make a perfect example of
+time-reversal, you'd have to have a little lamp inside your eyeball!
+\end{eg}
+
+If light never gets tired, why is it that I usually can't see the mountains from
+my home in Southern California? They're far away, but if light never stops, why
+should that matter? It's not that light just naturally stops after traveling
+a certain distance, because I can easily see the sun, moon, and stars from my house,
+and they're much farther away than the mountains. The difference is that my line
+of sight to the mountains cuts through many miles of pollution and natural haze.
+The time-reversal argument in example \ref{eg:tiredlight} depended on the assumption that the
+light ray was traveling through empty space. If a light ray starts toward me from the
+mountains, but hits a particle of
+soot in the air, then the time-reversed story is perfectly reasonable: a particle
+of soot emitted a ray of light, which hit the mountains.
+
+\dqheader
+\begin{dq}
+If you watch a time-reversed soccer game, are the players still obeying the rules?
+\end{dq}
+
+\pagebreak[4]
+
+\mysection[0]{Applications}
+\begin{envsubsection}{The inverse-square law}\index{inverse-square law}
+Yet another objection is that a distant candle appears dim. Why is this, if not
+because the light is getting tired on the way to us? Likewise, our sun is just
+a star like any other star, but it appears much brighter because it's so much
+closer to us. Why are the other stars so dim if not because their light wears out?
+It's not that the light rays are stopping, it's that they're
+getting spread out more thinly. The light comes out of the source in all directions, and if you're
+very far away, only a tiny percentage of the light will go into your eye. (If all the
+light from a star went into your eye, you'd be in trouble.)
+
+
+\widefigsidecaption[c]{inversesquare}{The light is four times dimmer at twice the distance.}
+
+Figure \figref{inversesquare} shows what happens if you double your distance from the source. The
+light from the flame spreads out in all directions. We pick four
+representative rays from among those
+that happen to pass through the nearer square. Of these four,
+only one passes through the square of equal area at twice the distance. If the
+two equal-area squares were people's eyes, then only one fourth of the light would
+go into the more distant person's eye.
+
+
+Another way
+of thinking about it is that the light that passed through the first square spreads
+out and makes a bigger square; at double the distance, the square is twice as wide and
+twice as tall, so its area is $2\times2=4$ times greater. The same light has been spread
+out over four times the area.
+
+In general,
+the rule works like this:
+\begin{align*}
+	\text{distance}\times2 &\Rightarrow \text{brightness}\times\frac{1}{4}\\
+	\text{distance}\times3 &\Rightarrow \text{brightness}\times\frac{1}{9}\\
+	\text{distance}\times4 &\Rightarrow \text{brightness}\times\frac{1}{16}
+\end{align*}
+To get the 4, we multiplied 2 by itself, 9 came from multiplying 3 by itself, and so on.
+Multiplying a number by itself is called squaring it, and dividing one by a number
+is called inverting it, so a relationship like this is known as an inverse square law.
+Inverse square laws are very common in physics: they occur whenever something is spreading
+out in all directions from a point.
+
+\selfcheck{candlefivetimes}{%
+Alice is one meter from the candle, while Bob is at a distance of five meters.
+How many times dimmer is the light at Bob's location?%
+}
+
+\begin{eg}{An example with sound}
+\egquestion Four castaways are adrift in an open boat, and are yelling to try to attract the
+attention of passing ships. If all four of them yell at once, how much is their range
+increased compared to the range they would have if they took turns yelling one at a time?\\
+\eganswer This is an example involving sound. Although sound isn't the same as light,
+it does spread out in all directions from a source, so it obeys the inverse-square
+law. In the previous examples, we knew the distance and wanted to find the intensity
+(brightness). Here, we know about the intensity (loudness), and we want to find out
+about the distance. Rather than taking a number and multiplying it by itself to find the
+answer, we need to reverse the process, and find the number that, when multiplied by
+itself, gives four. In other words, we're computing the square root of four, which is
+two. They will double their range, not quadruple it. 
+\end{eg}
+
+\begin{eg}{Astronomical distance scales}\label{eg:alphacdistance}
+The nearest star, Alpha Centauri,\footnote{Sticklers will note that the nearest star
+is really our own sun, and the second nearest is the burned-out cinder
+known as Proxima Centauri, which is Alpha Centauri's close companion.}
+is about 10,000,000,000,000,000 times dimmer than our sun when viewed from
+our planet. If we assume that Alpha Centauri's true brightness is roughly the same
+as that of our own sun, then we can find the distance to Alpha Centauri by
+taking the square root of this number. Alpha Centauri's distance from us
+is equal to about 100,000,000 times our distance from the sun.
+\end{eg}
+
+\margup{-100mm}{\fig{diaphragm}{The same lens is shown with its diaphragm set to three different
+apertures.}}
+\begin{eg}{Pupils and camera diaphragms}
+In bright sunlight, your pupils contract to admit less light. At night they dilate,
+becoming bigger ``light buckets.''
+Your perception of brightness depends not only on the true brightness of the source
+and your distance from it, but also on how much area your pupils present to the light.
+Cameras have a similar mechanism, which is easy to see if you detach the lens
+and its housing from the body of the camera, as shown in the figure. Here, the diameter of
+the largest aperture is about ten times greater than that of the smallest aperture.
+Making a circle ten times greater in radius increases its area by a factor of 100, so
+the light-gathering power of the camera becomes 100 times greater. (Many people expect
+that the area would only be ten times greater, but if you start drawing copies of the
+small circle inside the large circle, you'll see that ten are not nearly enough to
+fill in the entire area of the larger circle. Both the width and the height of the
+bigger circle are ten times greater, so its area is 100 times greater.)
+\end{eg}
+\end{envsubsection}
+%
+\begin{envsubsection}{Parallax}\index{parallax}
+Example \ref{eg:alphacdistance} on page \pageref{eg:alphacdistance} showed how we
+can use brightness to determine distance, but your eye-brain system has a different method.
+Right now, you can tell how far away this page is from your eyes. This sense of
+depth perception comes from the fact that your two eyes show you the same scene
+from two different perspectives. If you wink one eye and then the other, the page will
+appear to shift back and forth a little.
+
+\widefig{parallax}{At double the distance, the parallax angle is approximately halved.}
+If you were looking at a fly on the bridge
+of your nose, there would be an angle of nearly $180\degunit$ between the ray that
+went into your left eye and the one that went into your right. Your brain would know
+that this large angle implied a very small distance. This is called the parallax
+angle. Objects at greater distances have smaller parallax angles, and when the angles
+are small, it's a good approximation to say that the angle is inversely proportional
+to the distance. In figure \figref{parallax}, the parallax angle is almost exactly
+cut in half when the person moves twice as far away.
+
+Parallax can be observed in other ways than with a pair of eyeballs.
+As a child, you noticed that when you walked around on a moonlit evening,
+the moon seemed to follow you. The moon wasn't really following you, and this isn't
+even a special property of the moon. It's just that as you walk, you expect to observe
+a parallax angle between the same scene viewed from different positions of your whole head.
+Very distant objects, including those on the Earth's surface, have parallax
+angles too small to notice by walking back and forth. In general, rays coming from
+a very distant object are nearly parallel.
+
+If your baseline is long enough, however, the small parallaxes of even very distant objects
+may be detectable. In the nineteenth century, nobody knew how tall the Himalayas were,
+or exactly where their peaks were on a map, and the Andes were generally believed to be the
+tallest mountains in the world. The Himalayas had never been climbed, and could only be viewed
+from a distance. From down on the plains of India, there was no way to tell whether they were
+very tall mountains very far away, or relatively low ones that were much closer. British
+surveyor George Everest finally established their true distance, and astounding height,
+by observing the same peaks through a telescope from different locations far apart.
+
+An even more spectacular feat of measurement was carried out by Hipparchus over\index{Hipparchus}\index{moon!distance to}
+twenty-one centuries ago. By measuring the parallax of the moon as observed from
+Alexandria and the Hellespont, he determined its distance to be about 90 times
+the radius of the earth.\footnote{The reason this was
+a hard measurement was that accurate clocks hadn't been invented, so there was no
+easy way to synchronize the two observations, and the desired effect would be masked
+by the apparent motion of the moon across the sky as it rose and set. Hipparchus's trick
+was to do the measurement during a solar eclipse, so that people at both locations
+would know they were in sync.}\label{hipparchusmoondistance}
+
+The earth circles the sun, \figref{stellarparallax}, and we can therefore determine the distances to a few
+hundred of the nearest stars by making observations six months apart, so that the
+baseline for the parallax measurement is the diameter of the earth's orbit. For these
+stars, the distances derived from parallax can be checked against the ones found by
+the method of example \ref{eg:alphacdistance} on page \pageref{eg:alphacdistance}. They
+do check out, which verifies the assumption that the stars
+are objects analogous to our sun.
+
+\widefigsidecaption{stellarparallax}{The nearer star has a larger parallax angle. By measuring
+the parallax angles, we can determine the distances to both stars. (The scale on this
+drawing is not realistic. If the earth's orbit was really this size, the nearest stars would
+be several kilometers away.)}
+
+\end{envsubsection}
+
+\mysection{The Speed of Light}\index{light!speed of}
+How fast does light travel? Does it even take any time to go from one place to another?
+If so, is the speed different for light with different colors, or for light with
+different brightnesses? Can a particular ray of light speed up or slow down?
+
+\begin{envsubsection}{The principle of inertia}
+We can answer the last question based on fundamental principles.
+All the experimental evidence supports time-reversal symmetry for light rays.
+Suppose that a beam of light traveling through a vacuum slowed down. After all,
+a rolling soccer ball starts to slow down immediately after you kick it. Even
+a rifle bullet slows down between the muzzle and the target.
+Why shouldn't light slow down gradually? It can't slow down, because of
+time-reversal symmetry. If the laws of physics said that
+a ray of light slowed down while traveling through
+a vacuum, then the time-reversed motion of the ray would violate the laws of
+physics. In the time-reversed version, the ray is moving the opposite direction
+and speeding up. Since all the experimental evidence shows that time-reversal
+symmetry is valid for light rays, we conclude that a ray will never speed up
+or slow down while traveling through a vacuum.
+
+\margup{-60mm}{\fig{soccerball}{The soccer ball will never slow down.}
+\spacebetweenfigs
+\fig{galileo}{Galileo Galilei (1564-1642)}}\index{Galileo!inertia}
+Why, then, do the ball and the bullet slow down? They wouldn't slow
+down at all if they were traveling through interstellar space. It's only due to friction
+that they lose speed. The ball slows down because of friction with the grass, and air
+friction is what decelerates the bullet. The laws of physics are not complicated, and
+in many ways they're not even different for light rays than for material objects. The laws of
+physics are simple and consistent. We can now state the following important
+principle, first proposed by Florentine physicist Galileo Galilei:\label{weak-principle-of-inertia}
+
+\begin{important}[The principle of inertia]\index{inertia!weak principle of}
+A ray of light or a material object continues moving in the same direction and
+at the same speed if it is not interacting with anything else.
+\end{important}
+\end{envsubsection}
+%
+\begin{envsubsection}{Measuring the speed of light}
+Observations also show that in a vacuum, all light moves at the same speed,
+regardless of its color, its brightness, or the manner in which it was emitted.
+The best evidence comes from supernovae, which are exploding stars. Supernovae
+are so bright that we can see them even when they occur in distant galaxies whose
+normal stars are too dim to resolve individually. When we observe a supernova,
+all the light gets to us at the same time, so it must all have traveled at the
+same speed.
+
+Galileo made the first serious attempt to measure the speed of light. In his\index{Galileo!speed of light}
+experiment, two people with lanterns stood a mile apart. The first person
+opened the shutter of his lantern, and the second person opened the shutter
+on his as soon as he saw the light from the first person's. A third observer
+stood at an equal distance from both of them, and tried to measure the time
+lag between the two. No such time lag was observed, so you could say that the
+experiment failed, but in science a failure can still be important. This is
+known as a negative experiment. Galileo's results showed that the speed of
+light must be at least ten times the speed of sound. It was important that he
+published his negative result, both because it convinced people that the problem
+was scientifically interesting and because it told later workers that the
+speed of light must be very fast, which would help them to design experiments
+that might actually work.
+
+\margup{-65mm}{\fig{io}{A modern image of Jupiter and its moon Io (right) from the
+Voyager 1 probe.}
+\spacebetweenfigs
+\fig{roemer}{The earth is moving towards Jupiter and Io. Since the distance
+is shrinking, it's taking less and less time for light to
+get to us from Io. Io appears to circle Jupiter more quickly than normal. Six
+months later, the earth will be on the opposite side of the sun, and receding
+from Jupiter and Io, so Io will appear to go around more slowly.}}\index{Jupiter}\index{Io}\index{Roemer, Ole}
+The first person to prove that light's speed was finite, and to determine it
+numerically, was Ole Roemer, in a series of measurements around the year
+1675. Roemer observed Io, one of Jupiter's moons, over a long period.
+Since Io presumably took the same amount of time to complete each orbit of
+Jupiter, it could be thought of as a very distant, very accurate clock.
+A practical and accurate pendulum clock had recently been invented, so
+Roemer could check whether the ratio of the two clocks' cycles, about
+42.5 hours to one orbit, stayed exactly constant or changed a little. If the
+process of seeing the distant moon was instantaneous, there would be no reason
+for the two to get out of step. Even if the speed of light was finite, you might
+expect that the result would be only to offset one cycle relative to the other.
+The earth does not, however, stay at a constant distance from Jupiter and its
+moons. Since the distance is changing gradually due to the two planets' orbital
+motions, a finite speed of light would make the ``Io clock'' appear to run
+faster as the planets drew near each other, and more slowly as their
+separation increased. Roemer did find a variation in the apparent speed of
+Io's orbits, which caused Io's eclipses by Jupiter (the moments when Io passed
+in front of or behind Jupiter) to occur about 7 minutes early when the
+earth was closest to Jupiter, and 7 minutes late when it was farthest. Based on
+these measurements, Roemer estimated the speed of light to be approximately
+200,000 kilometers per second, which is in the right ballpark compared to modern measurements
+of 300,000 km/s.
+\end{envsubsection}
+
+\dqheader
+\begin{dq}
+When phenomena like X-rays and cosmic rays were first discovered, nobody knew what they
+were. Suggest one way of testing the hypothesis that they were forms of light.\index{x-rays}\index{cosmic rays}
+\end{dq}
+
+\mysection[4]{Reflection}
+\begin{envsubsection}{Seeing by reflection}\index{light!reflection}\index{reflection}
+So far we've only talked about how you see things that emit light: stars, candles,
+and so on. If you're reading this book on a computer screen, that's how you're seeing
+it right now. But what if you're reading this book on paper? 
+The paper doesn't emit light, and it would be invisible if
+you turned out the lights in the room. The light from
+the lamp is hitting the paper and being reflected to your eyes.
+
+\margup{-47mm}{\fig{selfportraits}{Two self-portraits of the author, one taken in a mirror
+and one with a piece of aluminum foil.}
+\spacebetweenfigs
+\fig{specularzero}{The incident and reflected rays are both perpendicular to the surface.}
+\spacebetweenfigs
+\fig{specularwrong}{This doesn't happen.}}
+Most people only
+think of reflection as something that happens with mirrors or other shiny, smooth
+surfaces, but it happens with all surfaces. Consider figure \figref{selfportraits}.
+The aluminum foil isn't as smooth as the mirror, so my reflection is blurry and jumbled.
+If I hadn't told you, you probably wouldn't have known that it was a reflection of a
+person at all. If the paper you're reading from was as smooth as a mirror, you would
+see a reflection of the room in it, and the brightest object in the reflection would
+probably be the lamp that's lighting the room. Paper, however, is not that smooth. It's
+made of wood pulp. The reflection of the room is so blurry and jumbled that it all looks
+like one big, washed-out, white blur. That white blur is what you see when you see the
+paper. This is called diffuse reflection. In diffuse reflection, the reflected rays come
+back out at random angles.\index{reflection!diffuse}
+\end{envsubsection}
+%
+\begin{envsubsection}{Specular reflection}\index{reflection!specular}
+Reflection from a smooth surface is called specular reflection, from the Latin word
+for mirror. (The root, a verb meaning ``to look at,'' is the same as the root of ``spectacular''
+and ``spectacle.'') When a light ray is reflected, we get a new ray at some new angle, which
+depends on the angle at which the incident (original) ray came in. What's the rule that determines
+the direction of the reflected ray? We can determine the answer by symmetry.
+
+First, if
+the incident ray comes in perpendicular to the surface, \figref{specularzero},
+then there is perfect left-right
+reflection symmetry. (It's just a coincidence that we have \emph{reflection} symmetry
+occurring in our analysis of \emph{reflection}.) If the reflected ray came back at some
+angle to the left or right, it would violate this symmetry. Therefore the reflected
+ray must be right on top of the incident ray, straight back up.
+Because this is the simplest possible
+specular reflection, we define these angles as zero: all rays have their angles
+measured with respect to perpendicular, not with respect to the surface itself.
+Typically the rays themselves will not be perpendicular to the surface, but we still
+measure their angles with respect to an imaginary line perpendicular to the surface,
+which we call the normal. (``Normal'' is simply another word for perpendicular.)\index{normal}
+
+Now what if the incident angle isn't zero? Figure \figref{specularwrong} shows
+what doesn't happen. It's not possible for the reflected angle $r$ to be unequal to
+the incident angle $i$, because of symmetry. Suppose we lived in a goofy universe, where
+the laws of physics gave the result shown in the figure: $r$ is always less than
+$i$. What would happen if we did a time-reversal on the diagram? Oops --- then
+we'd have $r$ greater than $i\,$! Since experiments support time-reversal symmetry
+for light rays, we conclude that this is impossible.\footnote{There are a couple
+of oversimplifications in this argument, which shows how debased a physicist's conception
+of mathematical proof can be. First, we could imagine a rule like $r=90\degunit-i$,
+which would satisfy time-reversal symmetry, since $i=90\degunit-r$; however, such a
+rule would not give $r=0$ when $i=0$, which we require based on reflection symmetry.
+Another grotesque possibility is $r=i$, but with the reflected ray on the same side
+of the normal as the incident ray. This satisfies both time-reversal symmetry and
+reflection symmetry, but experiments show that it isn't what really happens in our
+universe. It can also be ruled out based on another type of symmetry which we haven't
+discussed yet (section \ref{sec:strong-inertia}).} The actual laws of physics
+give equal angles of incidence and reflection,
+\begin{equation*}
+	r = i \qquad .
+\end{equation*}
+
+\margup{-25mm}{\fig{specularright}{This does happen.}
+\spacebetweenfigs
+\fig{poolball}{example \ref{eg:reflectpoolball}}
+\spacebetweenfigs
+\fig{cornerreflector}{A corner reflector}%
+\spacebetweenfigs
+\fig{flatmirrorimage}{example \ref{eg:flatmirrorimage}}
+}
+\begin{eg}{Reflecting a pool ball}\label{eg:reflectpoolball}
+The proof of $r=i$ for light rays works equally well for pool balls, provided that
+the effects that violate symmetry are small. For instance, we assume that the ball
+doesn't have lots of spin put on it, because that would break the left-right
+reflection symmetry.
+\end{eg}
+\selfcheck{cornerreflector}{%
+Continue the ray in figure \figref{cornerreflector} through its second reflection. In what
+direction is the returning ray? How does this relate to example
+\ref{eg:lunarranging} on page \pageref{eg:lunarranging}?%
+}
+\begin{eg}{An image}\label{eg:flatmirrorimage}
+Figure \figref{flatmirrorimage} shows some representative rays spreading out 
+from one point on the flame. These rays strike the mirror and are reflected. To the observer on
+the left, the reflected rays are indistinguishable from the ones that would have originated from
+an actual flame on the far side of the mirror. Rays don't carry any history, so there is no
+way for the eye to know that the rays underwent reflection along the way. (The rays shown in the diagram
+form an image of one point on the flame, but every other point on the flame sends out a similar
+bundle of rays, and has its own image formed.)
+\end{eg}
+\selfcheck{diffuseimage}{What happens in figure 
+\figref{flatmirrorimage} if you replace the flame with an object that doesn't
+emit light, and can only be seen by diffuse reflection?
+}
+\end{envsubsection}
+
+\dqheader
+\begin{dq}
+Laser beams are made of light. In science fiction movies, laser beams are often shown
+as bright lines shooting out of a laser gun on a spaceship. Why is this scientifically
+incorrect?
+\end{dq}
+
+%===============================================================================
+%===============================================================================
+
+\begin{hwsection}
+
+\begin{hw}{alien-pool}
+The natives of planet Wumpus play pool using light rays on an eleven-sided
+table with mirrors for bumpers. Trace this shot accurately with a ruler and protractor
+to reveal the hidden message.
+\end{hw}
+
+\widefig{alienpool}{Problem \ref{hw:alien-pool}.}
+
+\begin{hw}{where-image-is-visible}
+Sketch a copy of figure \figref{flatmirrorimage} on page \pageref{fig:flatmirrorimage}.
+There are some places from which the image is visible, and some
+from which it isn't. Show these regions on your sketch by outlining their borders and
+filling them with two different kinds of shading.
+\end{hw}
+
+\margup{-126mm}{\fig{astronautshadows}{Problem \ref{hw:diffuse-shadows}.}
+\spacebetweenfigs
+\fig{glossy}{Problem \ref{hw:glossy}a.}
+\spacebetweenfigs
+\fig{onion}{Problem \ref{hw:glossy}b.}
+}
+\begin{hw}{diffuse-shadows}
+(a) Draw a ray diagram showing why a small light source (a
+candle, say) produces sharper shadows than a large one (e.g.
+a long fluorescent bulb). Draw a cross-section --- don't try to draw in three dimensions.
+Your diagram needs to show rays spreading in many directions from each point on the
+light source, and you need to track the rays until they hit the surface on which
+the shadow is being cast. \hwendpart
+(b) Astronaut Mary goes to Mercury,
+while Gary visits Jupiter's moon Ganymede. Unfortunately it's hard to
+tell whose vacation pictures are whose, because everybody looks the same
+in a space suit. Which picture is which? (Note that the brightness of the light
+is irrelevant. As you can see, the pictures look equally bright, because they
+took longer or shorter exposures to compensate for the amount of sunlight.)
+\end{hw}
+
+\begin{hw}{glossy}
+(a) The first figure shows a surface that is mostly smooth, but has a few irregularities in it.
+Use a ray diagram to show how reflection from this surface would work.\hwendpart
+(b) The second figure shows an onion on an old chair. What evidence do you see in this
+picture that there are surfaces like the one in part a?
+\end{hw}
+
+\begin{hw}{nostellarparallax}
+Many astronomers made attempts to detect the parallax
+of the stars before anyone finally measured their very
+small parallax angles. The early results were used as an argument
+against models of the universe in which the earth
+orbited the sun. Were all these efforts a waste? Should we criticize the
+astronomers who made them for producing incorrect results? How does this
+resemble the story of Galileo's attempt to measure the speed of light?
+Galileo's result could be stated as a lower limit on the speed of light, i.e.,
+a mathematical inequality rather than an equality; could you do something
+similar with the early parallax measurements?
+\end{hw}
+
+\begin{hw}{see-below-waist}
+If a mirror on a wall is only big enough for you to see
+yourself from your head down to your waist, can you see your
+entire body by backing up?  Test this experimentally and
+come up with an explanation for your observations using ray diagrams. Note that
+it's easy to confuse yourself if the mirror is even a tiny
+bit off of vertical; check whether you are able to see more
+of yourself both above \emph{and} below. (To make this test work,
+you may need to lower the mirror so that you can't see the top of
+your head, or put a piece of tape on the mirror, and pretend that's
+the top of it.)
+\end{hw}
+
+
+\margup{-40mm}{
+\fig{see-below-waist}{Problem \ref{hw:see-below-waist}}
+\spacebetweenfigs
+\fig{moonphases}{Problem \ref{hw:moonphases}.}
+}
+\begin{hw}{moonphases}
+The diagram shows the moon orbiting the earth (not to scale) with
+sunlight coming in from the right.\\
+(a) Why are the sun's rays shown coming in parallel? Explain.\hwendpart
+(b) Figure out the phase of the moon when the moon is at each point
+in its orbit. In other words, when is it a new moon, when is it 
+a crescent, when is it a half moon, when is it gibbous, and
+when is it full?
+\end{hw}
+
+\begin{hw}{campfire}
+(a) You're photographing some people around a campfire. If you step back
+three times farther from the fire to frame the shot differently, 
+how many times longer will the exposure have to be? Explain.\hwendpart
+(b) You're worried that with the longer exposure, the dancing flames will
+look blurry. Rather than compensating for the greater distance with a longer
+exposure, you decide to open the diaphragm of the camera wider. How many
+times greater will the diameter of the aperture have to be? Explain.
+\end{hw}
+
+\begin{hw}{roemer}
+Why did Roemer only need to know the radius of the earth's
+orbit, not Jupiter's?
+\end{hw}
+
+\begin{hw}{lightversussound}
+Suggest a simple experiment or observation, without any special equipment,
+to show that light isn't a form of sound. (Note that there are invisible
+forms of light such as ultraviolet and infrared, so the invisibility of
+sound doesn't prove anything. Likewise, you can't conclude anything from
+the inaudibility of light.)
+\end{hw}
+
+\hwnote{%
+In problems \ref{hw:stealth-bomber} and \ref{hw:gps}, you need
+to know that radio waves are fundamentally the same phenomenon as light,
+and travel at the same speed.
+}
+
+\begin{hw}{stealth-bomber}
+The Stealth bomber is designed with flat, smooth
+surfaces. Why would this make it difficult to detect via radar?
+Explain using a ray diagram.
+\end{hw}
+
+\begin{hw}{gps}
+A Global Positioning System (GPS) receiver is a device
+that lets you figure out where you are by receiving radio
+signals from satellites. It's accurate to within a few
+meters. The details are a little complicated,
+but for our present purposes, let's imagine a simplified version
+of the system in which the satellite sends a signal at a known
+time, and your handheld unit receives it at a time that is also
+very accurately measured. The time delay indicates how far you
+are from the satellite. As a further simplification, let's assume
+that everything is one-dimensional: the satellite is low on the
+eastern horizon, and we're only interested in determining your
+east-west position (longitude).\footnote{If you're curious,
+here's a brief explanation of how the real system works, without
+the oversimplifications. There are currently about 24 GPS satellites
+in orbit, and to get your location, you need to get signals from four
+of them simultaneously. The basic idea is that by knowing your distance
+from three points in space, you can find your location in three dimensions.
+Why, then, do you need to get four signals? The satellites all have atomic
+clocks on board, but it's not practical to put an atomic
+clock in your handheld unit. You can think of the fourth satellite as
+a replacement for the atomic clock you wish you had in your receiver.}
+How accurate does the measurement of the time delay
+have to be, to determine your position to this accuracy of a few meters?
+\end{hw}
+
+\end{hwsection}
+
+%========================================== labs ===============================================
+%--------------------------------- reflection and time-reversal lab --------------------------------------
+
+\begin{lab}{Time-Reversal and Reflection Sym\-met\-ry}
+
+\apparatus
+\equip{laser}\\
+\equip{plastic box}\\
+\equip{protractor}
+
+\begin{goals}
+
+\item[] Observe the phenomenon of refraction.
+
+\item[] Test whether refraction obeys time-reversal and reflection symmetry.
+
+\end{goals}
+
+\labpart{Refraction}\index{refraction}\index{light!refraction}
+
+Put water in the box, and shine the laser into it at an angle. You should be able
+to see that there is a beam that is reflected back from the surface of the box --- although the beam
+is invisible in air, you can see a dot where it hits things like your hand or the box.
+
+So far you're just seeing things that you've already read about in the book. But now
+look \emph{inside} the water. Part of the light is reflected, but part of it is
+\emph{transmitted}, i.e., passes into the water rather than bouncing back. 
+We now have three rays: incident, reflected, and transmitted, which form the
+angles $i$, $r$, and $t$ with respect to the normal.
+It's easiest if you keep everything in a horizontal plane, because angles in three dimensions are
+hard to measure. You may want to put a piece of paper under the box to mark the rays.
+
+\labfigcaption{lab-refraction-angles}{The angles of the three rays are measured with respect
+to the normal.}
+
+Note that the direction of the transmitted ray isn't the same as the direction of the
+incident ray; it's been knocked off course. This bending phenomenon is called refraction.
+(Think ``fracture,'' like a broken bone.) 
+
+Two simplifications: (1) From now on I'll stop drawing all the reflected rays.
+(2) Let's think of the plastic box as if it didn't exist. In other words, the
+light is cruising through air when suddenly it hits some water. A justification for this is that
+none of the observations you're going to make depend on the thickness of the plastic, so we could
+get the same results even with a box that was infinitely thin, i.e., nonexistent. 
+
+\labpart{Time-reversal symmetry}\index{symmetry!time-reversal!lab}
+
+Try sending the beam through a corner as suggested by the figure. Make sure that the incident
+angle of the incoming ray, marked with the dashed arc in the figure, is nice and big. If it's
+less than about 60 degrees, you won't get a ray
+emerging on the other side of the corner at all.\footnote{This is a phenomenon known as total
+internal reflection.\index{total internal reflection}\index{reflection!total internal}
+When a ray in a denser medium hits a boundary with a less dense medium,
+it may be 100\% reflected, depending on the angles. You can think of it as happening when the
+angle of the emerging ray with respect to the normal would have been greater than 90 degrees.
+Total internal reflection is the basis for fiber optics, the technology used in modern long-distance
+telephone lines.}
+
+\labfig{lab-through-corner}
+
+You can now test whether refraction
+obeys time-reversal symmetry. Measure the angles with a protractor, and then redo the experiment with
+the ray coming back toward the box along the original ray's exit line. Are your results time-reversal
+symmetric, or not?
+
+Incidentally, you may have been wondering why time-reversal symmetry seems to be violated in everyday life.
+For instance, if you see a video of Humpty Dumpty assembling himself out of pieces and levitating back
+to the top of the wall, you know the video has been reversed. Actually this isn't evidence that the laws
+of physics are asymmetric; it's just that it would be extremely difficult to start all of Humpty Dumpty's
+pieces moving in precisely the right direction at the the right speed so that he would reassemble himself.
+Similarly, there are many reflected rays left out of the figure above. If every possible reflection and
+refraction had been included, it would have looked like a pitchfork or a complicated bush. To time-reverse
+the diagram exactly is difficult --- you'd have to arrange many different lasers so that their beams came
+together perfectly and joined into one beam. Again, it's a practical issue, not an asymmetry in the
+laws of physics.
+
+\labpart{Reflection symmetry}\index{symmetry!reflection!lab}
+
+Now we want to see if refraction obeys reflection symmetry.
+That sounds confusing, doesn't it? 
+The word ``reflection'' here refers to the type of symmetry (i.e., mirror symmetry), not to
+the thing that's happening to the light ray.
+In other words, suppose you
+do a bunch of experiments and measurements involving refraction. Someone videotapes you, and then alters
+the videotape so that left and right are reversed. If the laws of physics are
+reflection-symmetric, then there is no way to tell that there's anything wrong with the video.
+
+\labfig{lab-time-reversal}
+
+Remember, this whole lab is about \emph{refraction}. That means you're looking at the ray that is
+passing on into the water, not the ray that comes back out into the air.
+
+One very simple test is to measure the angle $t$ of the transmitted ray in the case where the incident
+angle $i$ is zero. In this situation, what value of $t$ is required by reflection symmetry? Try it.
+
+Now try a few measurements of $i$ and $t$ where $i$ isn't zero, and then redo the measurents with $i$ on
+the other side of the normal. Do the results support reflection symmetry?
+
+\pagebreak[4]
+
+\labsection{To Think About Before Lab}
+
+Criticize the following statements:
+
+``The angle of refraction equals the angle of incidence.''
+
+``In part C, we found that there was symmetry, because in every case, the ray bounced back at the
+same angle it came in at.''
+
+\end{lab}
+
+%--------------------------------- models of light lab --------------------------------------
+
+\begin{lab}{Models of Light}
+
+\apparatus
+\equip{laser}\\
+\equip{plastic box}\\
+\equip{protractor}
+
+\goal{Test a particle model and a wave model of light.}
+
+\labintroduction\index{light!particle model}\index{light!wave model}
+
+This chapter is called ``The Ray Model of Light,'' but the ray model is obviously a very simplified
+one.
+What is a light ray, really? We know it bounces off of mirrors, which is like a pool ball bouncing off of
+a bumper. It might therefore be natural to guess that a beam of light really consists of a stream of
+tiny \emph{particles}, just as the water coming out of a fire hose is really made out of atoms.
+On the other hand, \emph{waves} can also bounce off of things --- that's what an echo is. Let's see if we can
+figure out anything about this, while keeping in mind that the particle and wave explanations are
+only \emph{models}.
+
+\labfigcaption{lab-ramp}{1. A particle model of refraction. As the ball slows down, it turns to the right.}
+
+It's not hard to construct a mechanical model of refraction using particles, as shown in figure 1. The
+ball goes straight when it's in the first flat area, curves and decelerates as it goes up the ramp,
+and then goes straight again when it's in the other flat area. Note that the ball has different
+speeds in the two regions: fast on the right and slow on the left. One of these regions represents air, one water --- we
+haven't yet established which is which.
+
+\labfigcaption{lab-water}{2. Water waves are refracted at the boundary between regions having two different depths. As
+the waves move toward the top of the page, they encounter the boundary, speed up, and turn to the right.}\label{lab-fig-water}
+
+However, a wave model is also capable of explaining refraction, as in figure 2.
+Water waves have different speeds in shallow and deep water. The waves in the figure come up from the bottom,
+and encounter the diagonal boundary between the two regions. Note that the distance between one crest and
+the next, called the wavelength,\index{wavelength}
+changes when the wave speed changes. This is similar to the way that the spacing in a stream of traffic would get farther apart
+when the road changed from dirt to pavement: the cars in the front are the first to speed up, so they pull away a little
+before the cars following them speed up, too.
+
+The waves hit the boundary at an angle. The only way the waves in the two regions can connect up with each
+other is if the crests twist around. This is just like the change of direction we observe when light rays are refracted.
+
+As with the particle model, the wave model involves two regions in which the speeds are different.
+It's only a coincidence that the photo in figure 2 was created using water waves. One of the two regions does
+represent the water you'll use in the lab, but the other region represents the air! The photo could have been
+made using waves in some other medium, e.g., the two regions could have been two sheets of rubber. We can also
+easily establish that light is not a mechanical vibration of matter. For instance, we know that sunlight gets
+to us through the vacuum of outer space. 
+
+\pagebreak[4]
+
+\labsection{Models of Refraction}
+Before we start worrying about which model is correct, let's just see what consequences each one has for
+refraction. This part of the lab is just thinking, not observing. You're not taking any data yet.
+
+In figure 1, the incident ``ray'' is on the near side of the normal, and the result is that
+the ray makes a right turn. Suppose instead that the incident ray was on the far side of the normal. Which way
+would it turn? Also, the incident ray could have come to the ramp from
+the high side, and then moved down the ramp to the lower area. If you imagine dividing the diagram into four
+quadrants, like a pizza cut into four slices, we have a total of four possibilities for the incident ray.
+
+\labfig{lab-quadrants-idea}
+
+Predict the results for all four possibilities, using the particle model:
+
+\labfig{lab-particle-quadrants}
+
+Can you come up with a simple rule that describes all four results?
+
+Now do the same for the wave model. Remember that the crests will always be closer together in the region where the
+wave's speed is lower.
+
+If you have a hard time visualizing this, try making a model using four rulers. First lay down two
+rulers to represent two of the parallel wave crests of the incoming wave. Although the rulers are
+parallel, they form a parallelogram rather than a rectangle.
+ Now lay down two more rulers to represent the wave crests on the
+other side of the boundary that connect onto these. Swivel them in order to make the distance between
+crests correct in relation to the distance between the two original crests.
+
+\labfig{lab-wave-quadrants}
+
+\labpart{Observing Refraction With the Laser}
+Now observe the refraction of the laser beam as it passes into and out of the tub of water, and observe how
+it bends when the incident ray is in each of the four possible quadrants. Can your observations be
+interpreted successfully with the particle model? If so, does the particle model require that light go
+faster in air, or in water? Similarly, see if you can interpret your results with the wave model.
+
+\labpart{Reflection}
+Now repeat part A, but observe the reflected ray instead of the refracted one. The main issue here
+is simply whether reflection can occur at all in the different cases. The wave model allows both types
+of reflection (back into the fast medium, and back into the slow medium). You should be able to figure
+out which types of reflection exist in the particle model.
+
+\labsection{Analysis}
+You should now have data from a total of eight different setups: four with refraction, and
+four with reflection.
+Is one model more successful than the other in describing all these data? You need to compare all
+eight observations with each model.
+
+\end{lab}
+
+%--------------------------------- speed of light in water lab --------------------------------------
+
+\begin{lab}[0]{The Speed of Light in Matter}
+
+\apparatus
+\equip{laser}\\
+\equip{plastic box}\\
+\equip{protractor}
+
+\goal{Measure the speed of light in a substance such as water, glass, or plastic.}
+
+A picture like figure 2 on page \pageref{lab-fig-water} has two types of information on it. 
+First, we can tell that the incident and transmitted angles are about $i=30\degunit$ and $t=60\degunit$.
+We can also tell that the wave's speed in the upper-left region is about double what it is in the lower-right region, since
+the wavelength (crest-to-crest distance) is about twice as long. However, we can only tell the ratio of
+the two speeds, not the absolute speeds in units of meters per second.
+
+There's speed information and angle information, and the two are related. If we knew either one, we could find
+the other. For instance, if I gave you only the angle information, and asked you to make a diagram like
+the figure, you'd be forced to draw the wavelength of the transmitted wave twice as long as that of the
+incident wave.
+
+Your goal in this lab is to use this technique to measure the speed of light in some substance.
+Your answer will be a number: the ratio of light's speed in your substance to its speed in air.
+All you have to do is measure a pair of angles $i$ and $t$, and then draw an accurate diagram.
+Because of the inherent limitations of the technique, you can only find the speed of light in this
+substance relative to the speed of light in air, not its absolute speed in units of
+meters per second. For instance, you might find that speed of light in weasel sweat
+is 0.71 times the speed of light in air.
+
+It's up to you to decide what substance you want to use.
+You can bring something from home if you like. If you're adventurous, one interesting possibility
+is to measure the speed of light of a solution, like salt in water, and you change the concentration.
+Another challenge would be to measure the speed of light in a vacuum --- we have a vacuum pump and
+some vacuum flasks.
+
+Make sure to use the largest possible angles with respect to the normal. When the angles are
+small, you get a low-precision result. In the extreme case, measuring $i=0\degunit$ and
+$t=0\degunit$ tells you absolutely nothing about the speed of light.
+\end{lab}
+
+%========================================== self-check answers ===============================================
+
+\startscanswers{ch:raymodel}
+\scanshdr{candlefivetimes}{He's five times farther away than she is, so the light he sees
+is 1/25 the brightness.}
+\scanshdr{cornerreflector}{After the second reflection, the ray is going back parallel to the
+original incident ray. This is how the lunar ranging reflector in example
+\ref{eg:lunarranging} on page \pageref{eg:lunarranging} worked, except in three dimensions
+rather than two. Can you imagine how to make it work in three dimensions?}
+\scanshdr{diffuseimage}{It wouldn't matter. The rough surface sends rays out in all directions,
+which is no different from what happens with the flame.}
+
+%========================================== toc decoration ===============================================
+
+\addtocontents{toc}{\protect\figureintoc{breakfast}}

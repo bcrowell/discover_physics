@@ -1,0 +1,104 @@
+% (c) 2001-2003 Ben Crowell, licensed under the Creative Commons
+% Attribution-ShareAlike license,
+% http://creativecommons.org/licenses/by-sa/1.0/
+%
+\documentclass{dp}
+%\includeonly{ch04/ch04}
+\inputprotcode
+\makeindex
+\begin{document}
+\myeqnspacing % Do this early and often, since it gets reset by \normalsize
+% 
+% The following is all related to margin kerning.
+% This is activated in dp.cls using the boolean wantmarginkerning.
+% The constant 1 is to allow margin kerning, but to keep it from affecting
+% line breaks.
+\ifthenelse{\boolean{wantmarginkerning}}{
+ \setprotcode\font
+ {\it \setprotcode \font}
+ {\bf \setprotcode \font}
+ {\bf \it \setprotcode \font}
+ \pdfprotrudechars=1
+}{}
+%========================= frontmatter =========================
+\formatchtoc{\Large}{}{4mm}
+\frontmatter
+\yesiwantarabic
+\renewcommand{\chapdir}{ch00}
+\include{ch00/title}
+\include{ch00/copyright}
+\yesiwantarabic
+\nomarginlayout
+\onecolumn\pagebreak[4]
+\noindent\huge\bfseries\sffamily{}\vspace{50mm}
+
+\hspace{2.5mm}\noindent{}Brief Contents
+
+\vspace{2mm}\hbox{}
+
+\noindent\mynormaltype\Large\sffamily{}\begin{tabular}{rl}
+\ref{ch:symmetry} & The Rules of the Rules \quad \pageref{ch:symmetry}\\
+\ref{ch:raymodel} & The Ray Model of Light \quad \pageref{ch:raymodel}\\
+\ref{ch:images} & Images \quad \pageref{ch:images}\\
+\ref{ch:energy} & Conservation of Mass and Energy \quad \pageref{ch:energy}\\
+\ref{ch:momentum} & Conservation of Momentum \quad \pageref{ch:momentum}\\
+\ref{ch:relativity} & Relativity \quad \pageref{ch:relativity}\\
+\ref{ch:em} & Electricity and Magnetism \quad \pageref{ch:em}\\
+\end{tabular}
+\vfill
+\mynormaltype
+
+\pagebreak[4]
+
+\vspace{0mm}
+\begin{center}
+\noindent\huge\bfseries\sffamily{}Contents\mynormaltype
+\end{center}
+\vspace{0mm}
+\begin{multicols}{2}
+  \tableofcontents
+  \setcounter{unbalance}{0}
+\end{multicols}
+\normallayout\onecolumn
+
+%========================= main matter =========================
+\mainmatter
+%-- I want the whole book numbered sequentially, arabic:
+  \pagenumbering{arabic} 
+  \addtocounter{page}{6} 
+\parafmt
+\myeqnspacing % Do this early and often, since it gets reset by \normalsize
+%========================= chapters =========================
+	\renewcommand{\chapdir}{ch01}\include{ch01/ch01}% 
+	\renewcommand{\chapdir}{ch02}\include{ch02/ch02}% 
+	\renewcommand{\chapdir}{ch03}\include{ch03/ch03}% 
+	\renewcommand{\chapdir}{ch04}\include{ch04/ch04}% 
+	\renewcommand{\chapdir}{ch05}\include{ch05/ch05}% 
+	\renewcommand{\chapdir}{ch06}\include{ch06/ch06}% 
+	\formatchtoc{\large}{\quad\contentspage}{4mm} % This has to go before the last chapter.
+	\renewcommand{\chapdir}{ch07}\include{ch07/ch07}% 
+%========================= backmatter =========================
+\backmatter
+\nomarginlayout
+\renewcommand{\chapdir}{ch99}
+%========================= appendices =========================
+\formatchtoc{\large}{\quad\contentspage}{0mm} % This has to go before first appendix.
+% acknowledgments
+%	\onecolumn\include{ch99/ack}
+% photo credits
+	\newpage\include{ch99/photocredits}
+% hw hints, answers, solutions	
+%	\onecolumn\include{ch99/hwans}
+% data	
+%	\onecolumn\include{ch99/data}
+% summary
+%	\onecolumn\include{ch99/summary}
+% glossary
+%	\setlength{\parindent}{0mm}
+%	\newpage\include{ch99/glossary}
+%	\setlength{\parindent}{\normalparindent}
+%========================= index =========================
+\printindex
+
+\end{document}
+

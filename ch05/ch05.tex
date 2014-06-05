@@ -1,0 +1,1610 @@
+\newcommand{\velocitytable}[8]{%
+\noindent\hspace{5mm}\begin{tabular}{|p{4mm}|p{30mm}|p{30mm}|p{20mm}|}
+\hline
+ & \multicolumn{2}{p{50mm}}{velocity (meters per second)} & \\
+\cline{2-4}
+ & before the collision
+       & after the collision  & change \\
+\hline
+\anonymousinlinefig{#7} & #1 & #2 & #3 \\
+\anonymousinlinefig{#8} & #4 & #5 & #6 \\
+\hline
+\end{tabular}
+}
+%
+%------------------------------------------------------------------------------
+\mychapterwithopener{pool}{Pool balls exchange momentum.}{Conservation of Momentum}\label{ch:momentum}
+
+Physicist Murray Gell-Mann invented a wonderful phrase that has since\index{Gell-Mann, Murray}
+entered into popular culture: ``Everything not forbidden is compulsory.''
+Although people now use it as a sarcastic political statement,
+Gell-Mann was just employing politics as a metaphor for physics. What he meant
+was that the laws of physics forbid all the impossible things, and what's
+left over is what really happens.
+Conservation of mass and energy prevent many things from happening. Objects
+can't disappear into thin air, and you can't run your car forever without
+putting gas in it.
+
+Some other processes are impossible, but not forbidden
+by these two conservation laws. 
+In the martial arts movie \emph{Crouching Tiger, Hidden Dragon},
+those who have received mystical enlightenment are able to violate the
+laws of physics. Some of the violations are obvious, such as their ability
+to fly, but others are a little more subtle. The rebellious young
+heroine/antiheroine Jen Yu gets into an argument while sitting
+at a table in a restaurant. A young tough, Iron Arm Lu, comes running toward her at full
+speed, and she puts up one arm and effortlessly makes him bounce
+back, without even getting out of her seat or bracing herself against
+anything. She does all this between bites.
+It's impossible, but how do we know it's impossible? It doesn't violate conservation
+of mass, because neither character's mass changes. It conserves energy as well,
+since the rebounding Lu has the same energy he started with.\label{tiger}
+
+Suppose you live in a country where the only laws are prohibitions against
+murder and robbery. One day someone covers your house with graffiti, and the
+authorities refuse to prosecute, because no crime was committed. You're
+convinced of the need for a new law against vandalism. Similarly, the story of
+Jen Yu and Iron Arm Lu shows that we need a new conservation law.
+
+\mysection[0]{Translation Symmetry}\index{symmetry!translation}
+The most fundamental laws of physics are conservation laws, and Noether's theorem
+tells us that conservation laws are the way they are because of symmetry. Time-translation
+symmetry is responsible for conservation of energy, but time is like a
+river with only two directions, past and future. What's impossible about Lu's
+motion is the abrupt reversal in the direction of his motion in \emph{space}, but neither
+time-translation symmetry nor energy conservation tell us anything about directions
+in space. When you put gas in your car, you don't have to decide whether you want to
+buy north gas or south gas, east, west, up or down gas. Energy has no direction. What
+we need is a new conserved quantity that has a direction in space, and such a
+conservation law can only come from a symmetry that relates to space. Since we've already
+had some luck with time-translation symmetry, it seems reasonable to turn now to
+space-translation symmetry, which I introduced on page
+\pageref{space-translation-symmetry} but haven't mentioned since.
+
+\label{points-in-space-have-no-identity}
+Space-translation symmetry would seem reasonable to most people, but you'll see that it
+ends up producing some very surprising results. To see how, it will be
+helpful to imagine the consequences of a violation of space-translation symmetry.
+What if, like the laws of nations, the laws of physics were different in different
+places? What would happen, and how would we detect it? We could try doing the
+same experiment in two different places and comparing the results, but it's
+even easier than that. Tap your finger on this spot on the page
+\begin{equation*}
+	\times
+\end{equation*}
+and then wait a second and do it again. Did both taps occur at the same point in space?
+You're probably thinking that's a silly question; am I just checking whether you followed
+my directions? Not at all. Consider the whole scene from the point of view of a Martian
+who is observing it through a powerful telescope from her home planet. (You didn't
+draw the curtains, did you?) From her point of view, the earth is spinning
+on its axis and orbiting the sun, at speeds measured in thousands of kilometers per hour.
+According to her, your second finger tap happened at a point in space about
+30 kilometers from the first. If you want to impress the Martians and win the Martian version of
+the Nobel Prize for detecting a violation of space-translation symmetry,
+all you have to do is perform a physics experiment twice in the same laboratory, and
+show that the result comes out different.
+
+But who's to say that the Martian point of view is the right one? It gets a little thorny
+now. How do you know that what you detected was a violation of space-translation symmetry
+at all? Maybe it was just a violation of time-translation symmetry. The Martian Nobel
+committee isn't going to give you the prize based on an experiment this ambiguous. A
+possible scheme for resolving the ambiguity would be to wait a year and do the same
+experiment a third time. After a year, the earth will have completed one full orbit around the
+sun, and your lab will be back in the same spot in space. If the third experiment comes out
+the same as the first one, then you can make a strong argument that what you've detected is
+an asymmetry of space, not time. There's a problem, however. You and the Martians agree
+that the earth is back in the same place after a year, but what about an observer from
+another solar system, whose planet orbits a different star? This observer says that our
+whole solar system is in motion. To him, the earth's motion around our sun looks like a spiral or a
+corkscrew, since the sun is itself moving.
+
+\mysection[0]{The Strong Principle of Inertia}\index{inertia!strong principle of}\label{sec:strong-inertia}
+\begin{envsubsection}{Symmetry and inertia}
+This story shows that space-translation symmetry is closely related to the relative nature
+of motion. Riding in a train on a long, straight track at constant speed, how can you even
+tell you're in motion? You can look at the scenery outside, but that's irrelevant, because
+we could argue that the trees and cows are moving while you stand still. (The Martians
+say both train and scenery are moving.) The real point is whether you can
+detect your motion without reference to any external object. You can hear the repetitive
+thunk-thunk-thunk as the train passes from one piece of track to the next, but again
+this is just a reference to an external object --- all that proves is that you're moving
+relative to the tracks, but is there any way to tell that you're moving in some
+\emph{absolute} sense? Assuming no interaction with the outside world, 
+is there any experiment you can do that will come out
+different when the train is in motion than when it's at rest?
+You could if space-translation symmetry was violated. If the laws of physics were different
+in different places, then as the train moved it would pass through them. ``Riding over''
+these regions would be like riding over the pieces of track, but you would be able
+to detect the transition from one region to the next simply because experiments inside
+the train came out different, without referring to any external objects.
+Rather than the thunk-thunk-thunk of the rails, you would
+detect increases and decreases in some quantity such as the gravitational constant $G$,
+or the speed of light, or the mass of the electron.
+
+We can therefore conclude that the following two hypotheses are closely related.
+
+\begin{important}[The principle of inertia (strong version)]
+Experiments don't come out different due to the straight-line,
+constant-speed motion of the apparatus. 
+\end{important}
+
+\begin{important}[Space-translation symmetry]
+The laws of physics are the same at every point in space. Specifically, experiments
+don't come out different just because you set up your apparatus in a different place.
+\end{important}
+
+\begin{eg}{A state of absolute rest}\label{eg:absoluterest}
+Suppose that space-translation symmetry is violated. The laws of phys\-ics are different
+in one region of space than in another. Cruising in our spaceship, we monitor the
+fluctuations in the laws of physics by watching the needle on a meter that measures
+some fundamental quantity such as the gravitational constant. We make a short blast
+with the ship's engines and turn them off again. Now we see that the needle is wavering
+more slowly, so evidently it's taking us more time to move from one region to the next.
+We keep on blasting with the ship's engines until the fluctuations stop entirely. Now
+we know that we're in a state of absolute rest. The violation of translation
+symmetry logically resulted in a violation of the principle of inertia.
+\end{eg}
+
+\selfcheck{moonviolatestranslation}{Suppose you do an experiment to see how long it takes
+for a rock to drop one meter. This experiment comes out different if you do it on the moon.
+Does this violate space-translation symmetry?}
+
+People have a strong intuitive belief that there is a state of absolute rest,
+and that the earth's surface defines it. But Copernicus proposed as a mathematical
+assumption, and Galileo argued as a matter of physical reality, that the earth spins
+on its axis, and also circles the sun. Galileo's opponents objected that this was
+impossible, because we would observe the effects of the motion. They said, for example,
+that if the earth was moving, then you would never be able to jump up in the air and
+land in the same place again --- the earth would have moved out from under you.
+Galileo realized that this wasn't really an argument about the earth's motion but
+about physics. In one of his books, which were written in the form of dialogues, he has
+the three characters debate what would happen if a ship was cruising smoothly across
+a calm harbor and a sailor climbed up to the top of its mast and dropped a rock.
+Would it hit the deck at the base of the mast, or behind it because the ship had moved out from
+under it? This is the kind of experiment referred to in the strong principle of
+inertia, and Galileo knew that it would come out the same regardless of the ship's
+motion. His opponents' reasoning, as represented by the dialog's stupid character
+Simplicio, was based on the assumption that once the rock lost contact with the sailor's
+hand, it would naturally start to lose its forward motion. In other words,
+they didn't even believe in the weak principle of inertia
+(page \pageref{weak-principle-of-inertia}), which states that motion doesn't naturally
+slow down.
+
+The strong principle of inertia says more than that. It says that motion isn't even real:
+to a sailor standing on the deck of the ship, the deck and the masts and the rigging are not even
+moving. People on the shore can tell him that the ship and his own body are moving in a straight
+line at constant speed. He can reply, ``No, that's an illusion. I'm at rest. The only reason you think I'm moving is
+because you and the sand and the water are moving in the opposite direction.''
+The strong principle of inertia says that straight-line, constant-speed motion is a matter of opinion.
+The weak principle of inertia is then a logical
+byproduct: things can't ``naturally'' slow down and stop moving, because we can't even agree on which things
+are moving and which are at rest.
+
+If observers in different frames of reference disagree on velocities, it's natural to
+want to be able to convert back and forth. For motion in one dimension, this can be
+done by simple addition.\index{velocity!addition of}
+
+\begin{eg}{A sailor running on the deck}\label{eg:runtobow}
+\egquestion
+A sailor is running toward the front of a ship, and the other sailors say that in
+their frame of reference, fixed to the deck, his velocity is $7.0$ m/s. The ship
+is moving at $1.3$ m/s relative to the shore. How fast does an observer on the beach
+say the sailor is moving?
+
+\eganswer
+They see the ship moving at $7.0$ m/s, and the sailor moving even faster than that because
+he's running from the stern to the bow. In one second, the ship moves $1.3$ meters,
+but he moves $1.3+7.0$ m, so his velocity relative to the beach is $8.3$ m/s. 
+\end{eg}
+
+The only way to make this rule come out consistent is if we define velocities in
+one direction as positive and velocities in the opposite direction as negative.
+
+\begin{eg}{Running back toward the stern}
+\egquestion
+The sailor of example \ref{eg:runtobow} turns around and runs back toward the stern
+at the same speed relative to the deck. How do the other sailors describe this
+velocity mathematically, and what do observers on the beach say?
+
+\eganswer
+Since the other sailors described his original velocity as positive, they have to call
+this negative. They say his velocity is now $-7.0$ m/s. A person on the shore says
+his velocity is $1.3+(-7.0)=-5.7$ m/s.
+\end{eg}
+
+\end{envsubsection}
+%
+\begin{envsubsection}{Inertial and noninertial frames}
+Let's not overstate this. Is \emph{all} motion a matter of opinion? No --- try telling
+that\index{frame of reference!inertial}\index{frame of reference!noninertial}%
+\index{inertial frame of reference}\index{noninertial frame of reference}
+to the brave man in figure \figref{sled}! He's the one who feels the effects of the motion,
+not the observers standing by the track. Even if he can pull his face together enough to
+speak, he won't have much luck convincing them that his motion is an illusion, and that they're
+the ones who are really moving backward while his rocket sled is standing still.
+Only straight-line, constant-speed motion is a matter of opinion. His speed is changing, and
+the change in speed produces real effects. Experiments do come out different if your apparatus
+is \emph{changing} its speed. A frame of reference whose motion is changing is called a
+noninertial frame of reference, because the principle of inertia doesn't apply to it.
+
+\widefigsidecaption{sled}{This Air Force doctor volunteered to ride a rocket sled as a medical
+experiment. The obvious effects on his head and face are not because of the sled's speed
+but because of its rapid changes in speed: increasing in 2 and 3, and decreasing in
+5 and 6. In 4 his speed is greatest, but because his speed is not increasing or
+decreasing very much at this moment, there is little effect on him.}
+
+Experiments also come out different if your apparatus is changing its direction of motion.
+The landscape around you is moving in a circle right now due to the rotation
+of the Earth, and is therefore changing the direction of its motion continuously
+on a 24-hour cycle. However, the curve of the motion is so gentle that under
+ordinary conditions we don't notice that the local dirt's frame of reference isn't
+quite inertial. The first demonstration of the noninertial nature of the earth-fixed
+frame of reference was by Foucault\index{Foucault}
+ using a very massive pendulum whose oscillations
+would persist for many hours. Although Foucault did
+his demonstration in Paris, it's easier to imagine what would happen at the north pole:
+the pendulum would keep swinging in the same plane, but the earth would spin underneath
+it once every 24 hours. To someone standing in the snow, it would appear that the
+pendulum's plane of motion was twisting. The effect at latitudes less than 90
+degrees turns out to be slower, but otherwise similar. The Foucault pendulum was
+the first definitive experimental proof that the earth really did spin on its axis,
+although scientists had been convinced of its rotation for a century based on more
+indirect evidence about the structure of the solar system.
+
+\margup{-35mm}{\fig{foucault}{Foucault demonstrates his pendulum to an audience at
+		a lecture in 1851.}}
+\label{pickuptrucklinear}
+Often when we adopt a noninertial frame of reference, there is a vivid illusion
+that the laws of physics are being violated. It might seem like the Foucault pendulum was
+being influenced by evil spirits, if you forgot that it was actually the ground that was
+twisting around, not the pendulum.
+A simpler example is shown in figure \figref{pickuptrucklinear}.
+A bowling ball is in the back of a pickup truck, and the driver steps on the brakes. Because
+the truck is changing its speed, a frame of reference that moves with the truck
+is noninertial. For the driver,
+there is a strong psychological tendency to adopt this bad frame of reference, \subfigref{pickuptrucklinear}{1}, but then
+the bowling ball seems to be violating the laws of physics: according to the weak principle
+of inertia, the ball has no reason to start rolling toward the front of the truck. It's not interacting
+with any other object that would cause it to do this.
+In figure \subfigref{pickuptrucklinear}{2}, we watch the motion in an (approximately) inertial frame of 
+reference fixed to the sidewalk, and everything makes sense. The ball obeys the weak principle of
+inertia, and moves equal distances in equal time intervals. In this frame, it's the truck that
+changes its speed, which makes sense, because the truck's wheels are interacting with the pavement.
+
+\widefigsidecaption{pickuptrucklinear}{A bowling ball in the back of a pickup truck is viewed in a noninertial
+frame, 1, and an inertial one, 2.}
+
+\margup{-21mm}{\fig{galileotrial}{Galileo on trial before the Inquisition.}}
+Popular belief has Galileo being prosecuted\index{Galileo!trial}\index{Church, Catholic}\index{Catholic Church}
+by the Catholic Church for saying the earth rotated on its axis and also orbited the sun, but
+Foucault's pendulum was still centuries in the future, so Galileo had no hard
+proof; his insights into relative versus absolute motion simply made it
+more plausible that the world could be spinning without producing dramatic effects,
+but didn't disprove the contrary hypothesis that the sun, moon, and
+stars went around the earth every 24 hours. Furthermore, the Church was much more
+liberal and enlightened than most people believe. It didn't (and still doesn't)
+require a literal interpretation of the Bible, and one of the Church officials
+involved in the Galileo affair wrote that ``the Bible tells us how to go to heaven,
+not how the heavens go.'' In other words, religion and science should be separate.
+The actual reason Galileo got in trouble is shrouded in mystery, since Italy in the
+age of the Medicis was a secretive place where unscrupulous people might settle a score
+with poison or a false accusation of heresy. What is certain is that Galileo's
+satirical style of scientific writing made many enemies among the powerful Jesuit scholars
+who were his intellectual opponents --- he compared one to a snake that doesn't know
+its own back is broken. Galileo and the Pope were old friends, but someone started a rumor
+that the stupid character Simplicio in Galileo's dialogs was really meant to represent the Pope.
+It's also possible that the Church was far less upset by his
+astronomical work than by his support for atomism, the idea that matter is made of atoms.
+Some theologians perceived atomism
+as contradicting transubstantiation, the Church's doctrine that
+the holy bread and wine are literally transformed into the flesh and blood of
+Christ by the priest's blessing.
+
+
+\end{envsubsection}
+
+\mysection{Momentum}\index{momentum!conservation of}
+\begin{envsubsection}{Conservation of momentum}\index{momentum!conservation of}\index{conservation!of momentum}
+Let's return to the impossible story of Jen Yu and Iron Arm Lu on page \pageref{tiger}.
+For simplicity, we'll model them as two identical, featureless pool balls,
+\figref{impossible-a}. This may seem like a drastic simplification, but even a collision
+between two human bodies is really just a series of many collisions between atoms.
+The film shows a series of instants in time, viewed from overhead. The light-colored ball comes in, hits the
+darker ball, and rebounds. It seems strange that the dark ball has such a big
+effect on the light ball without experiencing any consequences itself, but how can we show that
+this is really impossible?
+
+\widefigsidecaption{impossible-a}{How can we prove that this collision is impossible?}
+
+We can show it's impossible by looking at it in a different frame of reference,
+\figref{impossible-b}. This camera follows the light ball on its way in, so in this
+frame the incoming light ball appears motionless. (If you ever get hauled into court
+on an assault charge for hitting someone, try this defense: ``Your honor, in my fist's
+frame of reference, it was his face that assaulted my knuckles!'') After the collision,
+the camera keeps moving in the same direction, because if it didn't, it wouldn't be
+showing us an inertial frame of reference. To help convince yourself that figures
+\figref{impossible-a} and \figref{impossible-b} represent the same motion seen in two
+different frames, note that both films agree on the distances between the balls at
+each instant. After the collision, frame \figref{impossible-b} shows the light ball moving twice as fast as the dark
+ball; an observer who prefers frame \figref{impossible-a} explains this
+by saying that the camera that produced film \figref{impossible-b} was moving one
+way, while the ball was moving the opposite way.
+
+\widefigsidecaption{impossible-b}{The collision of figure \figref{impossible-a} is viewed
+in a different frame of reference.}
+
+Figures \figref{impossible-a} and \figref{impossible-b} record the same
+events, so if one is impossible, the other is too. But figure \figref{impossible-b}
+is definitely impossible, because it violates conservation of energy. Before
+the collision, the only kinetic energy is the dark ball's. After the collision, light
+ball suddenly has some energy, but where did that energy come from? It can only have
+come from the dark ball. The dark ball should then have lost some energy, which it hasn't,
+since it's moving at the same speed as before.
+
+Figure \figref{possible} shows what really does happen. This kind of behavior is
+familiar to anyone who plays pool. In a head-on collision, the incoming ball stops
+dead, and the target ball takes all its energy and flies away. In \subfigref{possible}{1},
+the light ball hits the dark ball. In \subfigref{possible}{2}, the camera is initially following
+the light ball; in this frame of reference, the dark ball hits the light one (``Judge,
+his face hit my knuckles!''). The frame of reference shown in
+\subfigref{possible}{3} is particularly interesting. Here the
+camera always stays at the midpoint between the two balls. This is called the
+center-of-mass frame of reference.
+
+\widefigsidecaption{possible}{This is what really happens. Three films represent the same
+collision viewed in three different frames of reference. Energy is conserved in
+all three frames.}
+
+\selfcheck{markcm}{In each picture in figure \subfigref{possible}{1}, mark an x at
+the point half-way in between the two balls. This series of five x's represents the motion of the
+camera that was used to make the bottom film. How fast is the camera moving? Does it represent
+an inertial frame of reference?}
+
+What's special about the center-of-mass frame is its symmetry. In this frame, both balls
+have the same initial speed. Since they start out with the same speed, and they have the
+same mass, there's no reason for them to behave differently from each other after the collision.
+By symmetry, if the light ball feels a certain effect from the dark ball, the dark ball must feel
+the same effect from the light ball. 
+
+This is exactly like the rules of accounting. Let's say two big corporations are
+doing business with each other. If Glutcorp pays a million dollars to Slushco,
+two things happen: Glutcorp's bank account goes down by a million dollars, and
+Slushco's rises by the same amount. The two companies' books have to show
+transactions on the same date that are equal in size, but one is positive
+(a payment) and one is negative. What if Glutcorp records $-1,000,000$ dollars,
+but Slushco's books say $+920,000$? This indicates that a law has been broken;
+the accountants are going to call the police and start looking for the employee who's
+driving a new 80,000-dollar Jaguar. Money is supposed to be conserved.
+
+In figure \figref{possible}, let's define velocities as positive if the motion
+is toward the top of the page. In figure \subfigref{possible}{1}
+let's say the incoming light ball's velocity is 1 m/s.
+
+\newcommand{\half}{\ensuremath{0.5}}
+\velocitytable{0}{1}{$+1$}{1}{0}{$-1$}{darkball}{lightball}
+
+\noindent The books balance. The light ball's payment, $-1$, matches the dark ball's
+receipt, $+1$. Everything also works out fine in the center of mass frame, \subfigref{possible}{3}:
+
+\velocitytable{$-\half$}{$+\half$}{$+1$}{$+\half$}{$-\half$}{$-1$}{darkball}{lightball}
+
+\selfcheck{thirdframepcons}{Make a similar table for figure \subfigref{possible}{2}. What
+do you notice about the change in velocity when you compare the three tables?}
+
+Accounting works because money is conserved. Apparently, something is also conserved when
+the balls collide. We call it momentum. Momentum is not the same as velocity, because
+conserved quantities have to be additive. Our pool balls are like identical atoms, but
+atoms can be stuck together to form molecules, people, and planets. Because conservation
+laws work by addition, two atoms stuck together and moving at a certain velocity must have
+double the momentum that a single atom would have had. We therefore define momentum as
+velocity multiplied by mass.\index{Noether's theorem!for momentum}
+
+\begin{important}[Conservation of momentum]
+The quantity defined by
+\begin{equation*}
+	\text{momentum} = mv
+\end{equation*}
+is conserved.
+\end{important}
+
+
+This is our second example of Noether's theorem:\nopagebreak
+
+\begin{noethertable}
+time translation & \noetherimplies & mass-energy \\
+space translation & \noetherimplies & momentum \\
+\end{noethertable}
+
+\vfill
+
+
+\begin{eg}{Conservation of momentum for pool balls}
+\egquestion
+Is momentum conserved in figure \subfigref{possible}{1}?
+
+\eganswer
+We have to check whether the total initial momentum is the same as the total
+final momentum.
+\begin{multline*}
+	\text{dark ball's initial momentum} + \text{light ball's initial momentum}\\
+	=? \\
+       \text{dark ball's final momentum} + \text{light ball's final momentum}
+\end{multline*}
+Yes, momentum was conserved:
+\begin{equation*}
+	0+mv = mv+0
+\end{equation*}
+\end{eg}
+
+\marg{\fig{skatersmomentum}{example \ref{eg:skatersmomentum}}}
+\begin{eg}{Figure skaters push off from each other}\label{eg:skatersmomentum}
+Let's revisit the figure skaters from the example on page
+\pageref{original-skaters}. I argued there that if they had equal masses,
+then mirror symmetry would imply that they moved off with equal speeds
+in opposite directions. Let's check that this is consistent with conservation
+of momentum:
+\begin{multline*}
+	\text{left skater's initial momentum} + \text{right skater's initial momentum}\\
+	=? \\
+       \text{left skater's final momentum} + \text{right skater's final momentum}
+\end{multline*}
+Momentum was conserved:
+\begin{equation*}
+	0+0 = m\times(-v)+mv
+\end{equation*}
+This is an interesting example, because if these had been pool balls instead
+of people, we would have accused them of violating conservation of energy. Initially
+there was zero kinetic energy, and at the end there wasn't zero. (Note that the energies
+at the end don't cancel, because kinetic energy is always positive, regardless
+of direction.) The mystery is resolved because they're people, not pool balls. They
+both ate food, and they therefore have chemical energy inside their bodies:
+\begin{equation*}
+	\text{food energy} \rightarrow \text{kinetic energy} + \text{kinetic energy} + \text{heat}
+\end{equation*}
+\end{eg}
+
+\begin{eg}{Unequal masses}
+\egquestion Suppose the skaters have unequal masses: 50 kg for the one on the left, and 55 kg for
+the other. The more massive skater, on the right, moves off at 1.0 m/s. How fast does
+the less massive skater go?
+
+\eganswer Their momenta (plural of momentum) have to be the same amount, but with opposite signs.
+The less massive skater  must have a greater velocity if her momentum is going to be
+as much as the more massive one's.
+\begin{align*}
+	0+0 &= (50\ \kgunit)(-v)+(55\ \kgunit)(1.0\ \munit/\sunit)\\
+	(50\ \kgunit)(v) &= (55\ \kgunit)(1.0\ \munit/\sunit)\\
+	v &= \frac{(55\ \kgunit)}{50\ \kgunit}(1.0\ \munit/\sunit)\\
+	  &= 1.1\ \munit/\sunit
+\end{align*}
+\end{eg}
+\end{envsubsection}
+\begin{envsubsection}{Momentum compared to kinetic energy}\index{momentum!compared to kinetic energy}\index{kinetic energy!compared to momentum}
+Momentum and kinetic energy are both measures of the
+amount of motion, and a sideshow in the Newton-Leibniz
+controversy over who invented calculus was an argument over
+which quantity was the ``true'' measure of
+motion. The modern student can certainly be excused for
+wondering why we need both quantities, when their complementary
+nature was not evident to the greatest minds of the 1700's.
+The following table highlights their differences.
+
+\noindent\begin{tabular}{|p{52mm}|p{52mm}|}
+\hline
+\textbf{Kinetic energy\ldots}	& \textbf{Momentum\ldots}\\
+\hline
+has no direction in space. & has a direction in space.\\
+\hline
+is always positive, and cannot cancel out. & cancels with momentum in the opposite direction.\\
+\hline
+can be traded for forms of energy that do not involve motion. KE is not
+a conserved quantity by itself. & is always conserved.\\
+\hline
+is quadrupled if the velocity is doubled (lab \ref{ch:energy}\ref{lab:energy}). & is doubled if the velocity is doubled.\\
+\hline
+\end{tabular}
+
+
+Here are some examples that show the different behaviors
+of the two quantities.
+
+\marg{\fig{coinmomentum}{example \ref{eg:coinmomentum}}
+\spacebetweenfigs
+\fig{earthmoondivorce}{example \ref{eg:earthmoondivorce}}}
+\begin{eg}{A spinning coin}\label{eg:coinmomentum}
+A spinning coin has zero total momentum, because for every
+moving point, there is another point on the opposite side
+that cancels its momentum. It does, however, have kinetic energy.
+\end{eg}
+
+\begin{eg}{Momentum and kinetic energy in firing a rifle}
+The rifle and bullet have zero momentum and zero kinetic
+energy to start with. When the trigger is pulled, the bullet
+gains some momentum in the forward direction, but this is
+canceled by the rifle's backward momentum, so the total
+momentum is still zero. The kinetic energies of the gun and
+bullet are both positive numbers, however, and do not
+cancel. The total kinetic energy is allowed to increase,
+because both objects' kinetic energies are destined to be
+dissipated as heat --- the gun's ``backward'' kinetic energy
+does not refrigerate the shooter's shoulder!
+\end{eg}
+
+\begin{eg}{The wobbly earth}
+As the moon completes half a circle around the earth, its
+motion reverses direction. This does not involve any change
+in kinetic energy, because the moon doesn't speed up or slow
+down, nor is there any change in gravitational energy, because
+the moon stays at the same distance from the earth.\footnote{Actually these
+statements are both only approximately true. The moon's orbit isn't exactly a circle.}
+ The reversed velocity 
+does, however, imply a reversed momentum, so
+conservation of momentum 
+tells us that the earth must also change its momentum. In
+fact, the earth wobbles in a little ``orbit'' about a point
+below its surface on the line connecting it and the moon.
+The two bodies' momenta always point in opposite
+directions and cancel each other out.
+\end{eg}
+
+\begin{eg}{The earth and moon get a divorce}\label{eg:earthmoondivorce}
+Why can't the moon suddenly decide to fly off one way and
+the earth the other way? It is not forbidden by conservation
+of momentum, because the moon's newly acquired momentum in
+one direction could be canceled out by the change in the
+momentum of the earth, supposing the earth headed the
+opposite direction at the appropriate, slower speed. The
+catastrophe is forbidden by conservation of energy, because
+both their kinetic energies would have increased greatly.
+\end{eg}
+
+\begin{eg}{Momentum and kinetic energy of a glacier}
+A cubic-kilometer glacier would have a mass of about
+$10^{12}$  kg --- 1 followed by 12 zeroes. If it moves at a speed of $0.00001$  m/s,
+then its momentum\footnote{The units of this number are
+kilograms times meters per second, or $\kgunit\unitdot\munit/\sunit$.} is $10,000,000$. 
+This is the kind of
+heroic-scale result we expect, perhaps the equivalent of the
+space shuttle taking off, or all the cars in LA driving in
+the same direction at freeway speed. Its kinetic energy,
+however, is only 50 joules, the equivalent of the calories
+contained in a poppy seed or the energy in a drop of
+gasoline too small to be seen without a microscope. The
+surprisingly small kinetic energy is because kinetic energy
+is proportional to the square of the velocity, and the
+square of a small number is an even smaller number.
+\end{eg}
+\end{envsubsection}
+\begin{envsubsection}{Force}
+\subsubsection{Definition of force}\index{force!definition}
+When momentum is being transferred, we refer to the rate of transfer as the force.\footnote{This
+definition is known as Newton's second law of motion. Don't memorize that!} The metric
+unit of force is the newton (N).\index{force!unit}\index{newton (unit)}
+The relationship between force and momentum is like the relationship between
+power and energy, or the one between your cash flow and your bank balance:
+
+\begin{tabular}{|p{20mm}p{20mm}|p{20mm}p{20mm}|}
+\hline
+\multicolumn{2}{|p{40mm}|}{\textbf{conserved quantity}} &\multicolumn{2}{|p{40mm}|}{\textbf{rate of transfer}} \\
+\hline
+\textbf{name} & \textbf{units} & \textbf{name} & \textbf{units} \\
+energy & joules (J) & power & watts (W) \\
+momentum & $\kgunit\unitdot\munit/\sunit$ & force & newtons (N)\\
+\hline
+\end{tabular}
+
+\begin{eg}{A bullet}\label{eg:bulletforce}
+\egquestion A bullet emerges from a gun with a momentum of 1.0 units,\footnote{metric units of $\kgunit\unitdot\munit/\sunit$} after
+having been acted on for 0.01 seconds by the force of the gases from the explosion of the gunpowder.
+What was the force on the bullet?
+
+\eganswer 
+The force is\footnote{This is really only an estimate of the average force over the time it takes for the bullet
+to move down the barrel. The force probably starts out stronger than this, and then gets weaker because the gases
+expand and cool.}
+\begin{equation*}
+	\frac{1.0}{0.01} = 100\ \text{newtons} \qquad .
+\end{equation*}
+\end{eg}
+
+There's no new physics happening here, just a definition of the word ``force.'' Definitions are neither right nor
+wrong, and just because the Chinese call it \raisebox{-0.2mm}{\anonymousinlinefig{li}} instead, that doesn't mean they're
+incorrect. But when Isaac Newton first started using the term ``force'' according to this
+technical definition, people already had some definite ideas about what the word meant.
+
+\subsubsection{Forces occur in equal-strength pairs}\index{force!pairs}\index{Newton, Isaac!third law}
+In some cases Newton's definition matches our intuition. In example \ref{eg:bulletforce}, we divided by a small
+time, and the result was a big force; this is intuitively reasonable, since we expect the force on the bullet to
+be strong.
+In other situations, however, our intuition rebels against reality.
+
+\begin{eg}{Extra protein}\label{eg:extraprotein}
+\egquestion
+While riding my bike fast down a steep hill, I pass through a cloud of gnats, and one of them goes into my
+mouth. Compare my force on the gnat to the gnat's force on me.
+
+\eganswer
+Momentum is conserved, so the momentum gained by the gnat equals the momentum lost by me. Momentum
+conservation holds true at every instant over the fraction of a second that it takes for the collision to
+happen. The rate of transfer
+of momentum out of me must equal the rate of transfer into the gnat. Our forces on each other have the
+same strength, but they're in opposite directions.
+\end{eg}
+
+\noindent Most people would be willing to believe that the momentum gained by the gnat is the same as the
+momentum lost by me, but they would not believe that the forces are the same strength. Nevertheless, 
+the second statement follows from the first merely as a matter of definition. 
+Whenever two objects, A and B, interact,\label{thirdlaw}
+A's force on B is the same strength as B's force on A, and the forces are in opposite directions.\footnote{This
+is called Newton's third law. Don't memorize that name!}
+\begin{equation*}
+	\text{(A on B)} = -\text{(B on A)}
+\end{equation*}
+Using the metaphor of money, suppose Alice and Bob are adrift in a life raft, and pass the time by playing
+poker. Money is conserved, so if they count all the money in the boat every night, they should always come
+up with the same total. A completely equivalent statement is that their cash flows are equal and opposite.
+If Alice is winning five dollars per hour, then Bob must be losing at the same rate.
+
+%people may believe cons of momentum but disbelieve when stated in force terms; two Israeli psychologists
+%kahneman tversky
+
+\margup{-40mm}{\fig{bartab}{It doesn't make sense to add his debts to her assets.}
+\spacebetweenfigs
+\fig{squeezescale}{I squeeze the bathroom scale.
+It does make sense to add my fingers' force to my thumbs', because they both act on the same object --- the scale.}}
+This statement about equal forces in opposite directions implies to many students a kind of mystical
+principle of equilibrium that explains why things don't move. That would be a useless principle, since it
+would be violated every time something moved.\footnote{During the Scopes monkey trial, William Jennings Bryan
+claimed that every time he picked his foot up off the ground, he was violating the law of gravity.} The ice skaters
+of figure \figref{skatersmomentum} on page \pageref{fig:skatersmomentum} make forces on each
+other, and their forces are equal in strength and opposite in direction. That doesn't mean
+they won't move. They'll both move --- in opposite directions.
+
+The fallacy comes from trying to
+add things that it doesn't make sense to add, as suggested by the cartoon in figure \figref{bartab}.
+We only add forces that are acting on the same object. It doesn't make sense to say that the skaters'
+forces on each other add up to zero, because it doesn't make sense to add them. One is a force on the
+left-hand skater, and the other is a force on the right-hand skater.
+
+In figure \figref{squeezescale}, my fingers'
+force and my thumbs' force are both acting on the bathroom scale.
+It does make sense to add these forces, and they may possibly add up to zero, but
+that's not guaranteed by the laws of physics. 
+If I throw the scale at you, my thumbs' force is stronger that my fingers', and the forces no longer cancel:
+\begin{equation*}
+	\text{(fingers on scale)} \ne -\text{(thumbs on scale)} \qquad .
+\end{equation*}
+What's guaranteed by conservation of momentum is a whole different relationship:
+\begin{align*}
+	\text{(fingers on scale)} &= -\text{(scale on fingers)} \\
+	\text{(thumbs on scale)} &= -\text{(scale on thumbs)} \\
+\end{align*}
+\subsubsection{The force of gravity}\index{force!of gravity}\index{gravity!force of}
+How much force does gravity make on an object? From everyday experience, we know
+that this force is proportional to the object's mass.\footnote{This follows from the
+additivity of forces.} Let's find the force on
+a one-kilogram object. If we release this object from rest, then after it has
+fallen one meter, its kinetic energy equals the strength of the gravitational field,
+\begin{equation*}
+10\ \text{joules per kilogram per meter}\times1\ \text{kilogram}\times1\ \text{meter} = 10\ \text{joules} \qquad .
+\end{equation*}
+Using the equation for kinetic energy from lab \ref{ch:energy}\ref{lab:energy} and doing a little simple algebra, we find that
+its final velocity is 4.4 m/s. It starts from 0 m/s, and ends at 4.4 m/s, so
+its average velocity is 2.2 m/s, and the time takes to fall one meter is therefore
+(1 m)/(2.2 m/s)=0.44 seconds. Its final momentum is 4.4 units, so the force on it was
+evidently
+\begin{equation*}
+	\frac{4.4}{0.44} = 10\ \text{newtons} \qquad .
+\end{equation*}
+This is like one of those card tricks where the magician makes you go through a bunch
+of steps so that you end up revealing the card you had chosen --- the result is just
+equal to the gravitational field, 10, but in units of newtons! If algebra makes you feel
+warm and fuzzy, you may want to replay the derivation using symbols and convince yourself
+that it had to come out that way. If not, then I hope the numerical result is enough
+to convince you of the general fact that the force of gravity on a one-kilogram mass
+equals $g$. For masses other than one kilogram, we have the handy-dandy result that
+\begin{equation*}
+	(\text{force of gravity on a mass $m$}) = mg \qquad .
+\end{equation*}
+In other words, $g$ can be interpreted not just as the gravitational energy per kilogram
+per meter of height, but also as the gravitational force per kilogram.
+\end{envsubsection}
+%
+\begin{envsubsection}{Motion in two dimensions}
+\subsubsection{Projectile motion}
+Galileo was an innovator in more than one way. He was arguably the inventor of open-source
+software: he invented a mechanical calculating device for certain engineering applications,
+and rather than keeping the device's design secret as his competitors did, he made it
+public, but charged students for lessons in how to use it. Not only that, but he was
+the first physicist to make money as a military consultant. Galileo understood projectiles
+better than anyone else, because he understood the principle of inertia. Even if you're not
+planning on a career involving artillery, projectile motion is a good thing to learn about
+because it's an example of how to handle motion in two or three dimensions. \index{Galileo!projectile motion}\index{projectile motion}
+
+\marg{%
+\fig{dropball}{A ball is falling (or rising).}
+\spacebetweenfigs
+\fig{parabolaball}{The same ball is viewed in a frame of reference that is moving
+horizontally.}
+\spacebetweenfigs
+\fig{hose}{The drops of water travel in parabolic arcs.}
+}
+Figure \figref{dropball} shows a ball in the process of falling --- or rising,
+it really doesn't matter which. Let's say the ball has a mass of one kilogram, each square in
+the grid is 10 meters on a side, and the positions of the ball are shown at time intervals
+of one second. The earth's gravitational force on the ball is 10 newtons, so with each
+second, the ball's momentum increases by 10 units, and its speed also increases by
+10 m/s. The ball falls 10 m in the first second, 20 m in the next second, and so on.
+
+\selfcheck{heavierball}{What would happen if the ball's mass was 2 kilograms?}
+
+Now let's look at the ball's motion in a new frame of reference, \figref{parabolaball},
+which is moving at 10 meters per second to the left compared to the frame of reference
+used in figure \figref{dropball}. An observer in this frame of reference sees the ball
+as moving to the right by 10 meters every second. The ball traces an arc of a specific
+mathematical type called a parabola:\index{parabola}
+
+\hspace{15mm}\parbox{80mm}{\begin{tabular}{p{60mm}}
+1 step over and 1 step down\\
+1 step over and 2 steps down\\
+1 step over and 3 steps down\\
+1 step over and 4 steps down\\
+\ldots
+\end{tabular}}
+
+It doesn't matter which frame of reference is the ``real'' one. Both diagrams
+show the possible motion of a projectile. The interesting point here is that the vertical
+force of gravity has no effect on the horizontal motion, and the horizontal motion also
+has no effect on what happens in the vertical motion. The two are completely independent.
+If the sun is directly overhead, the motion of the ball's shadow on the ground seems perfectly
+natural: there are no horizontal forces, so it either sits still or moves at constant
+velocity. (Zero force means zero rate of transfer of momentum.) The same is true if we shine
+a light from one side and cast the ball's shadow on the wall. Both shadows obey the laws
+of physics.
+
+\begin{eg}{The moon}\label{eg:moonorbit}
+In example \ref{eg:newtonsapple} on page \pageref{eg:newtonsapple}, I promised an
+explanation of how Newton knew that the gravitational field experienced by the moon
+due to the earth was 1/3600 of the one we feel here on the earth's surface.
+The radius of the moon's orbit had been known since ancient times
+(see page \pageref{hipparchusmoondistance}), 
+so Newton knew its speed to be 1,100 m/s (expressed in modern units).
+If the earth's gravity wasn't acting on the moon, the moon would fly off straight,
+along the straight line shown in figure \figref{moonorbit}, and it
+would cover 1,100 meters in one second. We observe instead
+that it travels the arc of a circle centered on the earth. Straightforward
+geometry shows that the amount by which the arc drops below the straight line
+is 1.6 millimeters. Near the surface of the earth, an object falls 5 meters
+in one second,\footnote{Its initial speed is 0, and its final speed is 10 m/s, so its
+average speed is 5 m/s over the first second of falling.} which is
+indeed about 3600 times greater than 1.6 millimeters.
+
+\vfill\pagebreak[4]
+
+The tricky part about this argument is that although I said the path of a projectile
+was a parabola, in this example it's a circle. What's going on here? What's different
+here is that as the moon moves 1,100 meters, it changes its position relative to the
+earth, so down is now in a new direction. We'll discuss circular motion more
+carefully soon, but in this example, it really doesn't matter. The curvature of the
+arc is so gentle that a parabola and a circle would appear almost identical. (Actually
+the curvature is so gentle --- 1.6 millimeters over a distance of 1,100 meters! --- that
+if I had drawn the figure to scale, you wouldn't have even been able to tell that it
+wasn't straight.)\index{moon!orbit}
+
+As an interesting historical note, Newton claimed that he first did this
+calculation while confined to his family's farm during the plague of 1666, and
+found the results to ``answer pretty nearly.''
+His notebooks, however, show that although he did the calculation on that date,
+the result didn't quite come out quite right, and he became uncertain about
+whether his theory of gravity was correct as it stood or needed to be modified.
+Not until 1675 did he learn of more accurate astronomical data, which convinced
+him that his theory didn't need to be tinkered with.
+It appears that he rewrote his own life story a little bit
+in order to make it appear that his work was more advanced at an earlier
+date, which would have helped him in his dispute with Leibniz over priority
+in the invention of calculus.
+\end{eg}
+
+\margup{-104mm}{%
+\fig{moonorbit}{example \ref{eg:moonorbit}}
+\vspace{50mm}
+\fig{memoryofmotion}{The memory of motion: the default would be for the ball to continue
+doing what it was already doing. The force of gravity makes it deviate downward, ending
+up one square below the default.}
+}
+\subsubsection{The memory of motion}
+There's another useful way of thinking about motion
+along a curve.
+The weak principle of inertia tells us that in the absence of a force, an
+object will continue moving in the same speed and in the same direction. One of my students
+invented a wonderful phrase for this: the memory of motion. 
+Over the first second of its motion, the ball in figure
+\figref{memoryofmotion} moved 1 square over and 1 square down, which is 10 meters and
+10 meters. The default for the next one-second
+interval would be to repeat this, ending up at the location marked with the 
+first dashed circle. The earth's 10-newton gravitational force on the ball, however, changes
+the vertical part of the ball's momentum by 10 units. The ball actually ends up 10 meters
+(1 square) below the default.
+
+\vfill\pagebreak[4]
+
+\subsubsection{Circular motion}\index{circular motion}
+Figure \figref{hammerpolygons} shows how to apply the memory-of-motion idea to circular motion. It
+should convince you that only an inward force is needed to produce circular motion.
+One of the reasons Newton was the first to make any progress in analyzing the motion of
+the planets around the sun was that his contemporaries were confused on this point. Most
+of them thought that in addition to an attraction from the sun, a second, forward force
+must exist on the planets, to keep them from slowing down. This is incorrect Aristotelian
+thinking; objects don't naturally slow down. Car 1 in figure \figref{carincircle} only
+needs a forward force in order to cancel out the backward force of friction; the total force on
+it is zero. Similarly, the forward and backward forces on car 2 are canceling out, and the
+only force left over is the inward one. There's no friction in the vacuum of outer space,
+so if car 2 was a planet, the backward force wouldn't exist; the forward force wouldn't
+exist either, because the only force would be the force of the sun's gravity.
+
+\widefigsidecaption{hammerpolygons}{A large number of gentle taps gives a good approximation to circular
+motion. A steady inward force would give exactly circular motion.}%
+
+\marg{
+\fig{carincircle}{The forces on car 1 cancel, and the total force on it is zero. The forward
+and backward forces on car 2 also cancel. Only the inward force remains.}}
+On page \pageref{pickuptrucklinear} we saw that when we tried to visualize motion in
+a noninertial frame of reference, we experienced the vivid illusion of a violation of
+the laws of physics. In circular motion, this temptation is especially strong.
+Frame \subfigref{pickuptruckcircular}{1}, attached to the turning truck, is noninertial, because 
+it changes the direction of its motion. The ball violates the weak principle of inertia
+by accelerating from rest for no apparent reason. Is there some mysterious outward force
+that is slamming the ball into the side of the truck's bed? No. By analyzing everything in
+a proper inertial frame of reference, \subfigref{pickuptruckcircular}{2}, we see that it's
+the truck that swerves and hits the ball. That makes sense, because the truck is interacting
+with the asphalt.\index{frame of reference!noninertial}
+
+\widefig{pickuptruckcircular}{A bowling ball is in the back of a pickup truck turning left.
+The motion is viewed first in a frame that turns along with the truck, 1, and then in
+an inertial frame, 2.}
+
+\end{envsubsection}
+
+% Because a floating fig ends up on this page, have to convince LaTeX to make a page break
+% before the hw section:
+\raisebox{0mm}[100mm][0mm]{\quad}
+
+%===============================================================================
+%===============================================================================
+
+% blocks on butcher paper works well as galilean symmetry
+% lab: fill in cases where KE isn't the only form of energy, e.g. carts hit and stick with velcro
+% hw: redo addition of vel and pool ball analysis in opposite coordinate system
+% hw: fill in details of moon orbit example
+% hw: two projectiles on grid, one going at theta, the other at 90-theta; show ranges are equal
+% activity: George's hammer hitting bowling ball, parabola; cf circle?
+% hw: analyze completely inelastic collision; need this as preparation for treatment of mass
+%    - energy equivalence in next chapter
+\begin{hwsection}
+
+\begin{hw}{beer}
+The beer bottle shown in the figure is resting on a table in the dining car of a train.
+The tracks are straight and level. What can you tell about the motion of the
+train? Can you tell whether the train is currently moving forward, moving backward,
+or standing still? Can you tell what the train's speed is?
+\end{hw}
+
+\begin{hw}{flag-in-balloon}
+You're a passenger in the open basket hanging under a hot-air balloon.
+The balloon is being carried along by the wind at a constant velocity.
+If you're holding a flag in your hand, will the flag wave? If so,
+which way? (Based on a question from PSSC Physics.)
+\end{hw}
+
+\margup{-45mm}{\fig{hw-beer}{Problem \ref{hw:beer}.}
+\spacebetweenfigs
+\fig{hw-flag-in-balloon}{Problem \ref{hw:flag-in-balloon}}}
+\begin{hw}{foot-off-gas}
+Driving along in your car, you take your foot off the gas, and your speedometer
+shows a reduction in speed. Describe an inertial frame in which your car
+was \emph{speeding up} during that same period of time.
+\end{hw}
+
+\begin{hw}{airsettlesonfloor}
+If all the air molecules in the room settled down in a thin film on the floor,
+would that violate conservation of momentum as well as conservation of energy?
+\end{hw}
+
+\begin{hw}{bulletthroughbook}
+A bullet flies through the air, passes through a
+paperback book, and then continues to fly through the air
+beyond the book. When is there a force? When is there energy?
+\end{hw}
+
+\begin{hw}{findthetop}
+(a) Continue figure \figref{parabolaball} farther to the left, and do the
+same for the numerical table in the text.\hwendpart
+(b) Sketch a smooth curve (a parabola) through all the points on the figure, including all
+the ones from the original figure and all the ones you added. Identify the very top of
+its arc.\hwendpart
+(c) Now consider figure \figref{dropball}. Is the highest point shown in the figure the
+top of the ball's up-down path? Explain by comparing with your results from parts a and b.
+\end{hw}
+
+\begin{hw}{interpret-film-time-not-space}
+Criticize the following statement about the top panel of figure \figref{possible} on page \pageref{fig:possible}:
+In the first few pictures, the light ball is moving up and to the right, while the dark ball moves directly to the
+right.
+\end{hw}
+
+
+\begin{hw}{film-dropping}
+The figure on page \pageref{hw-film-dropping-fig}
+shows a ball dropping to the surface of the earth. Energy is conserved: over the
+whole course of the film, the gravitational energy between the ball and the earth decreases
+by 1 joule, while the ball's kinetic energy increases by 1 joule.\hwendpart
+(a) How can you tell \emph{directly from the figure}
+ that the ball's speed isn't staying the same?\hwendpart
+(b) Draw what the film would look like if the camera was following the ball.\hwendpart
+(c) Explain how you can tell that in this new frame of reference, energy is not conserved.\hwendpart
+(d) Does this violate the strong principle of inertia? Isn't every frame of reference supposed to be equally valid?
+\end{hw}
+
+\widefigsidecaption{film-dropping}{Problem \ref{hw:film-dropping}.}\label{hw-film-dropping-fig}
+
+
+\end{hwsection}
+
+
+%========================================== labs ===============================================
+%--------------------------------- interactions lab --------------------------------------
+
+\begin{lab}{Interactions}
+
+\apparatus
+\equipn{single neodymium magnet}{1/group}\\
+\equipn{triple neodymium magnet}{1/group}\\
+\equip{compass}\\
+\equipn{triple-arm balance}{2}\\
+\equip{clamp and 50-cm rod for holding balance up}\\
+\equip{string}\\
+\equip{tape}\\
+\equip{scissors}\\
+\equip{heavy-duty spring scales}\\
+\equip{rubber stoppers}
+
+\goal{Form hypotheses about forces and test them.}\index{Aristotle}
+
+\labintroduction
+
+Why does a rock fall if you drop it?  The ancient Greek
+philosopher Aristotle theorized that it was because the rock
+was trying to get to its natural place, in contact with the
+earth.  Why does a ball roll if you push it? Aristotle would
+say that only living things have the ability to move of
+their own volition, so the ball can only move if you give
+motion to it.  Aristotle's explanations were accepted by
+Arabs and Europeans for two thousand years, but beginning in
+the Renaissance, his ideas began to be modified drastically.
+ Today, Aristotelian physics is discussed mainly by physics
+teachers, who often find that their students intuitively
+believe the Aristotelian world-view and strongly resist the
+completely different version of physics that is now
+considered correct.  It is not uncommon for a student to
+begin a physics exam and then pause to ask the instructor,
+``Do you want us to answer these questions the way you told
+us was true, or the way we really think it works?''  The
+idea of this lab is to make observations of objects, mostly
+magnets, pushing and pulling on each other, and to figure
+out some of the corrections that need to be made to
+Aristotelian physics.
+
+Some people might say that it's just a matter of definitions
+or semantics whether Aristotle is correct or not.  Is
+Aristotle's theory even testable?  One testable feature of
+the theory is its asymmetry.  The Aristotelian description
+of the rock falling and the ball being pushed outlines two
+relationships involving four objects:
+
+\labfig{lab-force-aristotle}
+
+According to Aristotle, there are asymmetries involved in both situations.
+
+(1) The earth's role is not interchangeable with that of the
+rock.  The earth functions only as a place where the rock
+tends to go, while the rock is an object that moves from
+one place to another.
+
+(2) The hand's role is not analogous to the ball's.  The
+hand is capable of motion all by itself, but the ball can't
+move without receiving the ability to move from the hand.
+
+If we do an experiment that shows these types of asymmetries,
+then Aristotle's theory is supported.  If we find a more
+symmetric situation, then there's something wrong with Aristotle's theory.
+
+\labobservations
+
+\labpart{ Comparing magnets' strengths}
+
+To make an interesting hypothesis about what will happen in
+part C, the main event of the lab, you'll need to know how
+the top (single) and bottom (triple) magnets' strengths
+compare. It would seem logical that the triple magnet would
+be three times stronger than the single, but in this part
+of the lab you're going to find out for sure.
+
+\labfigcaption{lab-force-strength}{Orient your magnet this way, as
+if it's rolling toward the compass from the north. With no magnet
+nearby, the compass points to magnetic north (dashed arrow).
+ The magnet deflects the compass to a new direction. }
+
+One way of measuring the strength of a magnet is to place
+the magnet to the north or south of the compass and see how
+much it deflects (twists) the needle of a compass. You need
+to test the magnets at equal distances from the compass,
+which will produce two different angles.\footnote{There are two
+reasons why it wouldn't make sense to find different distances
+that produced the same angle. First, you don't know how the
+strengths of the effect falls off with distance; it's not necessarily
+true, for instance, that the magnetic field is half as strong at
+twice the distance. Second, the point of this is to help you
+interpret part C, and in part C, the triple magnet's distance
+from the single magnet is the same as the single magnet's distance
+from the first magnet.}
+It's also important to get everything oriented
+properly, as in the figure.\footnote{Although you don't yet know
+enough about magnetism to be able to see from first
+principles why it should be this way, you can easily
+convince yourself empirically that other setups (e.g.
+rotating the magnet 90 degrees) give results that are
+inaccurate and hard to reproduce, because the compass acts ``fidgety.''}
+
+Make sure
+to take your data with the magnets far enough from the
+compass that the deflection angle is fairly small (say 5 to
+30\degunit).  If the magnet is close enough to the compass
+to deflect it by a large angle, then the ratio of the angles
+does not accurately represent the ratio of the magnets'
+strengths. After all, just about any magnet is capable of
+deflecting the compass in any direction if you bring it
+close enough, but that doesn't mean that all magnets are
+equally strong.
+
+\labpart{ Qualitative observations of the interaction of two magnets}
+
+Play around with the two magnets and see how they interact
+with each other. Can one attract the other?  Can one repel
+the other?  Can they act on each other simultaneously? Do
+they need to be touching in order to do anything to each
+other?   Can A act on B while at the same time B does
+not act on A at all?  Can A pull B toward itself at the
+same time that B pushes A away?  When holding one of the
+heavier magnets, it may be difficult to feel when there is
+any push or pull on it; you may wish to have one person hold
+the magnet with her eyes closed while the other person moves
+the other magnet closer and farther.
+
+\labpart{ Measurement of interactions between two magnets}
+
+Once you have your data from parts A and B, you are
+ready to form a hypothesis about the following situation. 
+Suppose we set up two balances as shown in the figure.  The
+magnets are not touching.  The top magnet is hanging from a
+hook underneath the pan, giving the same result as if it was
+on top of the pan.  Make sure it is hanging under the
+\emph{center} of the pan. You will want to make sure the
+magnets are pulling on each other, not pushing each other
+away, so that the top magnet will stay in one place.
+
+\labfig{lab-force-two-scales}
+
+The balances will not show the magnets' true masses, because
+the magnets are exerting forces on each other.  The top
+balance will read a higher number than it would without any
+magnetic forces, and the bottom balance will have a lower
+than normal reading.  The difference between each magnet's
+true mass and the reading on the balance gives a measure of
+how strongly the magnet is being pushed or pulled by the other magnet.
+
+How do you think the amount of pushing or pulling experienced
+by the two magnets will compare?  In other words, which
+reading will change more, or will they change by the same
+amount?  Write down a hypothesis;  you'll test this
+hypothesis in part C of the lab. If you think the forces
+will be unequal predict their ratio.
+
+Discuss with your instructor your results from parts A and
+B, your hypothesis about what will happen with the two
+balances, and your plan for how you do error analysis. 
+
+Now set up the experiment described above with two balances.
+ Since we are interested in the changes in the scale
+readings caused by the magnetic forces, you will need to
+take a total of four scale readings: one pair with the
+balances separated and one pair with the magnets close
+together as shown in the figure above.
+
+When the balances are together and the magnetic forces are
+acting, it is not possible to get both balances to reach
+equilibrium at the same time, because sliding the weights on
+one balance can cause its magnet to move up or down, tipping
+the other balance.  Therefore, while you take a reading from
+one balance, you need to immobilize the other in the
+horizontal position by taping its tip so it points
+exactly at the zero mark.
+
+You will also probably find that as you slide the weights,
+the pointer swings suddenly to the opposite side, but you
+can never get it to be stable in the middle (zero) position.
+ Try bringing the pointer manually to the zero position and
+then releasing it.  If it swings up, you're too low, and if
+it swings down, you're too high.  Search for the dividing
+line between the too-low region and the too-high region.
+
+If the changes in the scale readings are very small (say a
+few grams or less), you need to get the magnets closer
+together.  It should be possible to get the scale readings
+to change by large amounts (up to 10 or 20 g).
+
+\labpart{ Measurement of interactions involving objects in contact}
+
+You'll recall that Aristotle gave completely different
+interpretations for situations where one object was in
+contact with another, like the hand pushing the ball, and
+situations involving objects not in contact with each other,
+such as the rock falling down to the earth.  Your magnets
+were not in contact with each other.  Now suppose we try the
+situation shown above, with one person's hand exerting a
+force on the other's.  All the forces involved are forces
+between objects in contact, although the two people's hands
+cannot be in direct contact because the spring scales have
+to be inserted to measure how strongly each person is
+pulling.  Suppose the two people do not make any special
+arrangement in advance about how hard to pull.  How do you
+think the readings on the two scales will compare?  Write
+down a hypothesis, and discuss it with your instructor before continuing.
+
+\labfig{lab-force-two-hands}
+
+Now carry out the measurement shown in the figure.
+
+
+\end{lab}
+
+%--------------------------------- frames of reference lab --------------------------------------
+\begin{lab}{Frames of Reference}
+\apparatus
+\equip{track and 2 carts}\\
+\equip{2-meter piece of butcher paper}\\
+\equip{wood blocks with hooks and felt pads}\\
+\equip{string}\\
+\equip{1-kg masses}\\
+\equip{spring scales calibrated in newtons}
+
+\labintroduction
+
+The little girl in the photo on page \pageref{ch:symmetry} spins around, but to her, it seems
+like the \emph{world} is spinning around \emph{her}. She has her own frame of reference,
+which is different from that of someone standing on the ground. Likewise, you
+may have had the experience of sitting in a train in a station when you suddenly notice that
+the station has started to move!
+The idea of this lab is to perform the same experiments in different frames of reference, and
+see if the results come out different.
+
+\labsection{Collisions}
+
+First you'll do some experiments involving collisions between two
+carts rolling on a track.
+
+Try gently pressing the two carts together on the track. As they come close to each
+ other, you'll feel them repelling each other! That's because they have magnets built
+ into the ends. The magnets act like perfect springs. For instance, if you hold one cart
+ firmly in place and let the other one roll at it, the incoming cart will bounce back at almost exactly
+ the same speed. It's like a perfect superball. This is called an elastic collision.
+
+You can also make collisions in which the carts will stick together rather than rebounding.
+You can do this by letting the velcro ends hit each other instead of the magnet ends. 
+This is known as an inelastic collision.
+
+\labpart{Elastic collision, projectile's frame}
+Set the carts up so that their magnet sides are facing each other.
+Roll one cart, A, toward the other, B, coming from the left. Cart B
+is initially at rest. Observe the results.
+
+Now imagine the whole thing from a frame of reference that is initially moving
+with cart A. In this frame, A is initially at rest, and B is hitting A.
+
+The question now arises of how to define this frame of reference after the collision.
+We could define it as the frame of reference of a bug holding on tight to cart A
+the whole time. In this frame of reference, cart A is always at rest,
+both before and after the collision. Think about the results of the collision you just did, and
+imagine what it would look like to the bug. Write down the bug's description:
+
+\newcommand{\smallspaceforwriting}{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+\newcommand{\onelineforwriting}{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+\newcommand{\spaceforwriting}{\onelineforwriting\\ \onelineforwriting}
+\spaceforwriting
+
+On the other hand, we could imagine that the scene is being viewed by a video camera
+moving along another track parallel to the real track. The camera keeps on moving after
+the collision --- let's call this the coasting frame of reference, because the camera
+keeps on coasting along. In this frame of reference, cart A is not at rest after the collsion.
+Write down a description of the collision as viewed in the coasting frame:
+
+\spaceforwriting
+
+OK, now observers using the bug's frame and the coasting frame agree on what carts A and
+B are doing before the collision, but they disagree after the collision.
+Let's start the whole thing going so that to you, standing on the floor, the motion of
+the carts looks just like the descriptions you wrote above. This means that you have
+to do different physical motions than you did before.
+
+Do the actual results agree with the bug's description, or with the coasting camera's
+description?
+
+\onelineforwriting
+
+\labpart{Inelastic collision, center of mass frame}
+
+Now turn the carts around so their velcro sides are toward each other.
+Send cart A toward cart B, with B initially at rest. After the collision,
+the two carts move off together to the right. Estimating by eye, how do you
+think their speed after the collision compares with cart A's speed before it hit B?
+
+\onelineforwriting
+
+Now imagine a coasting frame of reference that moves along with the two carts \emph{after}
+the collision. After the collision it's moving at the speed you described,
+and because it's a coasting frame of reference, it was also moving at that same
+speed \emph{before} the collision. What would the collision have looked like
+in this frame of reference?
+
+\spaceforwriting
+
+This frame of reference is called the
+center of mass frame. It's a frame of reference in which the collision has mirror
+symmetry.
+
+Now act out the collision so that what you see before the collision, from your frame of reference standing
+on the lab's floor, matches what you wrote above.
+
+Do the results after the collision agree with the description in the coasting frame of reference?
+
+\onelineforwriting
+
+\labpart{Elastic collision, center of mass frame}
+
+What would the collision from part A have looked like in the center of mass frame?
+
+\spaceforwriting
+
+Act this out so that the center of mass frame corresponds to the frame of the lab's
+floor. Do the results match?
+
+\labsection{Stop and Think}
+
+Let's think about what you've learned so far about frames of reference. Discuss the following
+questions with your partners.
+
+1. Based on what you've done so far, does it seem like all frames are equally valid, or
+are there some frames in which the laws of physics don't seem to be functioning normally?
+
+2. Here's a way to get some more evidence about whether all frames are equally valid.
+So far we've only been discussing how the motion of the \emph{carts} looks in various frames
+of reference. But in many of these frames of reference, the track, the room, the table, and
+your body are moving as well. Go back and consider the motion of these external objects
+in all the frames of reference you've
+tried out. In each one, consider whether the external objects obey the weak principle
+of inertia (page \pageref{weak-principle-of-inertia}).\index{inertia!weak principle of}
+
+\labsection{Force and Motion}
+
+We haven't yet defined force formally. For now, think of it on an intuitive basis as a push
+or a pull. A force can be relatively steady, like a person pushing a crate across the floor, or jerky, like the forces
+in the collisions between the carts. The metric unit of force is the newton, and we can measure
+forces using spring scales.
+
+Suppose a person pushes a crate, sliding it across the floor at a certain speed, and then repeats the same
+ thing but at a higher speed. This is essentially the situation you will act out in this exercise. What
+ do you think is different about her force on the crate in the two situations? Discuss this with your group and
+ write down your hypothesis:
+
+\onelineforwriting
+
+\labpart{Measurement of friction}
+
+First you'll measure the amount of friction between the wood block and the
+butcher paper when the wood and paper surfaces are slipping over each other.
+It isn't the point of this lab to measure things about friction, but you'll need this
+information in order to interpret your later results.
+The idea is to attach a spring scale to the block and then slide the butcher paper
+under the block while using the scale to keep the block from moving with it.
+Put the block on the paper with the felt side down.
+You'll need to
+ put an extra two-kilogram mass on top of the block in order to increase the amount of friction.
+It's a good idea to use long piece of string to attach the block to the spring scale, since
+ otherwise one tends to pull at an angle instead of directly horizontally.
+
+First measure the amount of friction force when sliding the butcher paper as slowly as possible: \smallspaceforwriting
+
+Now measure the amount of friction force at a significantly higher speed, say 1
+meter per second. (If you try to go too fast, the motion is jerky, and it is impossible to get an accurate
+ reading.) \smallspaceforwriting
+
+Discuss your results. Why are we justified in assuming that the string's force on the block (i.e., the scale
+reading) is the same amount as the paper's frictional force on the block?
+
+\labpart{Motion}
+
+Now try the same thing, but with the block moving and the paper standing still. Try two different
+speeds.
+
+Do your results agree with your original hypothesis? If not, discuss what's going on. How does the
+block ``know'' how fast to go? How does all of this relate to the main idea of this lab?
+
+\end{lab}
+%--------------------------------- momentum lab --------------------------------------
+\newcommand{\fillinblank}{\_\_\_\_\_\_}
+\begin{lab}{Conservation of Momentum}\index{momentum!conservation of!lab}
+
+\apparatus
+\equip{computer with Logger Pro software}\\
+\equip{track and 2 carts}\\
+\equip{1-kg weight}\\
+\equip{masking tape}\\
+\equip{2 force sensors with rubber corks}
+
+\labsection{Qualitative Observations}
+First you're going to observe some collisions between two carts and see how conservation of momentum plays out. If you really wanted to take numerical data, it would be a hassle, because momentum depends on mass and velocity, and there would be four different velocity numbers you'd have to measure: cart 1 before the collision, cart 1 after the collision, cart 2 before, and cart 2 after. To avoid all this complication, the first part of the lab will use only visual observations.
+
+\labpart{Equal masses, target at rest, elastic collision}
+Roll one cart toward the other. The target cart is initially at rest. Conservation of momentum reads like this,
+
+        M x \fillinblank + M x \fillinblank =? M x \fillinblank + M x \fillinblank   ,
+
+where the two blanks on the left stand for the two carts' velocities before the collision, and the two blanks on the right are for their velocities after the collision. All conservation laws work like this: the total amount of something remains the same. You don't have any real numbers, but just from eyeballing the collision, what seems to have happened? Let's just arbitrarily say that the mass of a cart is one unit, so that wherever it says ``M x'' in the equation, you're just multiplying by one. You also don't have any numerical values for the velocities, but suppose we say that the initial velocity of the incoming cart is one unit. Does it look like conservation of momentum was satisfied?
+
+\labpart{Mirror symmetry}
+Now reenact the collision from part A, but do everything as a mirror image. The roles of the target cart and incoming cart are reversed, and the direction of motion is also reversed.
+
+        M x \fillinblank + M x \fillinblank =? M x \fillinblank + M x \fillinblank   
+
+What happens now? Note that mathematically, we use positive and negative signs to indicate the direction of a velocity in one dimension.
+
+\labpart{An explosion}
+Now start with the carts held together, with their magnets repelling. As soon as you release them, they'll break contact and fly apart due to the repulsion of the magnets.
+
+        M x \fillinblank + M x \fillinblank =? M x \fillinblank + M x \fillinblank   
+
+Does momentum appear to have been conserved?
+
+\labpart{Head-on collision}
+Now try a collision in which the two carts head towards each other at equal speeds (meaning that one cart's initial velocity is positive, while the other's is negative).
+
+        M x \fillinblank + M x \fillinblank =? M x \fillinblank + M x \fillinblank   
+
+\labpart{Sticking}
+Arrange a collision in which the carts will stick together rather than rebounding. You can do this by letting the velcro ends hit each other instead of the magnet ends. Make a collision in which the target is initially stationary.
+
+         M x \fillinblank + M x \fillinblank =? M x \fillinblank + M x \fillinblank   
+
+The collision is no longer perfectly springy. Did it seem to matter, or was conservation of momentum still valid?
+
+\labpart{Hitting the end of the track}
+One end of the track has magnets in it. Take one cart off the track entirely, and let the other cart roll all the way to the end of the track, where it will experience a repulsion from the fixed magnets built into the track. Was momentum conserved? Discuss this with your instructor.
+
+\labpart{Unequal masses, elastic collision}
+Now put a one kilogram mass on one of the carts, but leave the other cart the way it was.
+Attach the mass to it securely using masking tape. 
+Use the magnets to make the collision elastic, as in part A.
+A bare cart has a mass of half a kilogram, so you've now tripled the mass of one cart. In terms of our silly (but convenient) mass units, we now have masses of one unit and three units for the two carts. Make the triple-mass cart hit the initially stationary one-mass-unit cart.
+
+        3M x \fillinblank + M x \fillinblank =? 3M x \fillinblank + M x \fillinblank   
+
+These velocities are harder to estimate by eye, but if you estimate numbers roughly, does it seem possible that momentum was conserved?
+
+\labsection{Quantitative Observations}
+Now we're going to explore the reasons why momentum always seems to be conserved.
+
+Attach the force sensors to the carts, and put on the rubber
+ stoppers. Make sure that the rubber stoppers are positioned
+ sufficiently far out from the body of the cart so that they
+ will not rub against the edge of the cart. Put the switch on
+ the sensor in the +10 N position. Plug the sensors into the 
+DIN1 and DIN2 ports on the interface box. Start up the Logger
+ Pro software, and do File$>$Open$>$Probes \& Sensors$>$Force
+ Sensors$>$Dual Range Forrce$>$2-10 N Dual Range. (Refer back to lab
+lab \ref{ch:energy}\ref{lab:energy} on page
+\pageref{lab:energy} for more detailed instructions and troubleshooting
+information.)
+
+Try collecting data while pushing and pulling on the rubber stopper. You should get a graph showing how the force went
+ up and down over time. The sensor uses negative numbers (bottom half of the graph) for forces that squish the sensor,
+ and positive numbers (top half) for forces that stretch it. Try both sensors, and make sure you understand what the red
+ and blue traces on the graph are showing you.
+
+\labpart{Slow acceleration}
+
+Put the extra 1-kilogram weight on one of the carts. Put the cart on the track by itself, without the other cart. Try accelerating it from rest
+ with a gentle, steady force from your finger.  You'll want to set the collection
+time to a longer period than the default. Position the track so that you can walk all the way along its
+length (not diagonally across the bench). Even after you hit the Collect button in Logger Pro, the software
+won't actually start collecting data until it's triggered by a sufficiently strong force; squeeze on
+one of the sensors to trigger the computer, and then go ahead and do the real experiment with the steady,
+gently force.
+
+What does the graph on the computer look like?
+
+\labpart{Rapid acceleration}
+ Now repeat H, but use a more rapid acceleration to bring the cart up to the same momentum. Sketch a comparison of the graphs from parts H and I:
+
+
+
+
+Discuss with your instructor how this relates to momentum.
+
+\labpart{Measuring the forces}
+You are now going to reenact collision A, but don't do it yet! You'll let the carts' rubber corks bump into each other,
+ and record the forces on the sensors. The carts will have equal mass, and both forces will be recorded simultaneously. Before you do it,
+predict what you think the graphs will look like, and show your sketch to your instructor.
+
+This relatively violent collision will produce large forces for short periods of time, so the 10-newton scale is no
+longer appropriate. Switch the switches on the sensors to 50 N, and open the file 2-50 N Dual Range.
+
+Now try it. You will notice by eye that the motion after the collision is a tiny bit different than it was with the magnets, but
+ it's still pretty similar. Looking at the graphs, how do you explain the fact that one cart lost exactly as much momentum
+ as the other one gained? Discuss this with your instructor before going on. In order to see the
+graph clearly, you'll need to zoom in by clicking and dragging diagonally to draw a rectangular box around
+it, and then clicking on the magnifying glass icon with a plus sign in it.
+
+\labpart{Forces with unequal masses}
+Now imagine -- but don't do it yet -- that you are going to reenact part G, with unequal masses. Sketch your prediction for the
+ two graphs, and show your sketch to your instructor before you go on.
+
+Now try it.
+
+\labsection{The Wrap-Up}
+Now let's try to wrap all of this up in a nice package with a bow on it.
+
+What was the basic point of parts A-G?
+
+Parts H and I?
+
+Parts J and K?
+
+How do parts A-G relate to parts J-K?
+
+Discuss this with your instructor.
+
+\end{lab}
+
+%--------------------------------- angular momentum lab --------------------------------------
+\begin{lab}{Conservation of Angular Momen\-tum}\index{angular momentum!conservation of!lab}\index{torque!lab}\label{lab:torque}
+\apparatus
+\equip{meter stick with a hole in the center}\\
+\equip{fulcrum}\\
+\equip{sliding weight holders}\\
+\equip{weights with hooks}
+
+\labintroduction
+
+Why can't the coin in the figure spontaneously reverse the direction it's spinning?
+We don't observe this to happen, and since everything not forbidden is mandatory, we
+expect that there must be some conservation law that forbids it. But what is this
+conservation law? It's not conservation of energy, because the coin would have the
+same energy regardless of which way it was spinning. It's not conservation of momentum,
+either, because whichever way it's spinning, its total momentum is zero. This is
+evidence that there is some new conservation law, which we call conservation of
+angular momentum. A mass moving in a straight line has momentum. A spinning mass
+has angular momentum. A frisbee has both, since it spins as it sails through the air.
+
+\labfig{coinmomentum}
+
+Noether's theorem tells us that conservation laws come from symmetry. What symmetry
+does conservation of angular momentum come from? Think of a gyroscope. Suppose you initially
+started a gyroscope spinning, but then it spontaneously decided to twist around and
+spin along some other axis, pointing in some mysterious direction in space. What's
+so special about that direction in space, and why do gyroscopes want to point that way?
+This \emph{doesn't} happen, because no direction in space is special; the laws of
+physics are symmetric with respect to rotation. Experiments don't come out any different
+if you turn the laboratory building around to face a different way. Here's a summary
+of all the conservation laws we know about so far:
+
+\begin{tabular}{|p{20mm}|p{20mm}|p{20mm}|}
+\hline
+\emph{symmetry} & \emph{conserved quantity} & \emph{rate of transfer} \\
+\hline
+time translation & energy & power \\
+\hline
+space translation & momentum & force \\
+\hline
+rotation & angular momentum & torque\\
+\hline
+\end{tabular}
+
+You've probably noticed that force is usually easier to measure than momentum. The
+same is true with torque and angular momentum: it's easier to measure the rate of
+transfer than it is to measure the accumulated amount that's been transferred. Logically,
+it doesn't really matter which end you approach it from. For instance, you can look at
+your bank statement and see how the balance changes, or you can look at the list of
+deposits and withdrawals; either one has all the information you need in order to find
+out about the other. In this lab, you're actually going to figure out a workable definition
+of torque, which logically is enough to pin down the definition of angular momentum as well.
+
+\labfig{lab-angmom}
+
+As shown in the figure, the apparatus is a kind of seesaw, which you'll be balancing in
+various ways.
+
+\labsection{Observations}
+
+As a preliminary, we'd like the meter-stick to balance all by itself, with no weights or
+weight holders at  all. Unfortunately, it's not possible to drill the hole exactly at the
+center of the stick, and the stick may also be asymmetric, e.g., there may be a piece
+of brass on one end. To deal with this problem, you can put two extra, empty weight holders on
+the stick, close to the center, and move them around so that the stick balances as well as
+possible.
+Even so, you may not be able to get the stick to be perfectly stable, and that's OK.
+If the hole is
+a little bit below the center of the stick, then it's an unstable equilibrium, like trying
+to balance a pencil on its tip. 
+Just try to get as close as possible to balancing.
+
+\labpart{Plus and minus signs}
+Let's start out by putting equal
+weights at equal distances from the fulcrum, one on each side. You will now have a total
+of four weight holders on the stick, including the two empty ones used for the initial
+balancing.
+
+What rate of transfer of
+angular momentum do you seem to have? This tells you what the total torque is. If the
+two torques add up to this value, what does that tell you about the individual torques?
+
+\labpart{Additivity}
+Conservation laws are supposed to be additive, and we've already implicitly assumed this
+in part A. Let's now test that assumption. In addition to equal weights \#1 and \#2 that are
+already on the seesaw, add two more weights, \#3 and \#4. Weights \#3 and \#4 should be
+equal to each other, but unequal to weights \#1 and \#2. Weights \#3 and \#4 should also be
+placed symmetrically on either side of the fulcrum, but not at the same distance from the
+fulcrum as \#1 and \#2.
+
+Is the result what you'd expect if torque is additive?
+
+\labpart{Distance from the axis}
+Now change to two weights, one of which is different from the other.
+What do you have to do in order to make them balance? 
+\footnote{Note that in this setup, the effects of the weight holders themselves will
+not automatically cancel out. You should weigh the holders themselves and add them
+into your weights.}
+
+Let $F$ be the force the weight is making, and
+$d$ the distance from the axis. What have you learned about how torque depends on
+$F$ and $d$?
+
+\labpart{Does it really work?}
+Now put on four or five different weights, all unequal, and all at different distances
+from the axis. Once you get them balanced, compute the total torque. Does your definition
+of torque work correctly here?
+
+\end{lab}
+
+%========================================== self-check answers ===============================================
+
+\startscanswers{ch:momentum}
+\scanshdr{moonviolatestranslation} No, it doesn't violate symmetry. Space-translation symmetry
+only says that space itself has the same properties everywhere. It doesn't say that all regions
+of space have the same stuff in them. The experiment on the earth comes out a certain way because
+that region of space has a planet in it. The experiment on the moon comes out different because
+that region of space has the moon in it. of the apparatus, which you forgot to take with you.
+
+\scanshdr{markcm} The camera is moving at half the speed at which the light ball is initially
+moving. After the collision, it keeps on moving at the same speed --- your five x's all line
+on a straight line. Since the camera moves in a straight line with constant speed, it is
+showing an inertial frame of reference.
+
+\scanshdr{thirdframepcons} The table looks like this:
+
+\velocitytable{$-1$}{0}{$+1$}{0}{$-1$}{$-1$}{darkball}{lightball}
+
+\noindent Observers in all three frames agree on the changes in velocity, even though they disagree
+on the velocities themselves.
+
+\scanshdr{heavierball} The motion would be the same. The force on the ball would be 20 newtons,
+so with each second it would gain 20 units of momentum. But 20 units of momentum for a 2-kilogram
+ball is still just 10 m/s of velocity.

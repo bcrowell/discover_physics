@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1274.0000pt"
+   height="810.00000pt"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/bcrowell/Documents/writing/dp/ch00/figs"
+   sodipodi:docname="lulu_cover.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.57110508"
+     inkscape:cx="903.02102"
+     inkscape:cy="545.87766"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1278"
+     inkscape:window-height="996"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="rect1382"
+       width="1592.5000"
+       height="1012.5000"
+       x="0.00022130887"
+       y="-0.0028005142" />
+    <image
+       id="image1361"
+       height="1012.5000"
+       width="783.43750"
+       sodipodi:absref="/home/bcrowell/Documents/writing/dp/ch00/figs/cover.jpg"
+       xlink:href="cover.jpg"
+       x="809.06061"
+       y="0.028572192" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.000000px;font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#9f9f9f;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="301.65436"
+       y="-788.75879"
+       id="text2115"
+       sodipodi:linespacing="125.00000%"
+       transform="matrix(0.000000,1.000000,-1.000000,0.000000,0.000000,0.000000)"><tspan
+         sodipodi:role="line"
+         id="tspan2117"
+         x="301.65436"
+         y="-788.75879">Discover Physics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.000000px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#626262;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="147.28839"
+       y="-788.70416"
+       id="text2119"
+       sodipodi:linespacing="125.00000%"
+       transform="matrix(0.000000,1.000000,-1.000000,0.000000,0.000000,0.000000)"><tspan
+         sodipodi:role="line"
+         id="tspan2121"
+         x="147.28839"
+         y="-788.70416">Crowell</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#626262;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
+       x="793.09253"
+       y="-792.58514"
+       id="text2123"
+       sodipodi:linespacing="125.00000%"
+       transform="matrix(0.000000,1.000000,-1.000000,0.000000,0.000000,0.000000)"><tspan
+         sodipodi:role="line"
+         id="tspan2125"
+         x="793.09253"
+         y="-792.58514">lightandmatter.com</tspan></text>
+  </g>
+</svg>

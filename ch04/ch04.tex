@@ -1,0 +1,1404 @@
+\mychapterwithopener{poolskater}{The pool skater trades two forms of
+energy back and forth: kinetic and gravitational. More photos of this
+insane pastime are at the web site www.sonic.net/$\sim$shawn. When I first came across it
+in 1998, I assumed these guys weren't likely to stay alive for long, but they seem to
+have survived --- or at least their web site has.}{Conservation of Mass and Energy}\label{ch:energy}
+In chapter \ref{ch:symmetry}, I promised that as you learned more and more about physics,
+you would see it becoming more and more simple. The unifying principle that brings order and
+sanity to all of physics is Noether's theorem, which so far you've only seen stated in a very
+rough form: the laws of physics have to be the way they are because of symmetry. This book's presentation of
+physics so far has been suffused with symmetry arguments, but much of what you've learned has
+consisted of specific, practical applications, like the formation of images by lenses and mirrors.
+What have you learned so far that deserves to be called a fundamental law of physics? The only
+law of physics you've learned is the principle of inertia:
+a ray of light or a material object continues moving in the same direction and
+at the same speed if it is not interacting with anything else.
+
+That's all very well, but the universe would be dull if it consisted only of individual
+atoms and rays of light crisscrossing space and never coming close enough to interact with each
+other --- it would be like a game of pool played on an infinite table, with only one ball in
+sight. Your everyday life, to which we'd like to apply physics, involves vast numbers of
+particles. Your own body, for instance, contains something like $10^{30}$ atoms (that's
+scientific notation for one followed by thirty zeroes). How can we make sense out of
+such incredible complexity?
+
+\mysection[0]{Conservation of Mass}\index{mass!conservation of}\index{conservation!of mass}
+What makes our complex world comprehensible to the human mind is that the fundamental
+laws of physics are all conservation laws: laws stating that the total amount of something
+stays the same. You've already discovered some evidence in lab for such a law: the law of
+conservation of mass. Even when you carried out complex operations involving huge numbers
+of atoms, the total mass of the atoms never changed. The wonderful thing about
+conservation laws is that they allow us to make sense out of complex processes.
+
+The law of
+conservation of mass probably didn't surprise you very much, since you've known about
+atoms since an early age, and in everyday life we don't encounter processes in which atoms
+change their masses noticeably, or in which atoms are created or destroyed. That argument wasn't
+obvious to your ancestors, however. 
+It's not even hard to think of examples that would raise doubts in the minds of modern people.
+A log weighs more than its
+ashes. Did some mass simply disappear? It seems to be an exception to the rule.
+
+The French chemist Antoine-Laurent Lavoisier was the first scientist to realize\index{Lavoisier!Antoine-Laurent}
+that there were no such exceptions. Lavoisier hypothesized that
+when wood burns, for example, the supposed loss of mass is actually accounted for by the
+escaping hot gases that the flames are made of.
+Before Lavoisier, chemists had almost never
+weighed their chemicals to quantify the amount of each substance that was undergoing
+reactions.\footnote{Isaac Newton was a notable exception.}
+They also didn't completely understand that gases were just another
+state of matter, and hadn't tried performing reactions in sealed chambers to determine
+whether gases were being consumed from or released into the air. For this they had at least one
+practical excuse, which is that if you perform a gas-releasing reaction in a sealed chamber
+with no room for expansion, you get an explosion! Lavoisier invented a balance that was capable
+of measuring milligram masses, and figured out how to do reactions in an upside-down
+bowl in a basin of water, so that the gases could expand by pushing out some of the water.
+In one crucial experiment, Lavoisier heated a red mercury compound, which we would now
+describe as mercury oxide (HgO), in such a sealed chamber.
+A gas was produced (Lavoisier later named
+it ``oxygen''), driving out some of the water, and the red compound was transformed into
+silvery liquid mercury metal. The crucial point was that the total mass of the entire
+apparatus was exactly the same before and after the reaction. Based on many observations
+of this type, Lavoisier proposed a general law of nature, that mass is always conserved.
+
+\selfcheck{conservation}{In ordinary speech, we say that you should ``conserve'' something, because if
+you don't, pretty soon it will all be gone. How is this different from the meaning of
+the term ``conservation'' in physics?}
+
+\margup{-150mm}{\fig{lavoisier}{Portrait of Monsieur Lavoisier and His Wife,
+        by Jacques-Louis David, 1788. Lavoisier invented the
+        concept of conservation of mass. The husband is depicted with his scientific apparatus,
+	while in the background
+        on the left is the portfolio belonging to Madame Lavoisier, who is thought to have
+        been a student of David's.  }
+}
+Although Lavoisier was an honest and energetic public official, he was caught up
+in the Terror and sentenced to death in 1794. 
+He requested a fifteen-day
+delay of his execution so that he could complete some experiments that he thought might
+be of value to the Republic. 
+The judge, Coffinhal, infamously replied that ``the state has no need of scientists.''
+As a scientific
+experiment, Lavoisier decided to try to determine how long his consciousness would continue
+after he was guillotined, by blinking his eyes for as long as possible. He blinked twelve times
+after his head was chopped off. Ironically, Judge Coffinhal 
+was himself executed only three months later, falling victim to the same chaos.
+
+\margup{-18mm}{\fig{faucet}{Example \ref{eg:faucet}.}
+\spacebetweenfigs
+\fig{earth}{The earth keeps spinning without slowing down. Energy is conserved.}
+\spacebetweenfigs
+\fig{coin}{The spinning coin slows down. It seems as though energy isn't
+conserved, but it is.}}
+\begin{eg}{A stream of water}\label{eg:faucet}
+The stream of water is fatter near the mouth of the faucet, and skinnier lower down. This can be understood
+using conservation of mass. Since water is being neither created nor destroyed, the mass of the
+water that leaves the faucet in one second must be the same as the amount that flows past a lower
+point in the same time interval. The water speeds up as it falls, so the two quantities of water can
+only be equal if the stream is narrower at the bottom.
+\end{eg}
+
+\mysection[0]{Conservation of Energy}\index{energy!conservation of}\index{conservation!of energy}
+Noether's theorem says that conservation laws result from symmetries, but the connection between
+symmetry and conservation of mass won't be clear until the end of the chapter. As our first full-fledged
+example of Noether's theorem in action, we'll instead use conservation of energy.
+Energy means something specific and technical in physics, but let's start by appealing to your
+everyday knowledge. Energy is what you're buying at the gas station, and you also pay for
+it in your electric bill. Energy is why we need food.\footnote{Growing
+children also need to eat more than they excrete because conservation of mass would
+otherwise make it impossible for them to grow.} These forms of energy can be converted into
+others, such as the energy your car has when it's moving, the light from a lamp,
+or the body heat that we mammals must continuously produce. We'll first develop a
+real scientific definition of energy, and then relate it to symmetry in section
+\ref{sec:noether-energy}.
+
+\begin{envsubsection}{Kinetic energy}\index{energy!kinetic}\index{kinetic energy}
+Symmetry arguments led us to the conclusion that an isolated object or ray of light can never
+slow down, change direction or disappear entirely. But that falls short of being a conservation
+law. A full-fledged conservation law says that even when we have many objects interacting, the
+total amount of something stays constant. Is there any reason to believe that energy is conserved
+in general? The planet earth, \figref{earth}, is a large, complex system consisting of a huge
+number of atoms. It keeps on spinning without slowing down, which is evidence in favor of
+energy conservation. What about the spinning coin in figure \figref{coin}, however? Does its
+energy disappear gradually?
+
+Scientists would have thought so until the nineteenth century, when physicist James\index{Joule, James}
+Joule (1818-1889) had an important insight. Joule was the wealthy heir to a Scottish brewery, and funded his
+own scientific research. As an industrialist, he had a practical interest in replacing steam engines
+with electric ones that would be more efficient, and cost less money to run. Scientists already
+knew that friction would cause a spinning coin to slow down, and that friction made engines less
+efficient. They also knew that friction heated things up, as when you rub your hands together on
+a cold day. Joule, however, realized that it went deeper than this: there was a conserved quantity,
+which ended up being called energy. When we first start the coin spinning, its energy is in the
+form of motion, with its atoms all going in circles. As it slows down, the energy isn't
+disappearing, it's being converted into another form: heat. We now know that
+heat is the random motion of atoms. As the coin rubs against the ground, the atoms in the
+two surfaces bump into each other, and the amount of random atomic motion increases.
+The organized motion of the atoms in the spinning coin is being converted into a disorganized
+form of motion, heat.
+
+\margup{-23mm}{\fig{joule}{James Joule}}
+Energy of motion is called kinetic energy.
+The simplest situations for calculating kinetic energy are those in which an object is moving
+through space without spinning or moving internally, e.g., a hockey puck sliding across the
+ice. All the atoms in the object are moving at the same speed, so the object's kinetic energy
+just depends on two numbers, its mass and its speed. The actual equation can't be proved based
+on logic; it can only be determined from experiments. Such experiments were first done
+by English physicist Thomas Young, and in lab \thechapter\ref{lab:energy} you're going to reproduce Young's work and
+discover his equation for yourself.\index{Young, Thomas!equation for kinetic energy}
+
+
+When energy is being transferred or changed from one form to another, we use the term ``power''\index{power!defined}
+to mean the amount of energy transferred per unit time. The metric unit of power is the watt (W),\index{watt (unit)}
+defined as one joule per second.
+
+\begin{eg}{Power of a lightbulb}
+Every second, a 100 W lightbulb takes 100 J of energy from the wall socket. (Some of that energy
+is turned into light, and the rest just heats your house.)
+\end{eg}
+\end{envsubsection}
+%
+\begin{envsubsection}{Gravitational energy}\index{energy!gravitational}\index{gravitational energy}
+If you toss a ball up in the air, it slows to a stop and then speeds up again on the way back down.
+As in the example of the spinning coin, it seems as though conservation of energy is being violated,
+but really we're just seeing evidence that there is a new form of energy coming into play,
+gravitational energy. This form of energy depends on distance, not motion:
+the farther apart the earth and the ball are, the more gravitational energy there is.
+
+\selfcheck{firefighteronpole}{We've discussed three kinds of energy so far: kinetic energy,
+heat energy (which is really kinetic energy at the atomic level), and gravitational energy. Energy
+can be converted from any of these forms into any other. Suppose a firefighter slides down the
+pole at the fire station, using her grip to control her motion so that she neither speeds up nor
+slows down. How would you describe this in terms of energy?}
+
+\margup{-74mm}{\fig{hooverdam}{The water help up high behind Hoover Dam has gravitational energy.}}
+The metric unit of energy is the joule (J), and we'll define it as the amount of energy needed
+to raise the temperature of 0.24 grams of water by $1\degunit$ Celsius. (Don't memorize that
+number!)\index{joule (unit)}
+Gravity is a universal attraction between things that have mass.
+Here where we live on the earth's surface, the atoms in the earth attract the atoms in all the
+objects around us, and measurements show that as a result of all that attraction, an energy of
+about 10 J is needed in order to lift a one-kilogram mass by one meter.\footnote{A more precise value
+is 9.8 J, but that's close to 10, so we'll usually round off to 10 to simplify numerical
+examples. In any case, don't memorize the numbers.} We say that the strength of
+the gravitational field, $g$, at the earth's surface is 10 joules per kilogram per meter, or,
+in abbreviated form, $g=10\ \junit/\kgunit/\munit$.\index{gravitational field}\index{field!gravitational}
+
+\margup{0mm}{\fig{skaterenergy}{example \ref{eg:skaterenergy}}
+\spacebetweenfigs
+\fig{orionnebula}{example \ref{eg:birthofstars}}
+\spacebetweenfigs
+\fig{seesaw}{example \ref{eg:lever}}}
+\begin{eg}{The pool skater}\label{eg:skaterenergy}
+On the way up the side of the pool, the skater on page \pageref{ch:energy}
+has converted all of his kinetic energy into gravitational energy. 
+Figure \figref{skaterenergy} shows schematically how the two types of energy are traded off.
+(The numbers are just my estimates.)
+\end{eg}
+
+\begin{eg}{The birth of stars}\label{eg:birthofstars}\index{Orion Nebula}
+Orion is the easiest constellation to find. You can see it in the winter, even if you live
+under the light-polluted skies of a big city. Figure \figref{orionnebula} shows an interesting
+feature of this part of the sky that you can easily pick out with an ordinary camera (that's how
+I took the picture) or a pair of binoculars. The three stars at the top are Orion's belt, and the
+stuff near the lower left corner of the picture is known as his sword --- to the naked eye, it
+just looks like three more stars that aren't as bright as the stars in the belt. The middle ``star''
+of the sword, however, isn't a star at all. It's a cloud of gas, known as the Orion Nebula,
+that's in the process of collapsing
+due to gravity. Like the pool skater on his way down, the gas is losing gravitational energy.
+The results are very different, however. The skateboard is designed to be a low-friction device,
+so nearly all  of the lost gravitational energy is converted to kinetic energy, and very little
+to heat. The gases in the nebula flow and rub against each other, however, so most of the gravitational
+energy is converted to heat. This is the process by which stars are born: eventually the core of
+the gas cloud gets hot enough to ignite nuclear reactions.
+\end{eg}
+
+\begin{eg}{A lever}\label{eg:lever}\index{lever}
+Figure \figref{seesaw} shows two sisters on a seesaw. The one on the left has twice as
+much mass, but she's at half the distance from the center. No energy input is needed in
+order to tip the seesaw. If the girl on the left goes up a certain distance, her gravitational
+energy will increase. At the same time, her sister on the right will drop twice the distance,
+which results in an equal decrease in energy, since her mass is half as much.
+\end{eg}
+
+\begin{eg}{Lifting a weight}
+\egquestion At the gym, you lift a mass of 40 kg through a height of 0.5 m. How much gravitational
+energy is required? Where does this energy come from?
+
+\eganswer 
+The strength of the gravitational field is 10 joules per kilogram per meter, so after you lift the weight,
+its gravitational energy will be greater by $10\times40\times0.5=200$ joules.
+
+Energy is conserved, so
+if the weight gains gravitational energy, something else somewhere in the universe must have lost some.
+The energy that was used up was the energy in your body, which came from the food you'd eaten. This is what we refer to
+as ``burning calories,'' since calories are the units normally used to describe the energy in food,
+rather than metric units of joules.
+
+In fact, your body uses up even more than 200 J of food energy, because it's not very efficient. The rest
+of the energy goes into heat, which is why you'll need a shower after you work out. We can summarize this
+as
+\begin{equation*}
+\text{food energy} \rightarrow \text{gravitational energy} + \text{heat} \qquad .
+\end{equation*}
+\end{eg}
+
+
+\begin{eg}{Lowering a weight}
+\egquestion After lifting the weight, you need to lower it again. What's happening in terms of energy?
+
+\eganswer 
+Your body isn't capable of accepting the energy and putting it back into storage. The gravitational
+energy all goes into heat. (There's nothing
+fundamental in the laws of physics that forbids this.
+Electric cars can do it --- when you stop at a stop sign, the car's kinetic energy is absorbed
+back into the battery, through a generator.) 
+\end{eg}
+
+
+\begin{eg}{Heavy objects don't fall faster}\index{free fall}
+Stand up now, take off your shoe, and drop it alongside a much less massive object
+such as a coin or the cap from your pen.
+
+Did that surprise you? You found that they both hit the ground at the same time.
+The Greek philosopher Aristotle wrote that heavier objects fall faster than
+lighter\index{Aristotle}\index{Catholic Church}\index{Church!Catholic}
+ones. He was wrong, but Europeans believed him for thousands of years, partly because
+experiments weren't an accepted way of learning the truth, and partly because the
+Catholic Church gave him its posthumous seal of approval as its official
+philosopher.
+
+Heavy objects and light objects have to fall the same way, because conservation
+laws are additive --- we find the total energy of an object by adding up the energies
+of all its atoms. If a single atom falls through a height of one meter, it loses a certain
+amount of gravitational energy and gains a corresponding amount of kinetic energy.
+Kinetic energy relates to speed, so that determines how fast it's moving at the end
+of its one-meter drop. (The same reasoning could be applied to any point along the
+way between zero meters and one.)
+
+Now what if we stick two atoms together? The pair has double the mass, so the amount
+of gravitational energy transformed into kinetic energy is twice as much. But twice
+as much kinetic energy is exactly what we need if the pair of atoms is to have the same
+speed as the single atom did. Continuing this train of thought, it doesn't matter how many
+atoms an object contains; it will have the same speed as any other object after dropping
+through the same height.
+\end{eg}
+
+\selfcheck{dropfeather}{Part of the Aristotelian confusion was probably because of examples
+like dropping a feather. A feather won't fall as quickly as a rock. Why is this? Our unspoken
+assumption was that the only energy transformation going on was
+\begin{equation*}
+	\text{gravitational energy} \rightarrow \text{kinetic energy} \qquad .
+\end{equation*}
+Evidently this assumption fails --- most of the feather's gravitational energy is being
+converted into something else besides kinetic energy. What other form of energy is there?
+}
+
+\margup{-190mm}{\fig{irface}{This photo was made with a special camera that records infrared
+	light. The man's warm skin emits quite a bit of infrared light energy, while his
+	hair, at a lower temperature, emits less.}
+\spacebetweenfigs
+\fig{irbike}{An infrared camera distinguishes
+	hot and cold areas. As the bike skids to a stop with its brakes locked, the kinetic
+	energy of the bike and rider is converted into heat in both the floor (top) and the
+	tire (bottom).}}
+\begin{envsubsection}{Emission and absorption of light}
+The example of the falling feather shows how tricky this can get. Often we miss something
+vital because it's invisible. When a guitar string gradually stops vibrating, it may seem as
+though its energy was just disappearing; sound has energy, but we may forget that because
+sound is invisible. When the feather drops, the heating of the feather and the air are not
+only invisible but nearly undetectable without heroic
+measures.\index{light!emission and absorption of}\index{light!infrared}\index{emission of light}\index{absorption of light}
+
+Imagine how difficult it was for Joule to figure out all of this for the first time! One
+challenge in his experiments is demonstrated in figure
+\figref{irface}. In general, light can heat matter
+(sunlight on your skin) and matter can also get rid of its heat energy by emitting light
+(a candle flame):
+\begin{equation*}
+	\text{heat} \leftrightarrow \text{light}
+\end{equation*}
+Light, however, includes more than just the spectrum of visible colors extending from
+red to violet on the rainbow. Hot objects, like the sun or a lightbulb filament, do emit
+visible light, but matter at lower temperatures gives off
+infrared light, a color of light that lies beyond the red end of the visible rainbow. 
+
+\margup{-50mm}{\fig{irball}{A squash ball before and after several minutes of play.}}
+Although the emission and
+absorption of infrared light was just a source of trouble and confusion for Joule, we can
+also use infrared photography to gain insight into phenomena in which other types of energy
+are converted into heat.
+The heating of the tire and floor in figure \figref{irbike} is something that
+the average person might have predicted in advance, but there are other situations
+where it's not so obvious. When a ball slams into a wall, it doesn't rebound with the
+same amount of kinetic energy. Was some energy destroyed? No.
+The ball and the wall heat up. Figure \figref{irball} shows
+a squash ball at room temperature (top), and after it has been played with for
+several minutes (bottom), causing it to heat up detectably.
+\end{envsubsection}
+%
+\begin{envsubsection}{How many forms of energy?}\index{energy!forms of}
+How many different types of energy are there? At this point, you might worry that
+you were going to have to memorize a long list of them. The good news is that there
+aren't really that many at all.
+
+\widefigsidecaption[c]{archery}{At the atomic level, the energy in the bow is really electrical energy}
+
+In figure \figref{archery}, the bow evidently contains some stored energy, since we observe that
+the arrow gets kinetic energy from it. What kind of energy is this? Is it some new and
+mysterious ``bow energy?'' No. At the atomic level, things get a lot simpler. The energy
+in the bow is electrical energy of the interacting atoms. Just as a rock can have more or
+less gravitational energy depending on its distance from the earth, an atom can have more
+or less electrical energy depending on its distance from another atom.
+
+ Many other forms\index{energy!electrical}\index{energy!magnetic}\index{electrical energy}\index{magnetic energy}
+of energy turn out to be electrical energy in disguise, \figref{electricalenergy}. In particular, chemical reactions are based on
+electrical energy: in a reaction, atoms are rearranged like tinker toys, which changes their
+distances from one another. Food and gasoline are both fuels that store
+electrical energy.
+
+Every type of energy you encounter in your day-to-day life is really
+just something from the following short list:
+
+%The following kludge is necessitated by a bug in the description environment.
+\newcommand{\energylistitem}[2]{\hspace{4mm}\textbf{#1} #2}
+
+\noindent\energylistitem{kinetic energy}{(including heat)}
+
+\noindent\energylistitem{gravitational energy}{}
+
+\noindent\energylistitem{electrical and magnetic energy}{(including light, which is an}\\
+\makebox[0mm][l]{\hspace{12mm} electrical and magnetic wave)}
+%        \raisebox{\ymarginscoot}[0mm][0mm]{\makebox[0mm][l]{\hspace{\xmarginscoot}\usebox{\sidecaptionbox}}}
+
+\noindent We'll discuss electricity and magnetism in more detail in chapter 7. Two forms of nuclear
+energy can also be added to the list.\index{energy!nuclear}\index{nuclear energy}
+ One of the main goals of physics is to
+classify all the interactions: gravitational, electrical, and so on. 
+
+\margup{-64mm}{%
+\fig{electricalenergy}{All of these energy transformations turn out at the atomic level
+to be changes in electrical energy resulting from changes in the distances between atoms.}
+}
+
+Physicists
+generally believe that there is an underlying simplicity to the laws of physics, and
+consider it a triumph when they can reveal part of it. You might wonder, for instance,
+why electrical and magnetic energy are shown as a single item on the list above. Well,
+just as we learned that ``bow energy'' and ``food energy'' are really both just types of
+electrical energy, we'll see in chapter \ref{ch:em} that electricity and magnetism are really
+just two sides of the same coin.\label{introunificationofforces}
+\end{envsubsection}
+
+\dqheader
+\begin{dq}\label{dq:can}
+In figure \figref{cancrumples}, a small amount of hot water is poured into the empty can, which
+rapidly fills up with hot steam. The can is then sealed tightly, and soon crumples.
+How can this be explained based on the idea that heat is a form of random motion of
+atoms?
+
+\widefig{cancrumples}{Discussion question \ref{dq:can}.}
+\end{dq}
+
+
+\vfill
+
+\mysection[4]{Newton's Law of Gravity}\index{gravity!Newton's law of}
+Why does the gravitational field on our planet have the particular value it does? 
+For insight, let's compare with the strength of gravity elsewhere in the
+universe:\index{Newton, Isaac!law of gravity}\index{gravitational field!Newton's law of gravity}
+\index{field!gravitational!Newton's law of gravity}
+
+\begin{tabular}{|p{50mm}|p{45mm}|}
+\hline
+location      & $g$ (joules per kg per m) \\
+\hline
+asteroid Vesta (surface) & 0.3 \\
+earth's moon (surface)   & 1.6 \\
+Mars (surface)           & 3.7 \\
+earth (surface)          & 9.8 \\
+Jupiter (cloud-tops)     & 26 \\
+sun (visible surface)    & 270 \\
+typical neutron star (surface) & $10^{12}$ \\
+black hole (center)      & infinite according to some theories, on the
+   order of $10^{52}$ according to others \\
+\hline
+\end{tabular}
+
+A good comparison is Vesta versus a neutron star. They're roughly the same size, but they have
+vastly different masses --- a teaspoonful of neutron star matter would weigh a million tons!
+The different mass must be the reason for the vastly different gravitational fields. (The notation
+$10^{12}$ means 1 followed by 12 zeroes.)
+This makes sense, because gravity is an attraction between things that have mass.
+
+The mass of an object, however, isn't the only thing that determines the strength of its
+gravitational field, as demonstrated by the difference between the fields of the
+sun and a neutron star, despite their similar masses.  The other variable that matters is
+distance. Because a neutron star's mass is compressed into such a small space (comparable
+to the size of a city), a point on its surface is within a fairly short distance from every
+atom in the star. If you visited the surface of the sun, however, you'd be millions of miles
+away from most of its atoms.
+
+As a less exotic example, if you travel from the seaport of
+Gua\-ya\-quil, Ecuador, to the top of nearby Mt. Cotopaxi, you'll experience
+a slight reduction in gravity, from 9.7806 to 9.7624 J/kg/m. This is because
+you've gotten a little farther from the planet's mass. Such differences in the
+strength of gravity between one location and another on the earth's surface were
+first discovered because pendulum clocks that were correctly calibrated in one country
+were found to run too fast or too slow when they were shipped to another location.
+
+\pagebreak[4]
+
+The general equation for an object's gravitational field was discovered by
+Isaac Newton, by working backwards
+from the observed motion of the planets:\footnote{Example \ref{eg:moonorbit} on page \pageref{eg:moonorbit} shows
+the type of reasoning that Newton had to go through.}
+\begin{equation*}
+	g = \frac{GM}{d^2} \qquad ,
+\end{equation*}
+where $M$ is the mass of the object, $d$ is the distance from the object, and $G$ is
+a constant that is the same everywhere in the universe. This is known as Newton's
+law of gravity.\footnote{This is not the form
+in which Newton originally wrote the equation.}
+It's an inverse square law, which is reasonable since an object's gravitational
+field is an effect that spreads outward from it in all directions.
+Newton's law of gravity really gives the field of an individual atom, and
+the field of a many-atom object is the sum of the fields of the atoms.
+Newton was able to prove mathematically that this scary sum has an unexpectedly
+simple result in the case of a spherical object such as a planet: the result is
+the same as if all the object's mass had been concentrated at its center.\index{gravitational constant, $G$}
+
+\margup{-80mm}{%
+\fig{newton}{Isaac Newton (1642-1727)}
+}
+Newton showed that his theory of gravity could explain the orbits of the planets, and
+also finished the project begun by Galileo of driving a stake through the heart of
+Aristotelian physics. His book on the motion of material objects, the \emph{Mathematical
+Principles of Natural Philosophy},\index{Mathematical Principles of Natural Philosophy}\index{Principia Mathematica}
+was uncontradicted by experiment for 200 years,
+but his other main work, \emph{Optics},\index{Optics}
+ was on the wrong track due to his conviction
+that light was composed of particles rather than waves. He was an avid alchemist,
+an embarrassing fact that modern scientists would like to forget. Newton was
+on the winning side of the revolution that replaced King James II with William and Mary
+of Orange, which led to a lucrative post running the English royal mint; he worked hard at
+what could have been a sinecure, and took great
+satisfaction from catching and executing counterfeitors. Newton's personal life was less
+happy. Rejected by his mother at an early age, he never married or formed any close
+attachments, except for one intense emotional relationship with a younger man; around the time when this
+liaison ended, Newton experienced what we would today probably describe as a nervous breakdown.\footnote{The historical
+record can't be decoded with certainty. Seventeenth-century England didn't conceive of mental illness in the same way we
+do now. Homosexuality was a capital offense, not a personal preference. If Newton was homosexual, he had a
+strong motivation not to record the fact.}
+
+\widefigsidecaption[t]{newtonsapple}{example \ref{eg:newtonsapple}}
+
+\begin{eg}{Newton's apple}\label{eg:newtonsapple}\index{moon!gravitational field experienced by}\index{Newton, Isaac!apple myth}
+A charming legend attested to by Newton's niece is that he first conceived of
+gravity as a universal attraction after seeing an apple fall from a tree. He
+wondered whether the force that made the apple fall was the same one that made the
+moon circle the earth rather than flying off straight. Newton had astronomical data
+that allowed him to calculate
+that the gravitational field the moon experienced
+from the earth was 1/3600 as strong as the field on the surface of the earth.\footnote{See example
+\ref{eg:moonorbit} on page \pageref{eg:moonorbit}.}
+(The moon has its own gravitational field, but that's not what we're talking about.)
+The moon's distance from the earth is 60 times greater than the earth's radius,
+so this fit perfectly with an inverse-square law: $60\times60=3600$.
+\end{eg}
+\end{envsubsection}
+%
+\mysection[4]{Noether's Theorem for Energy}\label{sec:noether-energy}
+\index{Noether's theorem!for energy}\index{energy!Noether's theorem}
+Now we're ready for our first full-fledged example of Noether's theorem.
+Conservation of energy is a law of physics, and Noether's theorem
+says that the laws of physics come from symmetry. Specifically, Noether's
+theorem says that every symmetry implies a conservation law. Conservation
+of energy comes from a symmetry that we haven't even discussed yet, but one that
+is simple and intuitively appealing: as time goes by, the universe doesn't
+change the way it works. This is a kind of translation symmetry, but in time,
+not space.\index{symmetry!time-translation}\index{time-translation symmetry}
+
+We have strong evidence for time translation symmetry, because when
+we see a distant galaxy through a telescope, we're seeing light that has taken
+billions of years to get here. A telescope, then, is like a time machine. For all
+we know, alien astronomers with advanced technology may be observing our planet
+right now,\footnote{Our present technology isn't good enough to let us pick
+the planets of other solar systems out from the glare of their suns, except in a few
+exceptional cases.}
+but if so, they're seeing it not as it is now but as it
+was in the distant past, perhaps in the age of the dinosaurs, or before life
+even evolved here. As we observe a particularly distant, and therefore ancient,
+supernova, we see that its explosion plays out in exactly the same way as
+those that are closer, and therefore more recent.
+
+Now suppose physics really does change from year to year, like politics, pop music,
+and hemlines. Imagine, for example, that the ``constant'' $G$ in Newton's
+law of gravity isn't quite so constant. One day you might wake up and find that you've
+lost a lot of weight without dieting or exercise, simply because gravity has gotten
+weaker since the day before. 
+
+If you know about such changes in $G$ over time, it's the ultimate insider
+information. You can use it to get as rich as Croesus, or even Bill Gates.\index{Gates, Bill}
+On a day when $G$ is low, you pay for the energy needed to lift
+a large mass up high. Then, on a day when gravity is stronger,
+you lower the mass back down, extracting its gravitational energy.
+The key is that the energy you get back out is greater than what you
+originally had to put in. You can run the cycle over and over again, always
+raising the weight when gravity is weak, and lowering it when gravity is strong.
+Each time, you make a profit in energy. Everyone else thinks energy is conserved,
+but your secret technique allows you to keep on increasing and increasing the amount
+of energy in the universe (and the amount of money in your bank account).
+
+The scheme can be made to work if anything about physics changes over time, not
+just gravity. For instance, suppose that the mass of an electron had one value
+today, and a slightly different value tomorrow. Electrons are one of the basic
+particles from which atoms are built, so on a day when the mass of electrons is low, every
+physical object has a slightly lower mass. In problem \ref{hw:changing-electron-mass}
+on page \pageref{hw:changing-electron-mass}, you'll work out a way that this could
+be used to manufacture energy out of nowhere.\label{text:changing-electron-mass}
+
+Sorry, but it won't work. Experiments show that $G$ doesn't change measurably over
+time, nor does there seem to be any time variation in any of the other rules by which the universe
+works.\footnote{In 2002, there have been some reports that the properties of atoms
+as observed in distant galaxies are slightly different than those of atoms here and
+now. If so, then time translation symmetry is weakly violated, and so is conservation
+of energy. However, this is a revolutionary claim, and it needs to be examined carefully.
+The change being claimed is large enough that, if it's real, it should be detectable
+from one year to the next in ultra-high-precision laboratory experiments here on earth.}
+The rules of the game are symmetric under time translation. If archaeologists find a
+copy of this book thousands of years from now, they'll be able to reproduce all the
+experiments you're doing in this course.
+
+I've probably convinced you that if time-translation symmetry was violated, then
+conservation of energy wouldn't hold. But does it work the other way around? If time-translation
+symmetry is valid, must there be a law of conservation of energy? 
+Logically, that's a different question. We may be able to
+prove that if A is false, then B must be false, but that doesn't mean that if A is
+true, B must be true as well.
+For instance, if you're not a criminal, then you're presumably not in jail, but just
+because someone is a criminal, that doesn't mean he is in jail
+--- some criminals never get caught.
+
+Noether's theorem does work the other way around as well: if physics has a certain
+symmetry, then there must be a certain corresponding conservation law. This is
+a stronger statement. The full-strength version of Noether's theorem can't
+be proved without a  model of light and matter more detailed than the one
+currently at our disposal.
+
+\mysection[4]{Equivalence of Mass and Energy}\label{sec:massenergy}
+\begin{envsubsection}{Mass-energy}\index{mass-energy}\index{mass!equivalence to energy}\index{energy!equivalence to mass}
+You've encountered two conservation laws so far: conservation of mass and conservation
+of energy. If conservation of energy is a consequence of symmetry, is there a
+deeper reason for conservation of mass?
+
+Actually they're not even separate conservation laws. Albert Einstein found,\index{Einstein, Albert}
+as a consequence of his theory of relativity, that mass and energy are equivalent, and
+are not separately conserved --- one can be converted into the other. Imagine that
+a magician waves his wand, and changes a bowl of dirt into a bowl of lettuce. You'd be
+impressed, because you were expecting that both dirt and lettuce would be conserved
+quantities. Neither one can be made to vanish, or to appear out of thin air. However,
+there are processes that can change one into the other. A farmer changes dirt into
+lettuce, and a compost heap changes lettuce into dirt. At the most fundamental
+level, lettuce and dirt aren't really different things at all; they're just collections
+of the same kinds of atoms --- carbon, hydrogen, and so on.
+
+We won't examine relativity in detail until chapter \ref{ch:relativity}, but mass-energy
+equivalence is an inevitable implication of the theory, and it's the only part of the
+theory that most people have heard of, via the famous equation $E=mc^2$. This equation
+tells us how much energy is equivalent to how much mass: the conversion factor is the square
+of the speed of light, $c$. Since $c$ a big number, you get a really really big number
+when you multiply it by itself to get $c^2$. This means that even a small amount of mass
+is equivalent to a very large amount of energy. 
+
+\begin{eg}{Gravity bending light}\label{eg:eclipse}
+Gravity is a universal attraction between things that have mass, and since the energy
+in a beam of light is equivalent to a some very small amount of mass, we expect that
+light will be affected by gravity, although the effect should be very small.
+The first experimental confirmation of relativity
+came in 1919 when stars next to the sun during a solar eclipse were
+observed to have shifted a little from their ordinary
+position. (If there was no eclipse, the glare of the sun
+would prevent the stars from being observed.) Starlight had
+been deflected by the sun's gravity. Figure \figref{eclipse} is a
+photographic negative, so the circle that appears bright is actually the
+dark face of the moon, and the dark area is really the bright corona of
+the sun. The stars, marked by lines above and below then, appeared at
+positions slightly different than their normal ones.
+\end{eg}
+
+\widefig{eclipse}{example \ref{eg:eclipse}}
+
+\begin{eg}{Black holes}\index{black hole}
+A star with sufficiently strong gravity can prevent light
+from leaving. Quite a few black holes have been detected via
+their gravitational forces on neighboring stars or clouds of gas and dust.
+\end{eg}
+
+
+Because mass and energy are like two different sides of the same coin, we may speak of
+mass-energy, a single conserved quantity, found by adding up all the mass and energy,
+with the appropriate conversion factor: $E+mc^2$.
+
+\begin{eg}{A rusting nail}\label{eg:rustingnail}
+\egquestion
+An iron nail is left in a cup of water
+until it turns entirely to rust. The energy released is
+about 500,000 joules. In theory, would a sufficiently
+precise scale register a change in mass? If so, how much?
+
+\eganswer
+ The energy will appear as heat, which will be lost
+to the environment. The total mass-energy of the cup,
+water, and iron will indeed be lessened by 500,000 joules. (If it
+had been perfectly insulated, there would have been no
+change, since the heat energy would have been trapped in the
+cup.) The speed of light in metric units is
+$c=3\times10^8$ meters per second (scientific notation for
+3 followed by 8 zeroes), so converting to mass units, we have
+\begin{align*}
+		m	 &=    \frac{E}{c^2}  \\
+			&= \frac{500,000}{\left(3\times10^8\right)^2} \\
+			 &=    0.000000000006\  \text{kilograms}   \qquad   .
+\end{align*}
+(The design of the metric system is based on the meter, the kilogram, and the
+second. The joule is designed to fit into this system, so the result comes
+out in units of kilograms.)
+The change in mass is too small to measure with any
+practical technique. This is because the square of the speed
+of light is such a large number in metric units.
+\end{eg}
+\end{envsubsection}
+%
+\begin{envsubsection}{The correspondence principle}\index{correspondence principle}
+The realization that mass and energy are not separately conserved is our first example
+of a general idea called the correspondence principle. When Einstein came up with
+relativity, conservation of energy had been accepted by physicists for decades, and
+conservation of mass for
+over a hundred years.\index{correspondence principle!for mass-energy equivalence}
+
+Does an example like this mean that physicists don't know what they're talking about?
+There is a recent tendency among social scientists to 
+deny that the scientific method even exists, claiming that
+science is no more than a social system that
+determines what ideas to accept based on an in-group's
+criteria. If science is an
+arbitrary social ritual, it would seem difficult to explain
+its effectiveness in building such useful items as
+airplanes, CD players and sewers. If voodoo
+and astrology were no less scientific in
+their methods than chemistry and physics, what was it that
+kept them from producing anything useful?
+This silly attitude was effectively skewered by a famous hoax
+carried out in 1996 by New York University physicist Alan Sokal.\index{Sokal, Alan} Sokal wrote
+an article titled ``Transgressing the Boundaries: Toward a Transformative 
+Hermeneutics of Quantum Gravity,'' and got it accepted by a cultural studies
+journal called \emph{Social Text}.\footnote{The paper
+appeared in \emph{Social Text} \#46/47 (1996) pp. 217-252. The full text
+is available on professor Sokal's web page at www.physics.nyu.edu/faculty/sokal/.}
+The scientific content of the paper is a carefully constructed soup of
+mumbo jumbo, using technical terms to create maximum confusion; I can't make
+heads or tails of it, and I assume the editors and peer reviewers at
+\emph{Social Text} understood even less. The physics, however, is mixed
+in with cultural relativist statements designed to appeal to them ---
+``\ldots the truth claims of science are inherently theory-laden and self-referential'' ---
+and footnoted references to academic articles such as 
+``Irigaray's and Hayles' exegeses of gender encoding in fluid mechanics \ldots
+and \ldots Harding's comprehensive critique of the gender ideology underlying
+the natural sciences in general and physics in particular\ldots''
+On the day the article came out, Sokal published a letter explaining that
+the whole thing had been a parody --- one that apparently went over the heads
+of the editors of \emph{Social Text}.
+
+What keeps physics from being merely a matter of fashion is that it has to agree
+with experiments and observations. If a theory such as conservation of mass or
+conservation of energy became accepted in physics, it was because it was supported
+by a vast number of experiments. It's just that experiments never have perfect
+accuracy, so a discrepancy such as the tiny change in the mass of the rusting nail
+in example \ref{eg:rustingnail} was undetectable. The old experiments weren't all
+wrong. They were right, within their limitations. If someone comes along with a
+new theory he claims is better, it must still be consistent with all the same
+experiments. In computer jargon, it must be backward-compatible. This is called
+the correspondence principle: new theories must be compatible with old ones in
+situations where they are both applicable. The correspondence principle tells us
+that we can still use an old theory within the realm where it works, so for instance
+I'll typically refer to conservation of mass and conservation of energy in this
+book rather than conservation of mass-energy, except in cases where the new theory
+is actually necessary.
+
+Ironically, the extreme cultural relativists want to attack what they see
+as physical scientists' arrogant claims to absolute truth, but what they
+fail to understand is that science only claims to be able to find partial, provisional truth.
+The correspondence principle tells us that each of today's scientific truth can be superseded
+tomorrow by another truth that is more accurate and more broadly applicable. It also
+tells us that today's truth will not lose any value when that happens.
+\end{envsubsection}
+
+% Einstein and mass-energy, because otherwise N's thm leaves mass dangling
+% could discuss tides, and apply cons of mass to explain why don't get tides in lakes
+% hw: numerical example using a table, discretized in time, to show delta-v/delta-t is const
+% hw: blood vessel, change in speed
+% hw or lab: center of mass, and then something with stability, e.g. the toys that look unstable but aren't;
+%    they really need this /before/ they do the KE lab
+% hw: SN 1, e.g. thermometer, hydraulic jack, river splits
+% hw involving E=mc2? if so, need to give numerical value for c
+
+%===============================================================================
+%===============================================================================
+
+\begin{hwsection}
+
+\begin{hw}{jumpkeandpe}
+You jump up straight up in the air. When do you have the greatest
+gravitational energy? The greatest kinetic energy?
+(Based on a problem by Serway and Faughn.)
+\end{hw}
+
+\begin{hw}{throw-down-and-up}
+	Anya and Ivan lean over a balcony side by side. Anya throws a penny downward with
+	an initial speed of 5 m/s. Ivan throws a penny upward with the same speed. Both pennies
+	end up on the ground below. Compare their kinetic energies and velocities on impact.
+\end{hw}
+
+\marg{\fig{hw-pulley}{Problem \ref{hw:pulley}.}}
+\begin{hw}{pulley}
+(a) If weight B moves down by a certain amount, how much does weight A
+move up or down?\hwendpart
+(b) What should the ratio of the two weights be if they are to balance?
+Explain in terms of conservation of energy.
+\end{hw}
+
+\begin{hw}{rocketweight}
+How high above the surface of the earth should a rocket be in order to
+have 1/100 of its normal weight? Express your answer in units of earth radii.
+\end{hw}
+
+\begin{hw}{slidingmagnets}
+	(a) You release a magnet on a tabletop near a big piece
+	of iron, and the magnet leaps across the table to the iron.
+	Does the magnetic energy increase or decrease?
+	Explain.\hwendpart
+	(b) Suppose instead that you have two repelling
+	magnets. You give them an initial push towards each other,
+	so they decelerate while approaching each other. Does the
+	magnetic energy increase or decrease? Explain.
+\end{hw}
+
+\begin{hw}{spacesuit}
+A closed system can be a bad thing --- for an astronaut
+sealed inside a space suit, getting rid of body heat can be
+difficult. Suppose a 60-kg astronaut is performing vigorous
+physical activity, expending 200 watts of power. If none of
+the heat can escape from her space suit, how long will it
+take before her body temperature rises by $6\degcunit$
+($11\degunit\textup{F}$), an amount  sufficient to kill her?  Assume
+that the amount of heat required to raise her body
+temperature by $1\degcunit$ is the same as it would be for an
+equal mass of water. Express your answer in units of minutes.
+\end{hw}
+
+\begin{hw}{changing-electron-mass}
+As suggested on page \pageref{text:changing-electron-mass}, imagine that the mass of
+the electron rises and falls over time. (Since all electrons are identical, physicists
+generally talk about ``the electron'' collectively, as in ``the modern man wants more
+than just beer and sports.'') The idea is that all electrons are increasing and
+decreasing their masses in unison, and at any given time, they're all identical. They're
+like a litter of puppies whose weights are all identical on any given day, but who all
+change their weights in unison from one month to the next.
+Suppose you were the only person who knew about these small day-to-day changes in the
+mass of the electron. Find a plan for violating conservation of energy and getting
+rich.
+\end{hw}
+
+\begin{hw}{rustingnailsmallc}
+A typical balance like the ones used in school classes can be read to an accuracy
+of about plus or minus $0.1$ grams, or $10^{-4}$ kg. What if the laws of physics had been
+designed around a different value of the speed of light? To make mass-energy
+equivalence detectable in example \ref{eg:rustingnail} on page \pageref{eg:rustingnail}
+using an ordinary balance, would $c$ have to be smaller than it is in our universe,
+or bigger? Find the value of $c$ for which the effect would be just barely detectable.
+\end{hw}
+
+\begin{hw}[2]{perpetualmotion}
+Physics in the modern sense of the word began in the seventeenth century, with Galileo
+and Newton, but conservation of energy wasn't discovered until the nineteenth century.
+In the intervening period, there was no scientific reason to think that it was impossible
+to make a perpetual motion machine, which today we would describe as a machine that
+creates more energy than it takes in. For instance, people tried to make cars that would
+run forever without requiring fuel. We now know this is impossible because of conservation
+of energy; as a car rolls, a great deal of frictional heating occurs, and the amount of
+heat created must be the same as the amount of energy consumed by burning the fuel.
+Even so, people still try to make perpetual motion machines. The U.S. patent office long
+ago eliminated its general requirement that a working model accompany a patent application, but the
+requirement still applies to attempts to patent a perpetual motion machine; since a working
+model is forbidden by the laws of physics, this has the effect of making it impossible to
+patent a perpetual motion machine. Nowadays, enthusiasts tend to talk about ``free energy''
+or ``vacuum energy'' 
+rather than ``perpetual motion.'' 
+(Vacuum energy is legitimate physics, but these people are trying to say
+it can be used to violate conservation of energy, which is wrong.)
+Websurf, and try to find some examples of people
+promoting or selling perpetual motion machines or designs for them. Is it clear where the
+border lies between science and pseudoscience? If you form opinions about which people's
+web pages are scams, would you be able to convince someone who hadn't taken a physics
+course? Can you find any free-energy nuts within otherwise respectable organizations such
+as NASA? --- in Google (google.com), for instance, you can do an advanced search in which you ask only
+for results from a specific domain like nasa.gov. What about category-based guides to the
+Web, such as Open Directory (dmoz.org) or Yahoo (yahoo.com)? How do their editors seem to
+treat pseudoscience sites? Do you agree with their decisions? Back up all your statements with
+specific descriptions of the data you collected by websurfing.
+\end{hw}
+
+
+\hwnote{%
+Problem \ref{hw:colliding-balls}
+is to be done after you've completed lab \ref{ch:energy}\ref{lab:energy}, and know the
+equation for an object's kinetic energy in terms of its mass and speed.
+}
+
+\widefigsidecaption{psscballs}{Problem \ref{hw:colliding-balls}.}
+\begin{hw}{colliding-balls}
+	The multiflash photograph below shows a collision
+	between two pool balls. The ball that was initially at rest
+	shows up as a dark image in its initial position, because
+	its image was exposed several times before it was struck and
+	began moving. By making measurements on the figure,
+	determine whether or not energy appears to have been
+	conserved in the collision. What systematic effects would
+	limit the accuracy of your test? (From an example in PSSC
+	Physics.)
+\end{hw}
+
+\end{hwsection}
+
+%========================================== labs ===============================================
+
+%--------------------------------- conservation laws lab --------------------------------------
+
+\begin{lab}{Conservation Laws}
+
+\apparatus
+\emph{Part A:}\\
+\equipn{vacuum pump}{1}\\
+\equipn{electronic balance (large capacity)}{1}\\
+\equipn{plastic-coated flask}{1/group}\\
+\emph{Part B: }\\
+\equipn{propyl alcohol}{200 mL/group}\\
+\equipn{canola oil}{200 mL/group}\\
+\equipn{funnels}{2/group}\\
+\equipn{100-mL volumetric flask}{1/group}\\
+\equip{rubber stopper, fitting in}\\
+\equipn{volumetric flask}{1/group}\\
+\equipn{1-ml pipette and bulb}{1/group}\\
+\equipn{magnetic stirrer}{1/group}\\
+\equipn{triple-beam balance}{1/group}
+
+\index{conservation!of mass}\index{conservation laws!lab}
+
+\labintroduction
+
+Styles in physics come and go, and once-hallowed principles
+get modified as more accurate data come along, but some of
+the most durable features of the science are its conservation
+laws.  A conservation law is a statement that something
+always remains constant when you add it all up.  Most people
+have a general intuitive idea that the amount of a substance
+is conserved.  That objects do not simply appear or
+disappear is a conceptual achievement of babies around the
+age of 9-12 months.  Beginning at this age, they will for
+instance try to retrieve a toy that they have seen being
+placed under a blanket, rather than just assuming that it no
+longer exists. Conservation laws in physics have the
+following general features:
+
+\begin{itemize}
+\item[] Physicists trying to find new conservation laws will try
+to find a measurable, numerical quantity, so that they can
+check quantitatively whether it is conserved.  One needs an
+operational definition of the quantity, meaning a definition
+that spells out the operations required to measure it.
+
+\item[] Conservation laws are only true for closed systems.  For
+instance, the amount of water in a bottle will remain
+constant as long as no water is poured in or out.  But if
+water can get in or out, we say that the bottle is not a
+closed system, and conservation of matter cannot be applied to it.
+
+\item[] The quantity should be additive.  For instance, the amount
+of energy contained in two gallons of gasoline is twice as
+much as the amount of energy contained in one gallon; energy
+is additive.  An example of a non-additive quantity is
+temperature.  Two cups of coffee do not have twice as high a
+temperature as one cup.
+
+\item[] Conservation laws always refer to the total amount of the
+quantity when you add it all up.  If you add it all up at
+one point in time, and then come back at a later point in
+time and add it all up, it will be the same.
+\end{itemize}
+
+How can we pin down more accurately the concept of the
+``amount of a substance''?  Should a gallon of shaving cream
+be considered ``more substantial'' than a brick? At least
+two possible quantities come to mind: mass and volume.  Is
+either conserved?  Both?  Neither?  To find out, we will
+have to make measurements.
+
+We can measure mass by the ``see-saw method'' --- when two
+children are sitting on the opposite sides of a see-saw, the
+more massive one has to move closer in to the fulcrum to
+make it balance.  If we enslave some particular child as our
+permanent mass standard, then any other child's mass can
+simply be measured by balancing them on the other side and
+measuring their distance from the fulcrum.  A more practical
+version of the same basic principle that does not involve
+human rights violations is the familiar pan balance
+with sliding weights.
+
+Volume is not necessarily so easy to measure.  For instance,
+shaving cream is mostly air, so should we find a way to
+measure just the volume of the bubbly film itself?  Precise
+measurements of volume can most easily be done with liquids
+and gases, which conform to a vessel in which they are placed.
+
+Should a gas, such as air, be counted as having any
+substance at all?  Empedocles of Acragas (born ca. 492 BC)
+was the originator of the doctrine that all material
+substances are composed of mixtures of four elements: earth,
+fire, water and air.  The idea seems amusingly naive now
+that we know about the chemical elements and the periodic
+table, but it was accepted in Europe for two thousand years,
+and the inclusion of air as a material substance was
+actually a nontrivial concept.  Air, after all, was
+invisible, seemed weightless, and had no definite shape. 
+Empedocles decided air was a form of matter based on
+experimental evidence: air could be trapped under water in
+an inverted cup, and bubbles would be released if the cup
+was tilted.  It is interesting to note that in China around
+300 BC, Zou Yan came up with a similar theory, and his five
+elements did not include air.
+
+Does air have weight?  Most people would probably say no,
+since they do not feel any physical sensation of the
+atmosphere pushing down on them.  A delicate house of cards
+remains standing, and is not crushed to the floor by the
+weight of the atmosphere.
+
+Compare that to the experience of a dolphin, though.  A
+dolphin might contemplate a tasty herring suspended in front
+of it and conjecture that water had no weight, because the
+herring did not involuntarily shoot down to the sea floor
+because of the weight of the water overhead.  Water does
+have weight, however, which a sufficiently skeptical dolphin
+physicist might be able to prove with a simple experiment. 
+One could weigh a 1-liter metal box full of water and then
+replace the water with air and weigh it again.  The
+difference in weight would be the difference in weight
+between 1 liter of water of and 1 liter of air.  Since air
+is much less dense than water, this would approximately
+equal the weight of 1 liter of water.
+
+Our situation is similar to the dolphin's, as was first
+appreciated by Torricelli, whose experiments led him to
+conclude that ``we live immersed at the bottom of a sea
+of...air.''  A human physicist, living her life immersed in
+air, could do a similar experiment to find out whether air
+has weight.  She could weigh a container full of air, then
+pump all the air out and weigh it again.  When all the
+matter in a container has been removed, including the air,
+we say that there is a vacuum in the container.  In
+reality, a perfect vacuum is very difficult to create.  A
+small fraction of the air is likely to remain in the
+container even after it has been pumped on with a vacuum
+pump.  The amount of remaining air will depend on how good
+the pump is and on the rate at which air leaks back in to
+the container through holes or cracks.
+
+Galileo gave the first experimental proof that air had
+weight by the opposite method of compressing the air in a
+glass bulb to stuff more air than normal into it, and
+comparing its weight to what it had been when ordinary,
+uncompressed air was in it.
+
+\labsubsubsection{Cautions}
+
+Please do not break the glassware!  The vacuum flasks and
+volumetric flasks are expensive.
+
+The alcohol you will be using in this lab is chemically
+different from the alcohol in alcoholic beverages.  It is
+poisonous, and can cause blindness or death if you drink it.
+ It is not hazardous as long as you do not drink it.
+
+\labobservations
+
+\labpart{ Density of air}
+
+You can remove the air from the flask by attaching the
+vacuum pump to the vacuum flask with the rubber and glass
+tubing, then turning on the pump.  You can use the scale to
+determine how much mass was lost when the air was evacuated.
+
+Make any other observations you need in order to find out
+the density of air.
+
+\labpart{ Is volume and/or mass conserved when two fluids are mixed?}
+
+The idea here is to find out whether volume and/or mass is
+conserved when water and alcohol are mixed.  The obvious way
+to attempt this would be to measure the volume and mass of a
+sample of water, the volume and mass of a sample of alcohol,
+and their volume and mass when mixed.  There are two
+problems with the obvious method: (1) when you pour one of
+the liquids into the other, droplets of liquid will be left
+inside the original vessel; and (2) the most accurate way to
+measure the volume of a liquid is with a volumetric flask,
+which only allows one specific, calibrated volume to be measured.
+
+\labfig{lab-flask}
+
+Here's a way to get around those problems.  Put the magnetic
+stirrer inside the flask.  Pour water through a funnel into
+a volumetric flask, filling it less than half-way.  (Do not
+use the pipette to transfer the water.)  A common mistake is
+to fill the flask more than half-way.  Now pour a thin layer
+of cooking oil on top.  Cooking oil does not mix with water,
+so it forms a layer on top of the water.  (Set aside one
+funnel that you will use only for the oil, since the oil
+tends to form a film on the sides.)  Finally, gently pour
+the alcohol on top.  Alcohol does not mix with cooking oil
+either, so it forms a third layer.  By making the alcohol
+come exactly up to the mark on the calibrated flask, you can
+make the total volume very accurately equal to 100 mL.  In
+practice, it is hard to avoid putting in too much alcohol
+through the funnel, so if necessary you can take some back
+out with the pipette.
+
+If you put the whole thing on the balance now, you know both
+the volume (100 mL) and the mass of the whole thing when the
+alcohol and water have been kept separate.  Now, mix
+everything up with the magnetic stirrer.  The water and
+alcohol form a mixture.  You can now test whether the volume
+or mass has changed.
+
+If the mixture does not turn out to have a volume that looks
+like exactly 100 mL, you can use the following tricks to
+measure accurately the excess or deficit with respect to 100
+mL.  If it is less than 100 mL, weigh the flask, pipette in
+enough water to bring it up to 100 mL, weigh it again, and
+then figure out what mass and volume of water you added
+based on the change in mass.  If it is more than 100 mL,
+weigh the flask, pipette out enough of the mixture to bring
+the volume down to 100 mL, weigh it again, and make a
+similar calculation using the change in mass and the density
+of the oil.  If you need to pipette out some oil, make sure
+to wash and rinse the pipette thoroughly afterwards.
+
+\labwriteup
+
+A. If your results show that air has weight, determine the
+(nonzero) density of air, taking into account the accuracy of
+your data.
+
+B. Decide whether volume and/or mass is conserved when
+alcohol and water are mixed, taking into account the accuracy of
+your data.
+
+\end{lab}
+
+%--------------------------------- conservation of energy lab --------------------------------------
+
+\begin{lab}{Conservation of Energy}\label{lab:energy}
+
+\apparatus
+\equip{air track}\\
+\equip{carts, large and small}\\
+\equip{photogate (PASCO) (under lab benches in rm. 418)}\\
+\equip{computer}\\
+\equip{air blowers}\\
+\equip{string}\\
+\equip{cylindrical pendulum bobs}\\
+\equip{hook}\\
+\equip{meter sticks and rulers}\\
+\equip{wood blocks}
+
+\begin{goals}
+\item[] Learn how a new form of energy is discovered and
+analyzed.
+\item[] Discover the equation that relates an object's kinetic energy to its mass $m$
+and speed $v$.
+\end{goals}
+
+\labintroduction
+
+What \emph{is} energy? It's hard to give a pithy, clear definition.
+In a published lecture, physicist Richard Feynman wrote, ``It is
+important to realize that in physics today, we have no knowledge of
+what energy \emph{is}.'' Conservation of energy, he wrote, ``states that there is
+a certain quantity, which we call energy, that does not change in the manifold
+changes which nature undergoes... It is not a description of a mechanism, or anything
+concrete; it is just a strange fact that we can calculate some number and when we finish
+watching nature go through her tricks and calculate the number again, it is the same. (Something
+like the bishop on a red square, and after a number of moves --- details unknown --- it is still on
+some red square...)''\index{Feynman, Richard}\index{energy!conservation of!lab}\index{energy!kinetic!lab}%
+\index{energy!kinetic!dependence on speed}\index{kinetic energy!lab}\index{kinetic energy!dependence on speed}
+
+
+In fact, all the conserved quantities have this elusive quality, but it's just more obvious
+when it comes to energy. Nineteenth-century physicists thought they knew what momentum was,
+but they found out later that there was a less obvious form of it, which they had left out
+of their definition: light carries momentum, just not enough to notice in everyday life.
+Twentieth-century physicists thought they knew what mass was, but recent astronomical observations
+have shown that 95\% of the universe's mass is in the form of ``dark matter,'' which isn't really
+matter at all, in the usual sense of protons, neutrons, and electrons.
+
+Mass, momentum, and energy are not things that were revealed to physicists centuries ago on stone tablets.
+Physicists had to determine \emph{by experiment} what forms they took, and what mathematical
+rules to use for calculating each of these forms. To see how this open-ended process works, we're
+going to pretend that we only know about gravitational energy, and see how we
+can extend energy to include a new form, kinetic energy.
+
+We already know about gravitational energy, which is useful all by itself.
+For instance, if two children are balanced on a see-saw, the total gravitational energy remains the same as one
+goes up and the other goes down. What if they're unbalanced? If the heavier child sits down first,
+the lighter one will not be able to budge the see-saw by sitting down on the other end. Again, our
+theory works: motion is impossible in this situation, because energy would not be conserved: if the
+heavier child went up and the lighter child went down, the total energy would not stay the same.
+
+But nothing is as sad as a beautiful theory confronted with an ugly fact. If the lighter child gets
+on first, and then the heavier one, we \emph{do} get motion. Since gravitational energy is the only form of energy
+we know about, our theory is violated. As the heavy child falls, and the light one rises an equal
+distance, we are losing total gravitational energy. The only way to fix our broken theory is to notice that in this
+new process, unlike the previous ones, there is a change in speed. We therefore hypothesize that there
+is some new form of energy, which is possessed by objects in motion. The net loss in gravitational is, we
+guess, canceled by a gain in total motion-of-energy, which we decide to call kinetic energy.
+
+\labfig{lab-inclined-plane}
+
+\pagebreak[4]
+
+\labobservations
+
+
+\labpart{Speed dependence}
+
+\labsubsubsection{Setting up the photogate}
+This new form of energy depends on motion, but how exactly? To find out,
+you'll use the air track apparatus shown in the figure.
+The speed of the cart at any given point can be measured as
+follows.  The photogate consists of a light and a sensor on
+opposite sides of the track.  When the cart passes by, the
+cardboard vane on top blocks the light momentarily, keeping
+light from getting to the sensor.  The computer detects the
+electric signal from the sensor, and records the amount of
+time for which the photogate was blocked.  Given
+the time, you can determine the speed that cart had
+when it passed through the photogate.
+
+The point of the air track is to eliminate friction, and
+you need to check that friction has really been eliminated.
+First, level the track by adjusting the feet. When the track is
+level, the cart should not accelerate in either direction
+when released from rest. (The track may not be perfectly
+flat. For instance, if it's a little bowed in the middle, you
+may find that even when the track is leveled as well as possible,
+the cart always accelerates very gently toward the center.)
+Once you've leveled the track, you can check for friction by
+setting the cart in motion at a very low speed. If there is friction,
+the cart will tend to slow down perceptibly regardless of which
+direction you start it going. If there's no friction, then the
+cart will only speed up or slow down very gradually because of imperfections
+in the leveling or straightness of the track, and the results
+will depend on the direction of motion.
+
+Here's how to get the photogate running.
+Make sure the interface box is turned on before you
+boot up the computer. Plug the photogate into DG1 on the
+interface box.
+From the Start menu at the lower left corner of the screen,
+run Logger Pro (in Programs$>$Vernier Software).
+Make sure that the interface box is plugged into COM1 (the first
+COM port) at the
+back of the computer, not COM2.
+If the computer presents you with a dialog box saying ``Set
+Up Interface,''  choose COM1.
+(If it complains that it can't find the port, you may be able
+to fix the problem if you quit Logger Pro, power the interface off
+and on again, and then get back in Logger Pro and try again.)
+From the File menu, do Open, and locate the setup file you need:\\
+   Probes \& Sensors $>$ Photogate $>$ One Gate Timer
+
+If there is no button for collecting data, it's because the
+interface box wasn't turned on when you booted up. Reboot.
+
+At this point, you can test whether the photogate is working by
+blocking it with your hand for a certain number of seconds. The
+time should read out in the spreadsheet window under the Delta-T
+column. (``Delta,'' the Greek uppercase letter $\Delta$, is a notation
+meaning ``the change in,'' i.e., you're measuring the change in time
+between one clock reading and another.)
+
+You may find that the software rounds off too
+severely. If you want more
+than the three decimal places it offers by default in the
+Delta-T column. To fix this, double-click on the title of
+the Delta-T column, and select a greater number of
+significant figures.   
+
+The software will also give you a column in the spreadsheet labeled
+V for velocity.\footnote{Velocity and speed are almost synonyms in
+physics, and similar algebra notation, $v$ or \textit{\textbf{v}}, is used for both. There is
+a technical distinction, which is that for motion in one dimension,
+a number giving a velocity includes
+a plus or minus sign giving direction information, while a speed is always
+positive by definition.} This information will be \emph{incorrect} unless
+you've told the software the width of the vane.\index{velocity!as opposed to speed}\index{speed!as opposed to velocity}
+In fact, it generally won't even be necessary to calculate speeds in this
+lab, because you'll be dealing only with ratios. For instance, if it takes
+half as much time for the cart to get through the gate, then the speed must have
+been twice as great.
+
+\labsubsubsection{Measuring the speed dependence}
+
+Position the photogate near the bottom, and release the cart from
+a short distance (say 20 cm) up the slope. You can read off the time
+from the computer. Think for a second about the order of magnitude of
+this time. Does it make sense if it's supposed to tell you how long the cart
+took to get from the release point to the photogate, or is it telling
+you how long the vane took to pass through the photogate?
+
+Since the cart accelerates on its way down the slope,
+we expect that if we release it from higher up the slope, it will pass
+through the photogate faster, and the time measured on the computer will
+be shorter. Now imagine --- \emph{don't do this yet} --- that you
+release the cart from farther upslope, searching by trial and error for
+a release point that will result in double the speed, corresponding to half
+the time on the computer. How many times farther upslope do you think you
+will have to release it from?
+Discuss this with your group, form a hypothesis,
+and write it down here:  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Discuss this with your instructor before going on.
+
+A couple of hints: (1) If you air pump has a knob that varies the speed of
+the air, make sure to put it on its highest setting. (2) Don't turn on the
+air and just let the cart lift off and start moving by itself. If you do
+this, the cart will be dragging at first, and you'll get bad data.
+
+OK, now carry out the experiment. Once you found the correct release point,
+how many times greater was the gravitational energy consumed, compared to what was consumed
+in your original setup? What does this tell about the amount of KE released?
+Summarizing, how does KE seem to relate to speed? Discuss with your
+instructor how to write this relationship as a proportionality.
+
+\labpart{Mass dependence}
+Now explore the dependence of kinetic energy on mass, by releasing the small
+cart and the large one from the same distance upslope. The large cart has
+double the mass, so how many times greater is the gravitational energy it consumes and
+turns into KE? Compare the two times on the photogate, making sure that
+the vanes on the two carts have the same width. How do the two velocities
+compare? What does this tell you about how KE depends on mass?
+Discuss with your
+instructor how to write the dependence of KE on $m$ and $v$ as a proportionality.
+
+\labpart{Reversing the motion}
+Candles burn out. A bouncing ball eventually stops bouncing. Everything seems
+to run down naturally. By analogy, suppose you shove the cart gently uphill,
+so that is passes through the photogate, comes to a stop, and then slides back
+down and passes through the photogate again on the way down. Form a hypothesis
+about what you'll observe when you compare the two times measured on the
+computer. Write down your hypothesis and show it to your instructor.
+Hypothesis: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Now try it. How does this relate to the way conservation laws work?
+
+\enlargethispage{-\baselineskip}
+
+\labpart{Changing the path}
+Suppose you release the cart on the air track from a certain height, $h$, and
+measure its speed as it passes through the photogate.
+(Note that $h$ is different from --- is less than --- the distance measured along
+the slope.) Now imagine that you replace the air track setup with a pendulum,
+flipping the photogate upside-down to form a U. The pendulum swings along an
+arc of a circle, not a straight line. Imagine that you release the pendulum bob
+so that its center will drop through the same height, $h$, as the cart did.
+Because the bob is traveling along a curved path, it will move farther --- it
+isn't traveling ``as the crow flies.'' What do you think you will observe about
+the velocity of the pendulum bob compared to that of the cart? Does it matter
+that they differ in mass? Try it.
+
+\labfig{lab-two-paths}
+
+Notes:
+\begin{itemize}
+\item[] The bob's diameter is
+same as the width of the vane.
+
+\item[] The point here is to compare two different paths, but an arc of
+a circle that covers a sufficiently small angle is nearly a straight line.
+To get a good test, you'll want to use an arc covering the greatest possible
+angle.
+
+\item[] Every atom of the cart moves an equal distance in an equal amount of
+time, but that's not true for the bob, so identical atoms in different parts of
+the bob will contribute different amounts of kinetic energy. The parts of the bob farthest from the
+center of the circle are going faster than the parts nearer the center. To minimize
+this ambiguity, you want the string to be fairly long compared to the size of
+the bob. Also, which point on the bob is most representative of the whole thing?
+
+\item[] Similarly, not every atom loses the same amount of gravitational energy,
+since they don't all drop through the same height. Similar considerations apply.
+
+\item[] For the reasons described above, you want a fairly long string and a fairly
+long arc. The result is that the bob will drop through a big height. However, it may be
+awkward to match this great height using the air track, so you may need to compromise
+a little.
+
+\end{itemize}
+
+\enlargethispage{-\baselineskip}
+
+How do your results relate to the way conservation laws work?
+
+\labpart{Are we done?}
+Now release the pendulum, and let it swing freely back and forth many times,
+passing through the photogate twice on each cycle. What do you observe over
+many cycles as you watch the computer print out the list of numbers? What
+does this tell you? Discuss this with your instructor.
+
+\labsection{Writeup}
+In your writeup, one of the most important results you'll summarize is
+the outcome of parts A and B: how kinetic energy depends on mass $m$ and speed $v$.
+Based only on this experiment, all you could get would be a proportionality, not an
+actual equation. The difference is that the actual equation would have some numerical
+factor out in front that would make the equation consistent with the system of units
+you're using. Similarly, people in different countries use different currencies, so
+although they'd agree that the price of a gold bar was directly proportional to its
+mass, one person would say it was this many dollars per ounce, while the other would
+state it as so many euros per gram.
+
+In this book we're using metric units, and I've presented the energy scale as being
+based on the amount of heat required to raise the temperature of a certain amount of
+water by a certain amount. In fact, the metric system was designed so that the relationship
+between kinetic energy, mass, and speed would have a nice simple numerical factor out
+in front, and I want you to find that numerical factor. To find it, use the fact that
+a one-kilogram object moving at a speed of one meter per second has a kinetic energy
+of exactly $1/2$ of a joule.
+
+\end{lab}
+
+%========================================== self-check answers ===============================================
+
+
+\startscanswers{ch:energy}
+\scanshdr{conservation} A conservation law in physics says that the total
+amount of something always remains the same. You can't get rid of it even if you want to.
+\scanshdr{firefighteronpole}{Her gravitational energy is being transformed
+into heat energy. Friction heats up her body and the pole.}
+\scanshdr{dropfeather}{The feather experiences air resistance, which is a form of friction.
+Friction produces heat, and that's the missing form of energy. In a vacuum chamber, the
+feather will not fall any more slowly than any other object.}
+
+%========================================== toc decoration ===============================================
+
+
+\addtocontents{toc}{\protect\figureintoc{poolskater}}

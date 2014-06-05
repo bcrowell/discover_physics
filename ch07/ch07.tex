@@ -1,0 +1,2907 @@
+\mychapterwithopener{sunspot}{This sunspot is a product of the sun's magnetic fields. The
+darkest region in the center is about the size of our planet.}{Electricity and Magnetism}\label{ch:em}\label{sunspotphoto}\index{sunspots}
+\mysection[0]{Electrical Interactions}
+\epigraph{Newton was not the first of the age of reason. He was the
+	last of the magicians.}{John Maynard Keynes}\index{Newton, Isaac}\index{Keynes, John Maynard}
+
+	Keynes' language isn't as figurative as you might think. Newton
+	had a lifelong obsession with alchemy, a pseudoscience that bears
+	the same relationship to chemistry that astrology has
+	to astronomy.\index{astrology}\index{Galileo!astrology}\index{Newton!astrology myth}
+\footnote{There's an urban folktale that Newton also practiced astrology. Wrong!
+Newton wrote that as a young student, he had read a book on astrology, and was
+``soon convinced of the vanity \& emptiness of the pretended science of Judicial astrology''
+(Whiteside, Hoskin, and Prag, eds., 
+\emph{The Mathematical Papers of Isaac Newton}
+Cambridge University Press, Cambridge, 1967-81, vol. 1, pp. 15-19).
+Galileo did calculate horoscopes for money, and Newton was born the same year Galileo died,
+1642, so this year represents a dividing line in the history of the astrological
+supersition --- since Newton's lifetime, belief in astrology has become essentially
+extinct among physicists and astronomers. It's no coincidence that the dividing
+line is represented by Galileo and Newton.
+Galileo had pioneered the use of the
+scientific method to study the heavens, while Newton's greatest achievement
+was to show that the motion of the planets could be explained using his law of
+gravity. The success of this naturalistic description made it clear that it was silly
+to look for supernatural links between the skies and human concerns.
+Astrology has also failed every empirical test; a particularly well-constructed
+study by Rob Nanninga is described at http://home.planet.nl/$\sim$skepsis/astrot.html.
+}
+	To the modern science educator, this
+	may seem an embarrassment, a distraction from
+	his main achievement, which was the creation the modern science of
+	mechanics. To Newton, however, his alchemical researches
+	were naturally related to his investigations of force and
+	motion. What was radical about Newton's analysis of motion
+	was its universality: it succeeded in describing both the
+	heavens and the earth with the same equations, whereas
+	previously it had been assumed that the sun, moon, stars,
+	and planets were fundamentally different from earthly
+	objects. But Newton realized that if science was to describe
+	all of nature in a unified way, it was not enough to unite
+	the human scale with the scale of the cosmos: he would not
+	be satisfied until he fit the microscopic universe into
+	the picture as well.
+
+\begin{envsubsection}{Newton's quest}
+	It shouldn't surprise us that Newton failed. Although he
+	was a firm believer in the existence of atoms, there was no
+	more experimental evidence for their existence than there
+	had been when the ancient Greeks first posited them on
+	purely philosophical grounds. \index{alchemy}Alchemy labored
+	under a tradition of secrecy and mysticism. Newton had
+	already almost single-handedly transformed the fuzzyheaded
+	field of ``natural philosophy'' into something we would
+	recognize as the modern science of physics, and it would be
+	unjust to criticize him for failing to change alchemy into
+	modern chemistry as well. The time was not ripe. The
+	microscope was a new invention, and it was cutting-edge
+	science when Newton's contemporary \index{Hooke}Hooke
+	discovered that living things were made out of cells.
+
+	Nevertheless it will be instructive to pick up Newton's
+	train of thought and see where it leads us with the benefit
+	of modern hindsight. In uniting the human and cosmic scales
+	of existence, he had reimagined both as stages on which the
+	actors were objects (trees and houses, planets and stars)
+	that interacted through attractions and repulsions. He was
+	already convinced that the objects inhabiting the microworld
+	were atoms, so it remained only to determine what kinds of
+	forces they exerted on each other.
+
+	His next insight was no less brilliant for his inability to
+	bring it to fruition. He realized that the many human-scale
+	forces --- friction, sticky forces, the forces that
+	keep objects from occupying the same space, and so on ---
+	must all simply be expressions of a more fundamental force
+	acting between atoms. Tape sticks to paper because the atoms
+	in the tape attract the atoms in the paper. My house doesn't
+	fall to the center of the earth because its atoms repel the
+	atoms of the dirt under it.
+
+	Here he got stuck. It was tempting to think that the atomic
+	force was a form of gravity, which he knew to be universal,
+	fundamental, and mathematically simple. Gravity, however, is
+	always attractive, so how could he use it to explain the
+	existence of both attractive and repulsive atomic forces?
+	The gravitational force between objects of ordinary size is
+	also extremely small, which is why we never notice cars and
+	houses attracting us gravitationally. It would be hard to
+	understand how gravity could be responsible for anything as
+	vigorous as the beating of a heart or the explosion of
+	gunpowder. Newton went on to write a million words of
+	alchemical notes filled with speculation about some other
+	force, perhaps a ``divine force'' or ``vegetative force''
+	that would for example be carried by the sperm to the egg.
+
+	Luckily, we now know enough to investigate a different
+	suspect as a candidate for the atomic force: electricity.
+	\index{electric forces}Electrical forces are often observed
+	between objects that have been prepared by rubbing (or other
+	surface interactions), for instance when clothes rub against
+	each other in the dryer. 
+	Electrical forces are similar in certain ways to
+	gravity, the other force that we already know to be fundamental:
+
+	\begin{itemize}
+	\item Electrical forces are \emph{universal}. Although some
+	substances, such as fur, rubber, and plastic, respond more
+	strongly to electrical preparation than others, all matter
+	participates in electrical forces to some degree. There is
+	no such thing as a ``nonelectric'' substance. Matter is both
+	inherently gravitational and inherently electrical.
+
+	\item Experiments show that the electrical force, like the
+	gravitational force, is an \emph{inverse square} force. That
+	is, the electrical force between two spheres is proportional
+	to $1/r^2$, where $r$ is the center-to-center distance between them.
+	\end{itemize}
+\end{envsubsection}
+%
+\begin{envsubsection}{Charge and electric field}
+	``\index{charge}Charge'' is the technical term used to
+	indicate that an object has been prepared so as to
+	participate in electrical forces. This is to be distinguished
+	from the common usage, in which the term is used indiscriminately
+	for anything electrical. For example, although we speak
+	colloquially of ``charging'' a battery, you may easily
+	verify that a battery has no charge in the technical sense,
+	e.g., it does not exert any electrical force on a piece of
+	tape that has been prepared as described in the previous section.
+	The metric unit of charge is the\index{charge!coulomb unit}\index{coulomb (unit)}
+	coulomb (rhymes with ``drool on''), defined as follows:
+	one coulomb (C) is the amount of charge such that
+	a force of $9.0\times10^9$ newtons\footnote{Don't memorize this number.} occurs between two pointlike
+	objects with charges of 1 coulomb separated by a distance of 1 meter.
+	Nine billion newtons is a tremendous amount of force, so we can see that
+	the amount of charge on your socks when they come out of the dryer must be
+	a tiny fraction of a coulomb.
+
+	Just as we think of a planet as being surrounded by a gravitational field,
+	we can imagine an electric field surrounding your sock.\index{electric field}\index{field!electric}
+	When the air crackles and your hair stands on end in an electrical storm,
+	you're experiencing an electric field.
+	Charge plays the role in electrical interactions that is played by
+	mass in gravitational interactions. The gravitational field has units
+	of energy per meter per kilogram, so by analogy the electric field has
+	units of energy per meter per coulomb.
+
+	You've already investigated charge in lab, so I won't bore you by
+	recapitulating the relevant facts normally presented in textbooks:
+	the number of types of charge, the rules for attraction or repulsion,
+	and the question of whether charge is conserved.\index{charge!number of types}\index{charge!conservation of}
+
+\subsubsection{Quantization of charge and a charged particle model}
+	One fact about charge that is not immediately apparent in ordinary
+	electrical experiments is that it is quantized. When we say something
+	is quantized, we mean that\index{charge!quantization of}
+	it comes in a certain minimum unit. For instance, the U.S. currency
+	is quantized in units of pennies; you can't write a check for half
+	a penny. The quantization of charge makes sense if we imagine a model
+	in which charge is carried by microscopic, identical particles. In the same
+	way, a person who studied accounting but had never seen actual currency
+	might hypothesize that people actually carried out monetary transactions by
+	exchanging some physical object as a token --- the penny.
+
+	\margup{-54.5mm}{\fig{millikan}{A young Robert Millikan.}
+	\spacebetweenfigs
+	\begin{minipage}[t]{52mm}
+	\begin{tabular}{ll}
+					& charge\\
+					& $/(1.64$\\
+		charge (C)		& $\times10^{-19}\ \zu{C})$ \\
+		\hline
+		$1.970\times10^{-18}$	& $12.02$ \\
+		$0.987\times10^{-18}$	& $6.02$ \\
+		$2.773\times10^{-18}$	& $16.93$ \\
+	\end{tabular}
+	\docaption{A few samples of Millikan's data. The letter C stands
+	for units of coulombs.} %
+	\label{fig:millikandata} %
+	\end{minipage}
+        \spacebetweenfigs
+        \fig{millikan-apparatus}{Millikan's oil drop experiment.}
+	}
+	Strong support for the charged-particle model came from a
+	1911 experiment by physicist Robert \index{Millikan,
+	Robert}Millikan at the University of Chicago. Consider a jet
+	of droplets of perfume or some other liquid made by blowing
+	it through a tiny pinhole. The droplets emerging from the
+	pinhole must be smaller than the pinhole, and in fact most
+	of them are even more microscopic than that, since the
+	turbulent flow of air tends to break them up. Millikan
+	reasoned that the droplets would acquire a little bit of
+	electric charge as they rubbed against the channel through
+	which they emerged, and if the charged-particle model of
+	electricity was right, the charge might be split up among so
+	many minuscule liquid drops that a single drop might have a
+	total charge amounting to only a few charged
+	particles.
+
+	Millikan's ingenious apparatus was a small box with metal plates
+	for its ceiling and floor. These plates could be electrically
+	charged as needed. He sprayed a cloud of oil droplets into
+	the space between the plates, and selected one drop through
+	a microscope for study. First, with no charge on the plates,
+	he would determine the drop's mass by letting it fall
+	through the air and measuring its terminal velocity, i.e.,
+	the velocity at which the force of air friction canceled out
+	the force of gravity. The force of air drag on a slowly
+	moving sphere had already been found by experiment, so he
+	could determine the force of gravity on the drop, and therefore
+	its mass.
+
+	Next Millikan charged the metal plates, adjusting the amount
+	of charge so as to exactly counteract gravity and levitate
+	the drop. He then knew that the electric field and the magnetic
+	field were making forces on the drop in equal directions, and
+	canceling out; the gravitational energy the drop would lose by
+	dropping one millimeter would be exactly canceled by the electrical
+	energy it would gain.
+	Since he knew the strengths of the fields, and
+	also the mass of the drop, he could determine the drop's charge.
+
+	Table \figref{millikandata} shows a few of the results from
+	Millikan's 1911 paper. 
+	Even a quick look at the
+	data leads to the suspicion that the charges are not simply
+	a series of random numbers. For instance, the second charge
+	is almost exactly equal to half the first one. Millikan
+	explained the observed charges as all being integer
+	multiples of a single number, $1.64\times10^{-19}$ coulombs.
+	(The modern value is $1.60\times10^{-19}$ coulombs. Don't memorize it!) In the
+	second column, dividing by this constant gives numbers that
+	are essentially integers, allowing for the random errors
+	present in the experiment. Millikan states in his paper that
+	these results were a
+
+	\begin{quote}
+	\ldots direct and tangible demonstration \ldots of the correctness of
+	the view advanced many years ago and supported by evidence
+	from many sources that all electrical charges, however
+	produced, are exact multiples of one definite, elementary
+	electrical charge, or in other words, that an electrical
+	charge instead of being spread uniformly over the charged
+	surface has a definite granular structure, consisting, in
+	fact, of \ldots specks, or atoms of electricity, all precisely
+	alike, peppered over the surface of the charged body.
+	\end{quote}
+
+	In other words, he had provided direct evidence for the
+	charged-particle model of electricity and against models in
+	which electricity was described as some sort of fluid. 
+
+	\subsubsection{A historical note on Millikan's fraud}
+	Very few undergraduate physics textbooks mention
+	 the well-documented fact that although
+	Millikan's conclusions were correct, he was guilty of scientific
+	fraud. His technique was difficult and painstaking to perform, and his
+	original notebooks, which have been preserved, show that the data were
+	far less perfect than he claimed in his published scientific papers.
+	In his publications, he stated categorically that every single oil
+	drop observed had had a charge that was a multiple of the same basic unit, with no
+	exceptions or omissions. But his notebooks are replete with notations
+	such as ``beautiful data, keep,'' and ``bad run, throw out.'' Millikan,
+	then, appears to have earned his Nobel Prize by advocating a correct
+	position with dishonest descriptions of his data.
+	
+	Why do textbook
+	authors fail to mention Millikan's fraud? It may be that they think
+	students are too unsophisticated to correctly evaluate the
+	implications of the fact that scientific fraud has sometimes existed
+	and even been rewarded by the scientific establishment. Maybe they're
+	afraid students will reason that fudging data is OK, since Millikan
+	got the Nobel Prize for it. But falsifying history in the name of
+	encouraging truthfulness is a little ironic. English
+	teachers don't edit Shakespeare's tragedies so that the bad characters
+	are always punished and the good ones never suffer! 	
+
+\subsubsection{Agnosticism about the specific particles}\index{reductionism}\label{reductionism}
+	One of the themes of this book has been the concept of a scientific
+	model, and the idea that science never really deals with reality,
+	only with models of it. The charged particle model of electricity
+	does a good job of explaining quantization of charge, and it's natural
+	to ask next what kinds of particles they are. This is the attitude known
+	as reductionism: take everything apart until you get down to the building
+	blocks. Many of the greatest accomplishment of physics have been
+	due to reductionism, and for example if you take a look at the chapters of this
+	book on energy and momentum, you'll see that their
+	logical structure depends heavily on a
+	reductionist theory, the theory that matter is made of atoms. However,
+	it can also be beneficial sometimes to adopt an attitude that is the
+	opposite of reductionism. That's what we'll do throughout this chapter
+	when it comes to the question of what the charged particles really are.
+	It turns out that we can understand all the important facts about
+	electricity and magnetism without worrying at all about this issue.
+\end{envsubsection}
+
+\dqheader
+\begin{dq}
+In lab, you determined how many types of electrical charge there were,
+and it's natural to want to invent names for the different ``flavors.''
+Imagine, as in the discussion question on page
+\pageref{dq:ozma} that you establish two-way radio communication with aliens
+but you can't
+come up with any celestial landmarks that you both recognize. Can you communicate
+the definitions of the terms you've invented for the flavors of charge?
+Could you tell if the aliens had gotten your English labels switched around?
+This is another example of an Ozma problem, introduced
+in discussion question \ref{dq:ozma} on page \pageref{dq:ozma}.\index{Ozma problem!for charge}
+\end{dq}
+
+\mysection{Circuits}
+\begin{envsubsection}{Current}
+\subsubsection{Unity of all types of electricity}
+We're surrounded by things we've been \emph{told} are
+``electrical,'' but it's far from obvious what they have in
+common to justify being grouped together. What relationship
+is there between the way socks cling together and the way a
+battery lights a lightbulb? We have been told that both an
+electric eel and our own brains are somehow electrical in
+nature, but what do they have in common?
+
+British physicist Michael \index{Faraday, Michael}
+Faraday (1791-1867) set out to address this
+problem. He investigated electricity from a variety of
+sources --- including electric eels! --- to see whether they
+could all produce the same effects, such as shocks and
+sparks, attraction and repulsion. ``Heating'' refers, for
+example, to the way a lightbulb filament gets hot enough to
+glow and emit light. Magnetic induction is an effect
+discovered by Faraday himself that connects electricity and
+magnetism. We'll study this effect, which is the basis
+for the electric generator, later in this chapter.
+
+\noindent\begin{tabular}{|p{20mm}|p{18mm}|p{18mm}|p{18mm}|p{18mm}|}
+\hline
+\textbf{source of electricity} & \textbf{shocks} & \textbf{sparks} & \textbf{attraction and repulsion} & \textbf{heating}\\
+\hline
+rubbing & \checkmark & \checkmark & \checkmark & \checkmark \\
+\hline
+battery & \checkmark & \checkmark & \checkmark & \checkmark \\
+\hline
+animal & \checkmark & \checkmark & (\checkmark) & \checkmark \\
+\hline
+magnetically induced & \checkmark & \checkmark & \checkmark & \checkmark \\
+\hline
+\end{tabular}
+
+
+The table shows a summary of some of Faraday's results.
+Check marks indicate that Faraday or his close contemporaries
+were able to verify that a particular source of electricity
+was capable of producing a certain effect. (They evidently
+failed to demonstrate attraction and repulsion between
+objects charged by electric eels, although modern workers
+have studied these species in detail and been able to
+understand all their electrical characteristics on the same
+footing as other forms of electricity.)
+
+Faraday's results indicate that there is nothing fundamentally
+different about the types of electricity supplied by the
+various sources. They are all able to produce a wide variety
+of identical effects. Wrote Faraday, ``The general
+conclusion which must be drawn from this collection of facts
+is that electricity, whatever may be its source, is
+identical in its nature.''
+
+If  the types of electricity are the same thing, what thing
+is that? The answer is provided by the fact that all the
+sources of electricity can cause objects to repel or attract
+each other. We use the word ``charge'' to describe the
+property of an object that allows it to participate in such
+electrical forces, and we have learned that charge is
+present in matter in the form of nuclei and electrons.
+Evidently all these electrical phenomena boil down to the
+motion of charged particles in matter.
+
+\subsubsection{Electric current}
+ If the fundamental phenomenon is the motion of charged
+particles, then how can we define a useful numerical
+measurement of it? We might describe the flow of a river
+simply by the velocity of the water, but velocity will not
+be appropriate for electrical purposes because we need to
+take into account how much charge the moving particles have,
+and in any case there are no practical devices sold at Radio
+Shack that can tell us the velocity of charged particles.
+Experiments show that the intensity of various electrical
+effects is related to a different quantity: the number of
+coulombs of charge that pass by a certain point per second.
+By analogy with the flow of water, this quantity is called
+the electric \index{current!defined}current:
+\begin{equation*}
+	\text{current} = \frac{\text{charge}}{\text{time}}
+\end{equation*}
+Its units of coulombs/second are more conveniently
+abbreviated as \index{ampere (unit)}amperes, 1 A=1 C/s.
+(In informal speech, one usually says ``amps.'')
+
+\margup{-20mm}{\fig{riverssamecurrent}{The same current can be created by
+a large amount of charge flowing slowly (top) or a small amount
+flowing quickly (bottom).}}
+\selfcheck{foo}{How does figure \figref{riverssamecurrent} relate
+mathematically to the definition of current as charge divided by time?}
+
+\begin{eg}{Number of electrons flowing through a lightbulb}
+\egquestion Suppose a certain lightbulb has one amp flowing through it.
+In a metal, like the filament of a lightbulb, the moving charged
+particles are particles called electrons, and the size of the
+charge on each electron is equal to the fundamental unit of
+charge found by Millikan, $1.60\times10^{-19}$ coulombs.
+How many electrons will pass through the filament in one second?
+
+\eganswer 
+An amp is one coulomb per second, so this boils down to finding
+how many electrons there are in a coulomb.
+
+The number of coulombs per electron is $1.60\times10^{-19}$,
+so the number of electrons per coulomb is one over that:
+\begin{equation*}
+	\frac{1}{1.60\times10^{-19}} = 6.2\times10^{18} \qquad ,
+\end{equation*}
+or about six quadrillion. That's a lot of electrons!
+This is a good example of the correspondence principle at work.
+Before Millikan's discovery of quantization of charge, many
+people had accomplished many useful things with electricity while thinking
+of it as a nice smooth fluid. Their lightbulbs didn't
+suddenly stop working just because Millikan published his paper. The
+number of electrons flowing through a lightbulb is so great that we don't
+even need to know that there's a certain granularity to it.\index{correspondence principle!for quantization of charge}
+\end{eg}
+
+In lab, you determined how many types of charge there were, and the
+question naturally arises of how to incorporate the different types
+of charge into the definition of current. Discussion question
+\ref{dq:signsofcurrent} on page \pageref{dq:signsofcurrent} addresses
+this point.
+\end{envsubsection}
+\begin{envsubsection}{Circuits}
+How can we put electric currents to work? The only method of
+controlling electric charge we have studied so far is to
+charge different substances, e.g. rubber and fur, by rubbing
+them against each other. Figure \figref{basiccircuits}/1 shows an attempt to use
+this technique to light a lightbulb. This method is
+unsatisfactory. True, current will flow through the bulb,
+since electrons can move through metal wires, and the excess
+electrons on the rubber rod will therefore come through the
+wires and bulb due to the attraction of the positively
+charged fur and the repulsion of the other electrons. The
+problem is that after a zillionth of a second of current,
+the rod and fur will both have run out of charge. No more
+current will flow, and the lightbulb will go out.
+
+\margup{-30mm}{\fig{basiccircuits}{In a practical circuit, charge has to be
+recycled, as in figures 2 and 4.}}
+Figure  \figref{basiccircuits}/2 shows a setup that works. The battery pushes
+charge through the circuit, and recycles it over and over
+again. (We'll have more to say later in this chapter about
+how batteries work.) This is called a \index{circuit!complete}\index{complete
+circuit}complete \index{circuit}circuit. Today, the
+electrical use of the word ``circuit'' is the only one that
+springs to mind for most people, but the original meaning
+was to travel around and make a round trip, as when a
+circuit court judge would ride around the boondocks,
+dispensing justice in each town on a certain date.
+
+Note that an example like  \figref{basiccircuits}/3 doesn't work. The wire will
+quickly begin acquiring a charge, because it has no way
+to get rid of the charge flowing into it. The repulsion of
+this charge will make it more and more difficult to send any
+more charge in, and soon the electrical forces exerted by
+the battery will be canceled out completely. The whole
+process would be over so quickly that the filament wouldn't
+even have enough time to get hot and glow. This is known as
+an \index{circuit!open}\index{open circuit}open circuit.
+Exactly the same thing would happen if the complete circuit
+of figure  \figref{basiccircuits}/2 was cut somewhere with a pair of scissors, and
+that's essentially how an ordinary light switch
+works: by opening up a gap in the circuit.
+
+The water company has a meter that measures the rate of flow
+of water into your house. Imagine trying to use such a meter
+to measure the flow of water when you spit on
+the sidewalk --- it would be impossible, because the flow wouldn't
+last long enough, and wouldn't be steady. In electrical terms, a
+meter that measures current is called an ammeter,\footnote{presumably
+because ``ampmeter'' is hard to pronounce} and it only works
+if you have the kind of steady flow that exists in
+a complete circuit, \figref{basiccircuits}/4
+To use an ammeter, we break
+into the path of the electric current and interpose the
+meter like a tollbooth on a road. There is still a
+complete circuit, and as far as the battery and bulb are
+concerned, the ammeter is just another segment of wire.
+\end{envsubsection}
+\begin{envsubsection}{Voltage}
+	Electrical circuits can be used for sending signals, storing
+	information, or doing calculations, but their most common
+	purpose by far is to manipulate energy, as in the battery-and-bulb
+	example. We know that lightbulbs are
+	rated in units of watts, i.e. how many joules per second of
+	energy they can convert into heat and light, but how would
+	this relate to the flow of charge as measured in amperes? By
+	way of analogy, suppose your friend, who didn't take
+	physics, can't find any job better than pitching bales of
+	hay. The number of calories he burns per hour will certainly
+	depend on how many bales he pitches per minute, but it will
+	also be proportional to how much energy he has to expend
+	on each bale. If his job is to toss them up into a
+	hayloft, he'll got tired a lot more quickly than someone
+	who merely tips bales off a loading dock into trucks. In metric units,
+	\begin{equation*}
+		\frac{\text{joules}}{\text{second}}
+		 = \frac{\text{haybales}}{\text{second}}
+			 \times \frac{\text{joules}}{\text{haybale}}    \qquad   .  
+	\end{equation*}
+	Similarly, the rate of energy transformation by a battery
+	will not just depend on how many coulombs per second it
+	pushes through a circuit but also on how much energy
+	it expends on each coulomb of charge:
+	\begin{equation*}
+		\frac{\text{joules}}{\text{second}}
+		 = \frac{\text{coulombs}}{\text{second}}
+			 \times \frac{\text{joules}}{\text{coulomb}}
+	\end{equation*}
+	\noindent or
+	\begin{equation*}
+			\text{power}	 = 	\text{current} \times \text{energy per unit charge}   \qquad   .  
+	\end{equation*}
+	Units of joules per coulomb are abbreviated as \index{volt (unit)}volts, 1 V=1 J/C, named after the Italian
+	physicist Count Volta. 
+
+	To summarize, we have the definition of voltage
+	\begin{equation*}
+		\text{voltage} = \frac{\text{energy}}{\text{charge}}
+	\end{equation*}
+	and the equation for electric power
+	\begin{equation*}
+		\text{power} = \text{current} \times \text{voltage} \qquad .
+	\end{equation*}
+
+\widefigsidecaption{waterwheels}{In these drawings, heights represent voltages. The currents
+in figures 1 and 2 are the same, but more power can be extracted from waterwheel 2, because
+of the greater voltage difference. Only differences in voltage are physically meaningful; waterwheels
+1 and 3 extract the same amount of power.}
+
+\begin{eg}{Your electric bill}
+To charge you for the right amount of electricity, the electric company has
+to know how much energy you used. For instance, if you use a power of 1000 watts
+for one hour, the energy you use is
+\begin{align*}
+	\text{energy} &= \text{power} \times \text{time} \\
+		      &= (1000\ \text{watts})(3600\ \text{seconds})\\
+		      & = 3600000\ \text{joules} \qquad .
+\end{align*}
+This is just the definition of power --- so far we haven't even used any
+knowledge about electricity.
+
+But how do they know you're using 1000 watts on a particular afternoon?
+The only direct way to find out would be an energy measurement. For instance,
+they could send someone to stand next to you while you heated a pot of
+water, monitoring the rate at which the water heated up. Not very practical!
+
+Instead, they exploit the equation for electric power,
+\begin{equation*}
+	\text{power} = \text{current} \times \text{voltage} \qquad .
+\end{equation*}
+At an electrical outlet, the voltage difference between one hole and
+the other is 110 volts; for every coulomb of charge that flows out of one hole,
+through your stove, and back in the other hole, 110 joules worth of heat energy
+are deposited in your house.\footnote{In the U.S., most outlets are 110 volts, but
+washers and dryers use special 220-volt outlets. I'm also ignoring the fact that
+household circuits use alternating current (AC): the flow of electricity is first
+in one direction and then in the other, switching back and forth 60 times a second.}
+Since they know the voltage, they just have to
+monitor the current flowing into your house, and they can then determine
+how much power you're using.
+\end{eg}
+\end{envsubsection}
+%
+\begin{envsubsection}{Resistance}
+%
+\margup{-35mm}{\fig{riversdifferentresistances}{The voltage (height) difference is the same
+in both cases, but the shallower river has less current, because there is less
+water in it that is available to flow.}}
+What's the physical difference between a 100-watt lightbulb and a 200-watt one?
+They both plug into a 110-volt outlet, so according to the equation
+$\text{power} = \text{current} \times \text{voltage}$, the only way to explain the
+double power of the 200-watt bulb is that it must pull in, or ``draw,''
+twice as much current. By analogy, a fire hose and a garden hose might
+be served by pumps that give the same pressure (voltage), but more water
+will flow through the fire hose, because there's simply more water in the hose
+that can flow. Likewise, a wide, deep river could flow down the same slope
+as a tiny creek, but the number of liters of water flowing through the big
+river is greater. If you look at the filaments of a 100-watt bulb and a 200-watt
+bulb, you'll see that the 200-watt bulb's filament is thicker. In the charged-particle
+model of electricity, we expect that the thicker filament will contain more
+charged particles that are available to flow. We say that the thicker
+filament has a lower electrical resistance than the thinner one.
+
+\widefigsidecaption{fat-and-skinny-pipes}{A fat pipe has less resistance than a skinny pipe.}
+
+Although it's harder to pump water rapidly through a garden hose than through
+a fire hose, we could always compensate by using a higher-pressure pump.
+Similarly, the amount of current that will flow through a lightbulb
+depends not just on its resistance but also on how much of a voltage difference
+is applied across it. For many substances, including the tungsten metal that
+lightbulb filaments are made of, we find that the amount of current that flows
+is proportional to the voltage difference applied to it, so that the ratio
+of voltage to current stays the same. We then use this ratio as a numerical
+definition of resistance,
+\begin{equation*}
+	\text{resistance} = \frac{\text{voltage difference}}{\text{current}} \qquad ,
+\end{equation*}
+which is known as Ohm's law.\index{Ohm's law}
+The units of resistance are ohms, symbolized with an uppercase Greek letter
+Omega, $\Omega$. Physically, when a current flows through a resistance,
+the result is to transform electrical energy into heat. In a lightbulb filament,
+for example, the heat is what causes the bulb to glow.
+
+	Ohm's law states that many substances, including many solids
+	and some liquids, display this kind of behavior, at least
+	for voltages that are not too large. The fact that Ohm's law
+	is called a ``law'' should not be taken to mean that all
+	materials obey it, or that it has the same fundamental
+	importance as the conservation laws, for example. Materials are
+	called \index{ohmic!defined}\emph{ohmic} or \emph{nonohmic},
+	depending on whether they obey Ohm's law.
+
+	On an intuitive level, we can understand the idea of
+	resistance by making the sounds ``hhhhhh'' and ``ffffff.''
+	To make air flow out of your mouth, you use your diaphragm
+	to compress the air in your chest. The pressure difference
+	between your chest and the air outside your mouth is
+	analogous to a voltage difference. When you make the ``h''
+	sound, you form your mouth and throat in a way that allows
+	air to flow easily. The large flow of air is like a large
+	current. Dividing by a large current in the definition of
+	resistance means that we get a small resistance. We say that
+	the small resistance of your mouth and throat allows a large
+	current to flow. When you make the ``f'' sound, you increase
+	the resistance and cause a smaller current to flow. In this
+	mechanical analogy, resistance is like friction: the air rubs
+	against your lips. Mechanical friction converts 
+	mechanical forms of energy to heat, as when you rub your
+	hands together. Electrical friction --- resistance ---
+	converts electrical energy to heat.
+
+	If objects of the same size and shape made from two
+	different ohmic materials have different resistances, we can
+	say that one material is more resistive than the other, or
+	equivalently that it is less conductive. Materials, such as
+	metals, that are very conductive are said to be good
+	\index{conductor!defined}\emph{conductors}. Those that are
+	extremely poor conductors, for example wood or rubber, are
+	classified as \index{insulator!defined}\emph{insulators}. There
+	is no sharp distinction between the two classes of
+	materials. Some, such as silicon, lie midway between the two
+	extremes, and are called semiconductors.
+\end{envsubsection}
+%
+\begin{envsubsection}{Applications}
+\subsubsection{Superconductors}
+All materials display some variation in resistance according
+to temperature (a fact that is used in thermostats to make a
+thermometer that can be easily interfaced to an electric
+circuit). More spectacularly, most metals have been found to
+exhibit a sudden change to \emph{zero} resistance when
+cooled to a certain critical temperature. They are then said
+to be superconductors. A current flowing through a superconductor
+doesn't create any heat at all.
+
+Theoretically, superconductors should
+make a great many exciting devices possible, for example
+coiled-wire magnets that could be used to levitate trains.
+In practice, the critical temperatures of all metals are
+very low, and the resulting need for extreme refrigeration
+has made their use uneconomical except for such specialized
+applications as particle accelerators for physics research.
+
+But scientists have recently made the surprising discovery
+that certain ceramics are superconductors at less extreme
+temperatures. The technological barrier is now in finding
+practical methods for making wire out of these brittle
+materials. Wall Street is currently investing billions of
+dollars in developing superconducting devices for cellular
+phone relay stations based on these materials. In 2001, the
+city of Copenhagen replaced a short section of its
+electrical power trunks with superconducing cables, and they
+are now in operation and supplying power to customers.
+
+There is currently no satisfactory theory of superconductivity
+in general, although superconductivity in metals is
+understood fairly well. Unfortunately I have yet to find a
+fundamental explanation of superconductivity in metals that
+works at the introductory level.
+
+\subsubsection{Constant voltage throughout a conductor}
+The idea of a superconductor leads us to the question of how
+we should expect an object to behave if it is made of a very
+good conductor. Superconductors are an extreme case, but
+often a metal wire can be thought of as a perfect conductor,
+for example if the parts of the circuit other than the wire
+are made of much less conductive materials. What happens if
+the resistance equals zero in the equation 
+\begin{equation*}
+	\text{resistance} = \frac{\text{voltage difference}}{\text{current}} \qquad \text{?}
+\end{equation*}
+The result
+of dividing two numbers can only be zero if the number on
+top equals zero. This tells us that if we pick any two
+points in a perfect conductor, the voltage difference
+between them must be zero. In other words, the entire
+conductor must be at the same voltage. Using the water
+metaphor, a perfect conductor is like a perfectly calm
+lake or canal, whose surface is flat. If you take an
+eyedropper and deposit a drop of water anywhere on the
+surface, it doesn't flow away, because the water is still.
+In electrical terms, a charge located anywhere in the interior
+of a perfect conductor will always feel a total electrical
+force of zero.
+
+Suppose, for example, that you build up
+a static charge by scuffing your feet on a carpet, and then
+you deposit some of that charge onto a doorknob, which is a
+good conductor.  How can all that charge be in the doorknob
+without creating any electrical force at any point inside
+it? The only possible answer is that the charge moves around
+until it has spread itself into just the right configuration.
+In this configuration, the forces exerted by all the charge
+on any charged particle within the doorknob
+exactly cancel out.
+
+We can explain this behavior if we assume that the charge
+placed on the doorknob eventually settles down into a stable
+equilibrium. Since the doorknob is a conductor, the charge
+is free to move through it. If it was free to move and any
+part of it did experience a nonzero total force from the
+rest of the charge, then it would move, and we would not
+have an equilibrium.
+
+It also turns out that charge placed on a conductor, once it
+reaches its equilibrium configuration, is entirely on the
+surface, not on the interior. We will not prove this fact
+formally, but it is intuitively reasonable (see
+discussion question \ref{dq:chargeonsurface}).\label{text:chargeonsurface}
+
+\subsubsection{Short circuits}
+So far we have been assuming a perfect conductor. What if it's
+a good conductor, but not a perfect one? Then we can
+solve for
+\begin{equation*}
+	\text{voltage difference} = (\text{current})\times(\text{resistance}) \qquad .
+\end{equation*}
+An ordinary-sized current
+will make a very small result when we multiply it by the
+resistance of a good conductor such as a metal wire. The
+voltage throughout the wire will then be nearly constant.
+If, on the other hand, the current is extremely large, we
+can have a significant voltage difference. This is what
+happens in a \index{circuit!short}\index{short circuit!defined}short-circuit:
+a circuit in which a low-resistance pathway connects the two
+sides of a voltage source. Note that this is much more
+specific than the popular use of the term to indicate any
+electrical malfunction at all. If, for example, you
+short-circuit a 9-volt battery as shown in the figure, you
+will produce perhaps a thousand amperes of current, leading
+to a very large value of $\text{power}=(\text{current})\times(\text{voltage difference})$.
+The wire gets hot!
+
+\subsubsection{The voltmeter}
+A voltmeter is nothing more than an ammeter with an
+additional high-value resistor through which the current is
+also forced to flow, \figref{voltmeterconstruction}. Ohm's law relates the current through
+the resistor is related directly to the voltage difference
+across it, so the meter can be calibrated in units of volts
+based on the known value of the resistor. The voltmeter's
+two probes are touched to the two locations in a circuit
+between which we wish to measure the voltage difference,
+\figref{voltmeteruse}. Note how cumbersome this type of drawing is, and how
+difficult it can be to tell what is connected to what. This
+is why electrical drawing are usually shown in schematic\index{schematics}
+form. Figure \figref{voltmeteruseschematic} is a schematic representation of figure 
+\figref{voltmeteruse}.
+
+\margup{-23mm}{%
+\fig{voltmeterconstruction}{Under the hood,
+a voltmeter is really an ammeter combined with a
+high-value resistor.}
+\spacebetweenfigs
+\fig{voltmeteruse}{Measuring the voltage difference across a
+lightbulb.}
+\spacebetweenfigs
+\fig{voltmeteruseschematic}{The same setup drawn in schematic form.}
+\spacebetweenfigs
+\fig{ammeteruseschematic}{The setup for measuring current is different.}
+\spacebetweenfigs
+}
+The setups for measuring current and voltage are different.
+When we're measuring current, we're finding ``how much
+stuff goes through,'' so we place the ammeter where all the
+current is forced to go through it. Voltage, however, is not
+``stuff that goes through,'' it is a measure of electrical
+energy. If an ammeter is like the meter that measures your
+water use, a voltmeter is like a measuring stick that tells
+you how high a waterfall is, so that you can determine how
+much energy will be released by each kilogram of falling
+water. We don't want to force the water to go through the
+measuring stick! The arrangement in figure \figref{voltmeteruseschematic} is a
+\index{circuit!parallel}\index{parallel circuit!defined}parallel
+circuit: one in there are ``forks in the road'' where some
+of the current will flow one way and some will flow the
+other. Figure \figref{ammeteruseschematic} is said to be wired in
+\index{circuit!series}\index{series circuit!defined}series:
+all the current will visit all the
+circuit elements one after the other.
+
+If you inserted a voltmeter incorrectly, in series with the
+bulb and battery, its large internal resistance would cut
+the current down so low that the bulb would go out. You
+would have severely disturbed the behavior of the circuit by
+trying to measure something about it.
+
+Incorrectly placing an ammeter in parallel is likely to be
+even more disconcerting. The ammeter has nothing but wire
+inside it to provide resistance, so given the choice, most
+of the current will flow through it rather than through the
+bulb. So much current will flow through the ammeter, in
+fact, that there is a danger of burning out the battery or
+the meter or both! For this reason, most ammeters have fuses
+or circuit breakers inside. Some models will trip their
+circuit breakers and make an audible alarm in this
+situation, while others will simply blow a fuse and stop
+working until you replace it.
+\end{envsubsection}
+
+\dqheader
+\begin{dq}\label{dq:signsofcurrent}
+In lab, you determined how many types of charge there were, and the
+question naturally arises of how to incorporate the different types
+of charge into the definition of current.
+Fundamentally, charge measures the ability of an object to make
+electrical forces. If you start with an uncharged object, and then
+start letting more than one type of charge flow into it simultaneously,
+what happens? Discuss some examples and decide how these ideas should
+be incorporated into the definition of current.
+\end{dq}
+\begin{dq}
+In figure \figref{basiccircuits}/4 on page \pageref{fig:basiccircuits}, what would happen if you had
+the ammeter on the left rather than on the right?
+\end{dq}
+\begin{dq}\label{dq:chargeonsurface}
+Imagine a charged doorknob, as described on page \pageref{text:chargeonsurface}.
+Why is it intuitively reasonable to believe that all the charge will end up on the surface
+of the doorknob, rather than on the interior?
+\end{dq}
+
+
+\mysection{Electromagnetism}
+	\epigraph{Think not that I am come to destroy the law, or the prophets:
+	I am not come to destroy, but to fulfill.}{Matthew 5:17}
+\begin{envsubsection}{Magnetic interactions}
+At this stage, you understand roughly as much about the classification of interactions as physicists
+understood around the year 1800. There appear to be three fundamentally different types
+of interactions: gravitational, electrical, and magnetic. As discussed on
+page \pageref{introunificationofforces}, many types of interactions that appear superficially to be
+distinct --- stickiness, chemical interactions, the energy an archer stores in a bow --- are
+really the same: they're manifestations of electrical interactions between atoms.
+Is there any way to shorten the list any further? The prospects seem dim at first. For instance,
+we find that if we rub a piece of fur on a rubber rod, the fur does not attract or repel a magnet.
+The fur has an electric field, and the magnet has a magnetic field. The two are completely separate,
+and don't seem to affect one another. Likewise we can test whether magnetizing a piece of iron
+changes its weight. The weight doesn't seem to change by any measurable amount, so magnetism and
+gravity seem to be unrelated.
+
+That was where things stood until 1820, when the Danish physicist Hans Christian\index{Oersted, Hans Christian}
+Oersted was delivering a lecture at the University of Copenhagen, and he wanted to give his
+students a demonstration that would illustrate the cutting edge of research. He generated
+a current in a wire by making a short circuit across a battery, and held the wire near a
+magnetic compass. The ideas was to give an example of how one could search for a previously undiscovered
+link between electricity (the electric current in the wire) and magnetism. One never knows how much
+to believe from these dramatic legends, but the story is\footnote{Oersted's paper
+describing the phenomenon says that ``The first experiments on the subject \ldots
+were set on foot in the classes for electricity, galvanism, and magnetism, which were
+held by me in the winter just past,'' but that doesn't tell us whether the result was
+really a surprise that occurred in front of his students.} that the experiment he'd expected to turn out
+negative instead turned out positive: when he held the wire near the
+compass, the current in the wire caused the compass to twist!
+
+\margup{-170mm}{%
+\fig{oersted}{1. When the circuit is incomplete, no current flows through the wire, and the magnet is
+unaffected. It points in the direction of the Earth's magnetic field. 2. The circuit is completed, and
+current flows through the wire. The wire has a strong effect on the magnet, which turns almost perpendicular
+to it. If the earth's field could be removed entirely, the compass would point exactly perpendicular to the
+wire; this is the direction of the wire's field.}
+\spacebetweenfigs
+\fig{magnetized}{A schematic representation of an unmagnetized material, 1, and a magnetized one, 2.}
+}
+People had tried similar experiments before, but only with static electricity, not with
+a moving electric current. For instance, they had hung batteries so that they were free to
+rotate in the earth's magnetic field, and found no effect; since the battery was not connected
+to a complete circuit, there was no current flowing. With Oersted's own setup, \figref{oersted},
+the effect was only produced when the ``circuit was closed, but not
+when open, as certain very celebrated physicists in vain attempted several years ago.''\footnote{All
+quotes are from the 1876 translation are by J.E. Kempe.}
+
+Oersted was eventually
+led to the conclusion that magnetism was an interaction between moving charges and
+other moving charges, i.e., between one current and another.  \index{magnetism!caused by moving charges}
+A permanent magnet, he inferred, contained currents on a microscopic
+scale that simply weren't practical to measure with an ammeter. Today this seems natural
+to us, since we're accustomed to picturing an atom as a tiny solar system, with the electrons
+whizzing around the nucleus in circles. As shown in figure \figref{magnetized},
+a magnetized piece of iron is different from an
+unmagnetized piece because the atoms in the unmagnetized piece are jumbled in random
+orientations, whereas the atoms in the magnetized piece are at least partially organized
+to face in a certain direction.
+
+\margup{0mm}{
+\fig{magdeflects}{Magnetism is an interaction between moving charges and moving charges. The moving
+charges in the wire attract the moving charges in the beam of charged particles in the vacuum tube.}
+\spacebetweenfigs
+\fig{fulfill}{One observer sees an electric field, while the other sees both an electric
+field and a magnetic one.}
+}
+Figure \figref{magdeflects} shows an example that is conceptually
+simple, but not very practical. If you try this with a typical vacuum tube, like a TV
+or computer monitor, the current in the wire probably won't be enough to produce a visible
+effect. A more practical method is to hold a magnet near the screen. We still have
+an interaction between moving charges and moving charges, but the swirling electrons
+in the atoms in the magnet are now playing the role played by the moving charges in the wire
+in figure \figref{magdeflects}. Warning: if you do this, make sure your monitor has a
+demagnetizing button! If not, then your monitor may be permanently ruined.
+\end{envsubsection}
+%
+\begin{envsubsection}{Relativity requires magnetism}\index{magnetism!and relativity}\index{relativity!and magnetism}
+So magnetism is an interaction between moving charges and moving charges. But how
+can that be?
+Relativity tells us that
+motion is a matter of opinion. Consider figure \figref{fulfill}. In this figure and in figure
+\figref{magrelativity}, the dark and light coloring of the particles represents the fact that
+one particle has one type of charge and the other particle has the other type.
+Observer \figref{fulfill}/2 sees the two particles as flying through space side by side, so they
+would interact both electrically (simply because they're charged) and magnetically
+(because they're charges in motion). But an observer moving along with them,  \figref{fulfill}/1, would
+say they were both at rest, and would expect only an electrical interaction. This seems
+like a paradox.
+Magnetism, however, comes not to destroy relativity but to fulfill it. Magnetic interactions
+	\emph{must} exist according to the theory of relativity. To understand how this can be,
+	consider how time and space behave in relativity. Observers in different frames of reference
+	disagree about the lengths of measuring sticks and the speeds of clocks, but the laws
+	of physics are valid and self-consistent in either frame of reference.
+	Similarly, observers in different frames of reference disagree about what electric and magnetic
+	fields there are, but they agree about concrete physical events.
+	An observer in frame of reference \figref{fulfill}/1
+	says there are electric fields around the particles, and predicts that as time goes on, the
+	particles will begin to accelerate towards one another, eventually colliding. She explains the
+	collision as being due to the electrical attraction between the particles.
+	A different observer, \figref{fulfill}/2, says the particles are moving. This observer
+	also predicts that the particles will collide, but explains their motion in terms of both
+	an electric field and a magnetic field. As we'll see shortly, the
+	magnetic field is \emph{required} in order to maintain consistency between the predictions made
+	in the two frames of reference.
+	
+\marg{
+\fig{magrelativity}{A model of a charged particle and a current-carrying wire, seen in
+	two different frames of reference. The relativistic length contraction is highly
+	exaggerated. The force on the lone particle is purely
+	magnetic in 1, and purely electric in 2.}
+}
+	To see how this really works out, we need to find a nice simple example.
+	An example like figure \figref{fulfill} is \emph{not} easy
+	to handle, because in the second frame of reference, the moving charges
+	create fields that change over time at any given location, like when the V-shaped wake of a speedboat
+	washes over a buoy. Examples like
+	figure \figref{magdeflects} are easier, because there is a steady flow of charges, and
+	all the fields stay the same over time.
+        Figure \figref{magrelativity}/1 shows a simplified and idealized model of figure \figref{magdeflects}.
+	The charge by itself is like one of the charged particles
+	in the vacuum tube beam of figure \figref{magdeflects}, and instead of the wire, we have
+	two long lines of charges moving in opposite directions. Note that,
+	as discussed in discussion question \ref{dq:signsofcurrent} on page \pageref{dq:signsofcurrent},
+	the currents of the two lines of charges do not cancel out. The dark balls represent particles with
+	one type of charge, and the light balls have the other type. Because of this, the total current in
+	the ``wire'' is double what it would be if we took away one line.
+
+	As a model of figure \figref{magdeflects}, figure \figref{magrelativity}/1 is partly realistic and
+	partly unrealistic. In a real piece of copper wire, there are indeed charged particles of both types,
+	but it turns out that the particles of one type (the protons) are locked in place, while only some 
+	of the other type (the electrons) are free to move. The model also shows the particles moving in
+	a simple and orderly way, like cars on a two-lane road, whereas in reality most of the particles are
+	organized into copper atoms, and there is also a great deal of random thermal motion.
+	The model's unrealistic features aren't a
+	problem, because the point of this exercise is only to find one particular situation that shows
+	magnetic effects must exist based on relativity.
+
+	What electrical force does the lone particle in figure \figref{magrelativity}/1 feel? Since the
+	density of ``traffic'' on the two sides of the ``road'' is equal, there is zero overall
+	electrical force on the lone particle. Each ``car'' that attracts the lone particle is paired with a partner on the other
+	side of the road that repels it. If we didn't know about magnetism, we'd think this
+	was the whole story: the lone particle feels no force at all from the wire.
+
+	Figure \figref{magrelativity}/2
+        shows what we'd see if we were observing all this from a frame of reference moving
+	along with the lone charge.
+	Here's where the relativity comes in. Relativity tells us that moving objects
+	appear contracted to an observer who is not moving along with them.
+	Both lines of charge are in motion in both frames of reference, but in frame 1
+	they were moving at equal speeds, so their contractions were equal.
+	In frame 2, however, their speeds are unequal. The dark
+	charges are moving more slowly than in frame 1, so in frame 2 they are less contracted.
+	The light-colored charges are moving more quickly, so their contraction is greater now.
+	The ``cars'' on the two sides of the ``road'' are no longer paired off, so the electrical
+	forces on the lone particle no longer cancel out as they did in \figref{magrelativity}/1.
+	The lone particle is attracted to the wire, because the particles attracting it are more
+	dense than the ones repelling it. Furthermore, the attraction felt
+	by the lone charge must be purely electrical, since the lone charge is at rest in this
+	frame of reference, and magnetic effects occur only between moving charges and other
+	moving charges.
+
+	Now observers in frames 1 and 2 disagree about many things, but they do agree on
+	concrete events. Observer 2 is going to see the lone particle drift toward the wire
+	due to the wire's electrical attraction, gradually speeding up, and eventually hit
+	the wire. If 2 sees this collision, then 1 must as well. But 1 knows that the total
+	electrical force on the lone particle is exactly zero. There must be some new type
+	of force. She invents a name for this new type of force: magnetism. This was a particularly
+	simple example, because the fields were purely magnetic in one frame of reference, and
+	purely electrical in another. In general, an observer in a certain frame of reference
+	will measure a mixture of electric and magnetic fields, while an observer in another
+	frame, in motion with respect to the first, says that the same volume of space contains a different mixture.
+
+\margup{-50mm}{\fig{magtwobody}{Magnetic interactions involving only two particles at a time. In these figures, unlike figure
+\figref{magrelativity}/1, there are electrical forces as well as magnetic ones. The electrical forces are
+not shown here. Don't memorize these rules!}
+\spacebetweenfigs
+\fig{weathervane}{Example \ref{eg:weathervane}}}
+We therefore arrive at the conclusion that electric and magnetic phenomena aren't
+separate. They're different sides of the same coin. We refer to electric and magnetic interactions
+collectively as electromagnetic interactions. Our list of the fundamental interactions
+of nature now has two items on it instead of three: gravity and electromagnetism.\index{magnetism!related to electricity}\index{electromagnetism}
+
+The basic rules for magnetic attractions and repulsions, shown in figure \figref{magtwobody}, aren't
+quite as simple as the ones for gravity and electricity. Rules \figref{magtwobody}/1 and
+\figref{magtwobody}/2 follow directly from our previous analysis of figure \figref{magrelativity}.
+Rules 3 and 4 are obtained by flipping the type of charge
+that the bottom particle has. For instance, rule 3 is like rule 1, except that the bottom charge
+is now the opposite type. This turns the attraction into a repulsion. (We know that flipping the charge
+reverses the interaction, because that's the way it works for electric forces, and magnetic forces
+are just electric forces viewed in a different frame of reference.)
+
+\begin{eg}{A magnetic weathervane placed near a current.}\label{eg:weathervane}
+Figure \figref{weathervane} shows a magnetic weathervane, consisting of two charges that spin
+in circles around the axis of the arrow. (The magnetic field doesn't cause them to spin; a motor
+is needed to get them to spin in the first place.) Just like the magnetic compass in figure \figref{oersted},
+the weathervane's arrow tends to align itself in the direction perpendicular to the wire. This
+is its preferred orientation because the charge close to the wire is attracted to the
+wire, while the charge far from the wire is repelled by it.
+\end{eg}
+\end{envsubsection}
+%
+\begin{envsubsection}{Magnetic fields}\index{magnetism!magnetic field}\index{field!magnetic}\index{magnetic field}
+How should we define the magnetic field? When two objects attract each other gravitationally, their
+gravitational energy depends only on the distance between them, and it seems intuitively reasonable
+that we define the gravitational field arrows like a street sign that says ``this way to lower
+gravitational energy.'' The same idea works fine for the electric field. But what if two charged
+particles are interacting magnetically? Their interaction doesn't just depend on the distance, but
+also on their motions.
+
+\marg{\fig{swirly}{The magnetic field curls around the wire in circles. At each point in space, the magnetic
+compass shows the direction of the field.}}
+We need some way to pick out some direction in space, so we can say, ``this is the direction
+of the magnetic field around here.'' A natural and simple method is to define the magnetic field's
+direction according to the direction a compass points. Starting from this definition we can, for example,
+do experiments to show that the magnetic field of a current-carrying wire forms a circular pattern,
+\figref{swirly}.
+
+But is this the right definition? Unlike the
+definitions of the gravitational and electric fields' directions, it involves a particular human-constructed
+tool. However, compare figure \figref{oersted} on page \pageref{fig:oersted} with figure
+\figref{weathervane} on page \pageref{fig:weathervane}. Note that both of these tools line themselves
+up along a line that's perpendicular to the wire. In fact, no matter how hard you try, you will never
+be able to invent any other electromagnetic device that will align itself with any other line. All you
+can do is make one that points in exactly the opposite direction, but along the same line. For instance,
+you could use paint to reverse the colors that label the ends of the magnetic compass needle, or you
+could build a weathervane just like figure \figref{weathervane}, but spinning like a left-handed screw
+instead of a right-handed one. The weathervane and the compass aren't even as different as they appear.
+Figure \figref{barmagnethanging} shows their hidden similarities.\label{arbitrarydirectionofmag}
+
+\widefigsidecaption{barmagnethanging}{1. The needle of a magnetic compass is nothing more than a bar magnet that
+is free to rotate in response to the earth's magnetic field.
+2. A cartoon of the bar magnet's structure at the atomic level. Each atom is very much like the
+weathervane of figure \figref{weathervane}.}
+
+Nature is trying to tell us something: there really is something special
+about the direction the compass points. Defining the direction of the magnetic field in terms of this
+particular device isn't as arbitrary as it seems. The only arbitrariness is that we could have
+built up a whole self-consistent set of definitions that started by defining the magnetic field
+as being in the opposite direction.
+
+\begin{eg}{Head-to-tail alignment of bar magnets}\label{eg:headtotail}
+\egquestion
+If you let two bar magnets like the one in figure \figref{barmagnethanging} interact, which way do
+they want to line up, head-to-head or head-to-tail?
+
+\eganswer
+Each bar magnet contains a huge number of atoms, but that won't matter for our result; we can imagine
+this as an interaction between two individual atoms. For that matter, let's model the atoms as weathervanes
+like the one in figure \figref{weathervane}. Suppose we put two such weather vanes side by side, with their
+arrows both pointing away from us. From our point of view, they're both spinning clockwise. As one of the
+charges in the left-hand weather vane comes down on the right side, one of the charges in the right-hand
+vane comes up on the left side. These two charges are close together, so their magnetic interaction is
+very strong at this moment. Their interaction is repulsive, so this is an unstable arrangement of the two
+weathervanes.
+
+On the other hand, suppose the left-hand weathervane is pointing away from is, while its partner on the
+right is pointing toward us. From our point of view, we see the one on the right spinning counterclockwise.
+At the moment when their charges come as close as possible, they're both on the way up. Their interaction
+is attractive, so this is a stable arrangement.
+
+Translating back from our model to the original question about bar magnets, we find that bar magnets
+will tend to align themselves head-to-tail. This is easily verified by experiment.
+\end{eg}
+
+
+\widefigsidecaption{righthandrule}{The force on a charged particle moving through a magnetic field is
+perpendicular to both the field and its direction of motion. The relationship is right-handed for
+one type of charge, and left-handed for the other type.}
+
+If you go back and apply this definition to all the examples we've encountered so far, you'll find
+that there's a general rule: the force on a charged particle moving through a magnetic field is
+perpendicular to both the field and its direction of motion. A force perpendicular to the direction
+of motion is exactly what is required for circular motion, so we find that a charged particle in a
+vacuum will go in a circle around the magnetic field arrows (or perhaps a corkscrew pattern, if it
+also has some motion along the direction of the field). That means that magnetic fields tend to trap
+charged particles.
+
+\marg{\fig{circularorbit}{A beam of electrons circles around the magnetic field arrows.}}
+Figure \figref{circularorbit} shows this principle in action. A beam of electrons is
+created in a vacuum tube, in which a small amount of hydrogen gas has been left.
+A few of the electrons strike hydrogen molecules, creating light and letting us see
+the path of the beam. A magnetic
+field is produced by passing a current (meter) through the circular
+coils of wire in front of and behind the tube. In the bottom figure,
+with the magnetic field turned on, the force perpendicular to the
+electrons' direction of motion causes them to move in a circle.
+	
+
+\begin{eg}{Sunspots}\index{sunspots}
+Sunspots, like the one shown in the photo on page \pageref{sunspotphoto}, are places where the sun's
+magnetic field is unusually strong. Charged particles are trapped there for months at a time. This
+is enough time for the sunspot to cool down significantly, and it doesn't get heated back up because
+the hotter surrounding material is kept out by the same magnetic forces.
+\end{eg}
+
+\begin{eg}{The aurora and life on earth's surface}\index{aurora}\index{Mars!life on}
+A strong magnetic field seems to be one of the prerequisites for the existence of life on the surface
+of a planet. Energetic charged particles from the sun are trapped by our planet's
+magnetic field, and harmlessly spiral down to the earth's surface at the poles. In addition to protecting us,
+this creates the aurora, or ``northern lights.''
+
+ The astronauts who went to the moon
+were outside of the earth's protective field for about a week, and suffered significant doses of radiation
+during that time. The problem would be much more serious for astronauts on a voyage to Mars, which would
+take at least a couple of years. They would be subjected to intense radiation while in interplanetary space,
+and also while on Mars's surface, since Mars lacks a strong magnetic field.
+
+Features in one Martian rock have been interpreted by some scientists as fossilized bacteria.
+If single-celled life evolved on Mars, it has presumably been forced to stay below the surface.
+(Life on Earth probably evolved deep in the oceans, and most of the Earth's biomass consists of
+single-celled organisms in the oceans and deep underground.)
+\end{eg}
+\end{envsubsection}
+%
+\mysection{Induction}
+\begin{envsubsection}{Electromagnetic signals}\index{electromagnetism!signals}
+You may have noticed that as we've progressed in our discussion of electromagnetism,
+I've been referring to the electric and magnetic fields more and more as if they
+were real things permeating all of space. When I first introduced the concept of
+a field --- the gravitational field --- it played a minor role. It was nothing more
+than a convenient way of calculating the energy required to bring a rock farther away
+from the earth. Newton never even felt the need to invent such a concept. To him, the
+only real actors on the stage were atoms. Like Romeo and Juliet, they were real,
+material objects. Like Romeo and Juliet's love, the gravitational interactions
+were just a way of describing the relationship between the atoms.
+
+\widefigsidecaption{signalwithmagnets}{An impractical, but conceptually simple, scheme for
+sending signals with magnets.}
+Suppose Romeo and Juliet,
+separated by a paper-thin wall, use a pair of
+bar magnets to signal to each other. As discussed in example 
+\ref{eg:headtotail} on page \pageref{eg:headtotail}, the magnets want to line up head-to-tail,
+\figref{signalwithmagnets}/1. Each person feels
+his or her own magnet trying to twist around in response to any
+rotation performed by the other person's magnet. If the person
+on the right flips her magnet, \figref{signalwithmagnets}/2, the person
+on the left can feel the signal. The
+practical range of communication would be very short for
+this setup, but a sensitive detector could pick
+up magnetic signals from much farther away. 
+
+A question now naturally arises as to whether there is any
+time delay in this kind of electromagnetic communication.
+Newton would have thought not, since he
+conceived of physics in terms of instantaneous action at a
+distance. If, on the other hand, there is such a time delay,
+then what is it that is traveling across the space between the
+two magnets? It would presumably be a disturbance in the electric
+and magnetic fields that rippled out from the twisting magnet, like
+ripples made by a wriggling bug on the surface of a pond. We would
+then be more inclined to grant the electric and magnetic fields ``real thing
+status.''
+
+There is such a time\index{relativity!limit on speed of signals}
+delay. Relativity says that not only is there an upper
+limit on the speed of a material object --- the speed of
+light, $3\times10^8$ m/s --- but the same limit applies to signals
+as well. Here's why. Imagine that we could send a signal without any time delay
+at all. Alice sends a signal from planet A to Bob, on planet B.
+Alice and Bob agree that events A and B are simultaneous.
+ But as shown
+in figure \figref{simultaneity} on page \pageref{fig:simultaneity},
+observers in different frames of reference disagree
+about simultaneity. An observer moving in the direction from B to
+A says B happens after A, but an observer moving in the opposite
+direction says B happens before A. According to this observer, Bob
+might get the signal before Alice had even made up her mind to send it!
+This is just like a time machine, and it results in all the same paradoxes
+that time machines cause. Bob could, for instance, send a signal back in
+time to Alice, telling her to hire gangsters to come and smash
+his radio transmitter. If the gangsters smashed the radio before Bob sent
+the signal to Alice, then it wasn't possible for the gangsters to
+get hired in the first place. Since instantaneous transmission of signals
+leads to these crazy paradoxes, we conclude that instantaneous signaling isn't
+possible.\footnote{This isn't quite as ironclad an argument as it appears.
+We've only discussed the special theory of relativity, not the general theory,
+which incorporates gravity. The general theory leads to some apparently
+reasonable recipes by which an advanced civilization, with the ability to
+manipulate vast amounts of matter, could build a time machine. Careful investigation,
+however, shows that there are some effects, which physicists are presently
+unable to calculate accurately, that might cause such a gateway in time to
+be useless for sending either material objects or signals back in time.
+This has led physicist Stephen Hawking to postulate that the laws of physics
+conspire to strictly forbid backward time travel. He refers to this as the principle
+of chronology protection, and jokes that it will ``keep the world safe for
+historians.''}\index{Hawking, Stephen}\index{time travel}\index{chronology protection}
+
+This may all sound like pure science fiction, but it's not.
+If you make a long-distance phone call that is routed
+through a communications satellite, you should easily be
+able to detect a delay of about half a second over the
+signal's round trip of 50,000 miles. Radar, which was arguably
+the technology that won World War II, is based on measuring the
+time delay for a radio ``echo'' to come back.
+As we'll soon see, the radio waves used in these signaling methods
+are actually disturbances in the electric and magnetic fields, but the
+relativistic argument applies regardless of the method used for
+signaling.\index{radar}
+
+An even stronger reason to think of fields as real things\label{energy-in-fields}
+comes from the fact that field-ripples carry energy.
+First suppose that the person holding the bar magnet on the
+right decides to reverse hers, resulting in configuration
+\figref{signalwithmagnets}/2. To twist it, she has to convert some of her
+body's chemical energy into magnetic energy.
+If she then releases the magnet, this magnetic energy will be released as it flips
+back to position \figref{signalwithmagnets}/1. She has apparently stored energy by going from
+1 to 2.
+So far everything is easily explained without
+the concept of a field of force: the distances between the poles
+are simply different in figures
+1 and 2. In figure 2, for instance, the distances between the two north poles are
+shorter than in figure 1. This is like a description of gravity where we speak
+only of the changing distance between a rock and the earth, without referring to
+a gravitational field at all.
+
+But now imagine that the two people start in position 1
+and then, at a prearranged time, flip their magnets extremely quickly
+to position 3, keeping them lined up with each other the
+whole time. Imagine, for the sake of argument, that they can
+do this so quickly that each magnet is reversed while the
+force signal from the other is still in transit. (For a more
+realistic example, we'd have to have two radio antennas, not
+two magnets, but the magnets are easier to visualize.)
+During the flipping, each magnet is still feeling the forces
+arising from the way the other magnet \emph{used} to be
+oriented. Even though the two magnets stay aligned during
+the flip, the time delay causes each person to feel
+resistance as she twists her magnet around. How can this be?
+Both of them are using up the chemical energy in their bodies.
+Conservation of energy says that if this form of energy decreases,
+then some other form of energy must increase. They
+must be storing magnetic energy somehow. But in the
+traditional Newtonian conception of matter interacting via
+instantaneous forces at a distance, magnetic energy could only arise
+from the relative positions of objects that are interacting
+via magnetic forces. If the magnets never changed their orientations
+relative to each other, how can any magnetic energy have been stored?
+
+The only possible answer is that the energy must have gone
+into the magnetic force ripples crisscrossing the space
+between the magnets. Fields of force apparently carry energy
+across space, which is strong evidence that they are real things.
+
+This is perhaps not as radical an idea to us as it was to
+our ancestors. We're used to the idea that a radio
+transmitting antenna consumes a great deal of power, and
+somehow spews it out into the universe. A person working
+around such an antenna needs to be careful not to get too
+close to it, since all that energy can easily cook flesh (a
+painful phenomenon known as an ``RF burn'').\footnote{Many people
+are also needlessly concerned that they'll get brain cancer from their
+cell phones. We know enough about the physics of how these electromagnetic signals
+interact with matter to be certain that they're incapable of altering a cell's
+DNA to produce a cancerous mutation. Furthermore, people who work near radio
+transmitters are exposed to signals that are similar, but many orders of magnitude
+stronger, and they do not experience any increased incidence of cancer. One of
+the most telling characteristics of pseudoscience is that it doesn't scale
+properly. If the signals caused cancer, then making them much stronger should
+have a much higher probability of causing cancer.}
+
+By the way, if you retrace the logic of this section, you can verify that
+in my argument that field-ripples must take time to get from one place to
+another, I never used any facts that were specific to electromagnetic fields.
+You could take a pen, cross out ``electromagnetic'' everywhere, and replace it
+with ``gravitational'' or ``nuclear,'' and it would still be a valid argument.
+Thus the thing we've been referring to as ``the speed of light'' could instead
+be thought of as ``the maximum speed of anything.'' In 2002, astronomers
+Sergei Kopeikin and Edward Fomalont verified that as Jupiter circles the sun,
+its gravitational field travels outward from it at the speed of light. 
+If the result had been to the contrary, it would have disproved relativity!
+(There is some controversy about their analysis, although the result is
+what everyone expected based on relativity.)
+
+
+\end{envsubsection}	
+%
+\begin{envsubsection}{Induction}\index{induction}
+Now that I've made the case for the reality of the electric and magnetic fields,
+let's consider an example of their relationship to each other, one which will have
+some very practical applications.
+
+You're loafing around your apartment one afternoon, munching potato chips and
+idly watching the needle on your magnetic field meter. Suddenly, the needle starts
+to go up. The magnetic field in your apartment is getting stronger. You hypothesize
+that someone is driving toward you with a big magnet in the back of her pickup truck.
+As the magnet gets closer, you feel its field more and more strongly. Your roommate,
+however, pauses her video game for long enough to offer an alternative explanation:
+maybe the junkyard down the street has a big electromagnet they use for picking up
+cars. According to her theory, the magnetic field is getting stronger because they're
+slowly turning the knob up; the magnet isn't getting any closer at all. Your roommate
+offers to bet you some take-out Chinese food that her explanation is right.
+
+Without walking around town and investigating, how can you settle the bet?
+Well, according to your explanation, the truck is coming your way. In the driver's
+frame of reference, the magnet is at rest, so there's only a magnetic field, no
+electric field. But the frames of reference of her truck and your couch are not
+at rest relative to one another, so you know what what she perceives as a pure
+magnetic field, you should see as a mixture of magnetic and electric fields.
+Your theory makes a definite prediction: if you fire up your electric field meter,
+you should detect something.
+You offer to use such a measurement to settle the bet, but
+your roomate has taken physics already, and wisely refuses. ``Look,'' she says, ``the
+electric and magnetic fields are just different sides of the same coin. Doesn't it seem a little
+goofy to you that there would be one relationship between the electric
+and magnetic fields inside our apartment if they were from a certain kind of distant source,
+but a different relationship if they came from a different type of source? No matter which
+of us is right, there's going to be an electric field in this room.'' She then turns on the
+electric field meter, shows you that there is an electric field, goes to the window,
+opens the shades, shows you the electromagnet at the junkyard (which she already knew
+about), and informs you that she'll be having kung pao chicken and ma po dofu.
+
+There was no pickup truck with a big magnet in the back. There was nothing moving at
+all. The person at the junkyard turning up the knob on the electromagnet is in the same
+frame of reference as you and your roommate.
+What you've just bought for the price of some Chinese food is a lesson in the principle
+of induction:
+
+\begin{important}[the principle of induction]
+Any magnetic field that changes over time will create an electric field. The induced
+electric field is perpendicular to the magnetic field, and forms a curly pattern around
+it.\\
+Any electric field that changes over time will create a magnetic field.
+The induced
+magnetic field is perpendicular to the electric field, and forms a curly pattern around
+it.
+\end{important}
+
+The first part was discovered experimentally by
+Michael Faraday in 1831. Relativity was still 70 years in the future, so the
+argument made by your roommate wasn't available to Faraday --- to him, it was just
+a surprising empirical fact. Since relativity tells us that electricity and
+magnetism aren't really separate things, it's also not so surprising that
+the second part is true.
+
+\begin{eg}{The \index{generator}generator}
+	A  basic generator, \figref{generator}, consists of a permanent magnet that
+	rotates within a coil of wire. The magnet is turned by a
+	motor or crank, (not shown). As it spins, the nearby
+	magnetic field changes. This changing magnetic field results in an
+	electric field, which has a curly pattern. This electric
+	field pattern creates a current that whips around the coils
+	of wire, and we can tap this current to light the lightbulb.
+	
+	If the magnet was on a frictionless bearing, could we light the bulb
+	for free indefinitely, thus violating conservation of energy? No.
+	It's hard work to crank the magnet, and that's where
+	the energy comes from. If we break the light-bulb circuit, it suddenly
+	gets easier to crank the magnet! This is because the current in the coil
+	sets up its own magnetic field, and that field exerts a torque on the magnet.
+	If we stopped cranking, this torque would quickly make the magnet stop turning.
+\end{eg}
+
+	\margup{-100mm}{\fig{generator}{A generator.}}
+	\selfcheck{alternator}{When you're driving your car, the engine recharges the
+	battery continuously using a device called an alternator,
+	which is really just a generator. Why can't you use the
+	alternator to start the engine if your car's battery is dead?}
+
+	\margup{-20mm}{\fig{transformer}{A transformer.}}
+\begin{eg}{The transformer\index{transformer}}
+	It's more efficient for the electric company to transmit
+	power over electrical lines using high voltages and low
+	currents. However, we don't want our wall sockets to operate
+	at 10000 volts! For this reason, the electric company uses a
+	device called a transformer, \figref{transformer}, to
+	convert everything to lower voltages and higher currents inside your
+	house. The coil on the input side creates a magnetic field.
+	Transformers work with alternating current (currents that reverses its
+	direction many times a second), so the magnetic
+	field surrounding the input coil is always changing. This
+	induces an electric field, which drives a current around the output coil.
+	
+	Since the electric field is curly, an electron can keep gaining more
+	and more energy by circling through it again and again. 
+	Thus the
+	output voltage can be controlled by changing the number of turns
+	of wire on the output side. 
+	In any case, conservation of energy guarantees
+	that the amount of power on the output side must equal the
+	amount  put in originally, 
+	\begin{equation*}
+	  (\text{input current})\times(\text{input voltage}) = 
+	  (\text{output current})\times(\text{output voltage}) 
+	\end{equation*}
+	so no matter what factor the voltage is reduced by, the current is
+	increased by the same factor.  This is analogous to a lever. A crowbar allows
+	you to lift a heavy boulder, but to move the boulder a centimeter, you may have
+	to move your end of the lever a meter. The advantage in force comes with a
+	disadvantage in distance. It's as though you were allowed to lift a small weight
+	through a large height rather than a large weight through a small height. Either way,
+	the energy you expend is the same.
+\end{eg}
+
+\begin{eg}{Fun with sparks}
+Unplug a lamp while it's turned on, and watch the area around the wall outlet. You should see
+a blue spark in the air at the moment when the prongs of the plug lose contact with the electrical
+contacts inside the socket.
+
+This is evidence that, as discussed on page \pageref{energy-in-fields}, fields contain energy.
+Somewhere on your street is a transformer, one side of which is connected to the lamp's circuit.
+When the lamp is plugged in and turned on, there's a complete circuit, and current flows.
+as current flows through the coils in the transformer, a magnetic field is formed --- remember,
+any time there's moving charge, there will be magnetic fields. Because there is a large number turns
+in the coils, these fields are fairly strong, and store quite a bit of energy.
+
+When you pull the plug, the circuit is no longer complete, and the current stops. Once the current
+has disappeared, there's no more magnetic field, which means that some energy has disappeared.
+Conservation of energy tells us that if a certain amount of energy disappears, an equal amount
+must reappear somewhere else. That energy goes into making the spark. (Once the spark is gone,
+its energy remains in the form of heat in the air.)
+\end{eg}
+
+\end{envsubsection}	
+%
+\begin{envsubsection}{Electromagnetic waves}\index{electromagnetism!waves}\index{Maxwell, James Clerk}
+	Theorist James Clerk Maxwell was the first to work out the principle of induction (including
+	the detailed numerical and geometric relationships, which we won't go into here).
+	Legend has it that
+	 it was on a starry night that he first realized the most important implication of his equations:
+	light itself is an electromagnetic wave, a ripple spreading outward from a disturbance
+	in the electric and magnetic fields.
+	 He went for a walk with his wife, and told her she was the only other person in
+	 the world who really knew what starlight
+	was.\index{Maxwell, James Clerk}\index{wave!electromagnetic}\index{light!as an electromagnetic wave}
+
+	\margup{-65mm}{\fig{maxwell}{James Clerk Maxwell (1831-1879)}}
+	The principle of induction tells us that there can be no such thing as a purely electric or
+	purely magnetic wave. As an electric wave washes over you, you feel an electric field that
+	changes over time. By the principle of induction, there must also be a magnetic field
+	accompanying it. It works the other way, too. It may seem a little spooky that the electric
+	field causes the magnetic field while the magnetic field causes the electric field, but the
+	waves themselves don't seem to worry about it.
+
+	 The distance from one ripple to the next
+	is called the wavelength of the light.\index{wavelength} Light with a certain wavelength
+	(about quarter a millionth of a meter) is at the violet end of the rainbow spectrum, while
+	light with a somewhat longer wavelength (about twice as long) is red.
+	Figure \subfigref{emspectrum}{1} shows the complete spectrum of light waves.
+	Maxwell's equations predict that all light waves have the same structure,
+	regardless of wavelength and frequency, so even though radio and x-rays, for example,
+	hadn't been discovered, Maxwell predicted that such waves would have to exist.
+	Maxwell's 1865 prediction passed an important test in 1888, when
+	Heinrich Hertz\index{Hertz, Heinrich} published the results of experiments in which he showed
+	that radio waves could be manipulated in the same ways as visible light waves. Hertz
+	showed, for example, that radio waves could be reflected from a flat surface, and
+	that the directions of the reflected and incoming waves were related in the same
+	way as with light waves, forming equal angles with the normal. Likewise,
+	light waves can be focused with a curved, dish-shaped mirror, and Hertz demonstrated
+	the same thing with a dish-shaped radio antenna.
+
+	\widefigsidecaption{emspectrum}{%
+           Panel \textbf{1} shows the electromagnetic spectrum.
+           \qquad Panel \textbf{2} shows how an electromagnetic wave is put together.
+           Imagine that this is a radio wave, with a wavelength of a few meters. If you were standing inside
+           the wave as it passed through you, you could theoretically hold a compass in your hand, and it would wiggle back
+           and forth as the magnetic field pattern (white arrows) washed over you. 
+           (The vibration would actually be much to rapid to detect this way.) Similarly, you'd experience
+           an electric field alternating between up and down.
+           \qquad Panel \textbf{3} shows how this relates to the principle of induction. The changing electric field (black arrows) should
+           create a curly magnetic field (white). Is it really curly? Yes, because if we inserted a paddlewheel that
+           responded to electric fields, the field would make the paddlewheel spin counterclockwise as seen from above. Similarly, the
+           changing magnetic field (white) makes an electric field (black) that curls in the clockwise direction as seen from the front.%
+        }\index{electromagnetism!spectrum}
+
+
+\end{envsubsection}
+%
+\mysection{What's Left?}
+One mark of wisdom is to know what it is that you don't know. Now that you're at the end
+of this book, what you don't know is, roughly speaking, what physicists didn't know in
+1905. Here's a bare-bones outline of what's missing from your education so far --- just
+enough of a taste, I hope, to convince you to take another physics course!
+
+First of all, I've already warned you on page \pageref{reductionism} that this book\index{reductionism}
+basically ignores one main current in physics, which is reductionism. I've frequently
+made use of the fact that matter is built out of atoms, but that's about it. Around 1905,
+physicists learned that atoms were made out of nuclei and electrons. Shortly thereafter,
+they found out that the nuclei were made out of protons and neutrons, and not long after that
+they found out that neutrons and protons were themselves not fundamental:
+they're made of triplets of tinier particles called quarks. If we keep breaking things into smaller
+and smaller pieces, will we ever bottom out? We don't know.\footnote{There's a story about a wise sage who was
+asked what held up the earth. ``Elephants,'' he replied, ``it's held up by elephants.''
+When he was interrogated about what held up the elephants, he replied, ``Ah, you're
+tricky, very tricky, but the answer is quite simple. It's elephants all the way down!''}
+By the way, the astronomers now tell us that 90\% of the matter in the universe isn't even atoms,
+so we have more mysteries to solve even without breaking ordinary atomic matter down into smaller
+and smaller pieces!
+
+Physicists also learned that there was a new type of force, the strong nuclear force,
+holding the quarks together to form the protons and neutrons, and holding the neutrons and
+protons together to form nuclei. Another type, the weak nuclear force, is responsible
+for\index{force!strong nuclear}\index{force!weak nuclear}\index{nuclear force}\index{strong nuclear force}\index{weak nuclar force}
+certain types of radioactive decay. At this stage, the list of fundamental forces was like this:
+gravity, electromagnetism, strong nuclear, weak nuclear. However, later investigations showed
+that the weak nuclear force could be unified with electromagnetism in the same way that
+electricity was unified with magnetism, resulting in a single thing referred to as the
+electroweak force. The list is therefore down to three interactions: gravitational, electroweak,
+and strong nuclear. Many physicists would dearly love to get the three down to one.
+
+It might seem like everything was getting pretty tidy, but there was this one crazy experimental
+fact that wouldn't go away: sometimes, it seemed, physics was random. For instance, take
+two atoms of the element uranium 238, which occurs naturally in the earth's crust. (The number
+238 means that the number of protons plus the number of neutrons equals 238.) This
+element undergoes radioactive decay, but which atom will decay first? The answer is that we
+can't tell. It's random. At first, physicists assumed that this apparent randomness was
+just caused by some complicated unknown mechanism inside the nucleus. Once the mechanism
+was understood, everything would be perfectly predictable. Physicists wanted to preserve
+their determinism, which they'd been cherishing ever since Laplace's famous claim in 1776 that
+``Given for one instant an intelligence which could comprehend all the forces by which nature
+is animated and the respective positions of the things which compose it...nothing would be
+uncertain, and the future as the past would be laid out before its eyes.''
+
+As they dug deeper,
+however, they uncovered more randomness, not less (much to the discomfort of Einstein,\index{Einstein, Albert!randomness}
+who kibitzed that he could never believe God would ``play dice'').
+Eventually they realized that the randomness was not evidence of something distasteful
+and complicated, but rather of something simple and beautiful. In this chapter, we've
+developed a picture in which there are two types of actors on the stage:
+particles and fields. Both can have energy, and both can travel from place to place,
+but they seem fundamentally different in many ways. Isn't this a little ugly?
+The deeper, more beautiful truth is that the particles are also fields, and the fields
+are also particles. Just as light is a ripple, so is an electron! (A ripple in what? Don't
+ask --- you won't get a satisfying answer.) You yourself are a wave, but your wave properties
+aren't ordinarily evident because you're so big. A wave, for instance, has fuzzy edges.
+Your body has fuzzy edges, but the fuzziness is on a microscopic scale, so you don't notice
+it. All the basic building blocks of the universe are like this: they're both waves and
+particles, at the same time. It's a little like Christian theology: Jesus is both fully\index{Jesus}
+human and fully divine.
+
+Here's how this wave-particle dualism relates to randomness. Suppose you're sitting inside
+at night, next to a window with the curtains open. People outside can see you, which means
+that their eyes are getting light from your body. But you can also see your own reflection
+in the window, which means that while a certain percentage of the light energy gets out,
+there's also a certain percentage that's reflected back in. Waves always behave this way.
+For simplicity, let's imagine that 50\% of the light is being reflected, while the other
+50\% gets out.\index{waves}
+
+But everything is both a wave and a particle, right? So a light wave coming from your
+body to the window has a certain granularity to it. It's made out of little chunks, like
+a stream of bullets from a machine gun. Now what if we send out a single light-particle
+all by itself? Remember, it's both fully waveish and fully particleful. Since it's a
+wave, it behaves like every law-abiding wave: when it hits the window, it splits up
+into two weaker waves, each one carrying half the energy. But wait --- it's also
+a particle. How can you have half a particle? You can't. This is where the randomness
+comes from. The half-strength reflected wave represents a 50\% probability that the
+particle will be reflected, and likewise for the half-strength wave that gets through.\index{probability}
+
+Now that I've told you what I'd known that you hadn't, let me finish up by telling you a question
+that nobody knows the answer to. The wave-particle theory works great, and forms the
+theoretical basis for such practical devices as the laser that makes your CD player
+work. Relativity is also a highly successful theory. Special relativity passed a vast
+number of experimental tests, and in recent decades, so has general relativity, the
+version of the theory that includes gravity. General relativity is programmed into
+GPS (the global positioning system) for example. Now here's the problem: as far as
+we can tell, the wave-particle theory (called quantum mechanics) is logically
+inconsistent with relativity. Nobody knows how to reconcile them. This presumably
+means that they're both only approximations to some deeper, underlying theory, but
+we don't know what that theory is. If we can find it, we'll probably also learn the
+answers to some intriguing questions. What did the universe look like a gazillionth
+of a second after the big bang, and how did that give rise to the universe we inhabit
+today, with its clusters of galaxies separated by vast oceans of emptiness? Is time
+travel possible? What happens if you fall into a black hole?
+
+\begin{hwsection}
+
+\begin{hw}{muonic}
+	A hydrogen atom consists of an electron and a proton. For our
+	present purposes, we'll think of the electron as orbiting in
+	a circle around the proton.
+	
+	The subatomic particles called muons behave exactly like
+	electrons, except that a muon's mass is greater by a factor
+	of 206.77.  Muons are continually bombarding the Earth as
+	part of the stream of particles from space known as cosmic
+	rays.  When a muon strikes an atom, it can displace one of
+	its electrons.  If the atom happens to be a hydrogen atom,
+	then the muon takes up an orbit that is on the average
+	206.77 times closer to the proton than the orbit of the
+	ejected electron.  How many times greater is the electric
+	force experienced by the muon than that previously
+	felt by the electron?
+\end{hw}
+
+
+\marg{\fig{hw-many-measurements}{Problems \ref{hw:many-v-measurements} and \ref{hw:many-i-measurements}.}}
+\begin{hw}{many-v-measurements}
+(a) Consider the waterfall metaphor introduced in figure \ref{fig:waterwheels}
+on page \pageref{fig:waterwheels}, in which voltage differences are represented by
+height differences. In this metaphor, how would you represent a piece of wire?\\
+(b) The figure shows a circuit containing five lightbulbs connected to a battery.
+Suppose you're going to connect one probe of a voltmeter to the circuit at
+the point marked with a dot. How many unique, nonzero voltage differences
+could you measure by connecting the other probe to other wires in the circuit?
+Visualize the circuit using the same waterfall metaphor.
+\end{hw}
+
+\hwnote{Problem \ref{hw:many-i-measurements} is meant to be done after lab
+\ref{ch:em}\ref{lab:is-charge-conserved}.
+}
+
+\begin{hw}{many-i-measurements}
+The lightbulbs in the figure are all identical. If you were inserting an ammeter
+at various places in the circuit, how many unique currents could you measure?
+If you know that the current measurement will give the same number in more than
+one place, only count that as one unique current.
+\end{hw}
+
+\begin{hw}{magtimereversal}
+Albert Einstein wrote, ``What really interests me is whether God had any
+choice in the creation of the world.'' What he meant by this is that if you randomly
+try to imagine a set of rules --- the laws of physics --- by which the universe
+works, you'll almost certainly come up with rules that don't make sense. For instance,
+we've seen that if you tried to omit magnetism from the laws of physics, electrical
+interactions wouldn't make sense as seen by observers in different frames of reference;
+magnetism is required by relativity.
+
+The magnetic interaction rules in figure
+\figref{magtwobody} are consistent with the time-reversal symmetry of the laws of
+physics. In other words, the rules still work correctly if you reverse the
+particles' directions of motion. Now you get to play God (and fail).
+Suppose you're going to make an alternative version of the laws of physics
+by reversing the direction of motion of only \emph{one} of the eight particles.
+You have eight choices, and each of these eight choices would result in a new
+set of physical laws. We can imagine eight alternate universes, each governed
+by one of these eight sets. Prove that \emph{all} of these modified sets of
+physical laws are impossible, either because the are self-contradictory, or
+because they violate time-reversal symmetry.
+\end{hw}
+
+\begin{hw}{alienmagnetism}\index{Ozma problem!for magnetism}
+Discussion question \ref{dq:ozma} on page \pageref{dq:ozma} introduced the general
+concept of an Ozma problem. Here is an Ozma problem for magnetism. Suppose we establish
+communication with aliens, and we want to tell them how we define the direction of the
+magnetic field. Can we explain to them how to eliminate the ambiguities 
+described on page \pageref{arbitrarydirectionofmag}? How is this related to the
+Ozma problems for charge and for left and right?
+\end{hw}
+
+\begin{hw}{forcebetweencurrents}
+The purpose of this problem is to show that the magnetic interaction rules shown in figure
+\figref{magtwobody} can be simplified by stating them in terms of current. 
+Recall that, as discussed in discussion question \ref{dq:signsofcurrent} on page
+\pageref{dq:signsofcurrent}, one type of charge moving in a particular direction produces
+the same current as the other type of charge moving in the opposite direction. 
+Let's say arbitrarily that the current made by the dark type of charged particle is
+in the direction it's moving, while a light-colored particle produces a current in the
+direction opposite to its motion. Redraw all four panels of figure \figref{magtwobody},
+replacing each picture of a moving light or dark particle with an
+arrow showing the direction of the current it makes. Show that the rules for attraction and
+repulsion can now be made much simpler, and state the simplified rules explicitly.
+\end{hw}
+
+\begin{hw}{feynmanantimatterbackintime}
+Physicist Richard Feynman\index{Feynman, Richard} originated a new way of thinking about charge: a charge of a certain
+type is equivalent to a charge of the opposite type that happens to be moving backward
+in time! An electron moving backward in time is an antielectron --- a particle that has the same
+mass as an electron, but whose charge is opposite. Likewise we have antiprotons, and antimatter
+made from antiprotons and antielectrons. Antielectrons occur naturally everywhere around you due to
+natural radiactive decay and radiation from outer space. A small number of antihydrogen atoms has even
+been created in particle accelerators!
+
+Show that, for each rule for magnetic interactions shown in \figref{magtwobody}, the rule is
+still valid if you replace one of the charges with an opposite charge moving in the 
+opposite direction (i.e., backward in time).
+\end{hw}
+
+\begin{hw}{analyzecircularorbit}
+Refer to figure \figref{circularorbit} on page  \pageref{fig:circularorbit}. Electrons have the
+type of charge I've been representing with light-colored spheres.\\
+(a) As the electrons in the beam pass over the top of the circle,
+what is the direction of the force on them? Use what you know about circular motion.\\
+(b) From this information, use figure \figref{righthandrule}
+on page \pageref{fig:righthandrule} to determine the direction of the magnetic field
+(left, right, up, down, into the page, or out of the page).
+\end{hw}
+
+\begin{hw}{microscopy}
+You can't use a light wave to see things that are smaller than the wavelength of the light.\\
+(a) Referring to figure \figref{emspectrum} on
+page \pageref{fig:emspectrum}, what color of light do you think would be the best to use
+for microscopy?\hwendpart
+(b) The size of an atom is about $10^{-10}$ meters. Can visible light be used to make images
+of individual atoms?
+\end{hw}
+
+\marg{\fig{standing-waves}{Stationary wave patterns on a clothesline (problem \ref{hw:microwave-oven}).}}
+\begin{hw}{microwave-oven}
+You know how a microwave gets some parts of your food hot, but leaves other parts cold?
+Suppose someone is trying to convince you of the following explanation for this fact:
+\emph{The microwaves inside the oven form a stationary wave pattern, like the vibrations
+of a clothesline or a guitar string. The food is heated unevenly because
+the wave crests are a certain
+distance apart, and the parts of the food that get heated the most are the ones where there's
+a crest in the wave pattern.} Use the wavelength scale in figure \figref{emspectrum} on
+page \pageref{fig:emspectrum} as a way of checking numerically
+whether this is a reasonable explanation.
+\end{hw}
+
+\begin{hw}{correspondence-principle-with-light}
+This book begins and ends with the topic of light. Give an example
+of how the correspondence principle applies here, referring to
+a concrete observation from a lab.
+\end{hw}
+\end{hwsection}
+
+%========================================== labs ===============================================
+%--------------------------------- charge lab --------------------------------------
+\begin{lab}{Charge}\index{charge!number of types}\index{charge!conservation of}\label{lab:charge}
+
+\apparatus
+\equip{scotch tape}\\
+\equip{rubber rod}\\
+\equip{heat lamp}\\
+\equip{fur}\\
+\equip{bits of paper}
+
+\goal{Determine the qualitative rules governing electrical charge and forces.}
+
+\labintroduction
+
+Newton's law of gravity gave a mathematical formula for the
+gravitational force, but his theory also made several
+important non-mathematical statements about gravity:
+
+\begin{itemize}
+\item[] Every mass in the universe attracts every other mass in the universe.
+
+\item[] Gravity works the same for earthly objects as for heavenly bodies.
+
+\item[] The force acts at a distance, without any need for physical contact.
+
+\item[] Mass is always positive, and gravity is always attractive, not repulsive.
+\end{itemize}
+
+The last statement is interesting, especially because it
+would be fun and useful to have access to some negative
+mass, which would fall up instead of down (like the
+``upsydaisium'' of Rocky and Bullwinkle fame).
+
+Although it has never been found, there is no theoretical
+reason why a second, negative type of mass can't exist. 
+Indeed, it is believed that the nuclear force, which holds
+quarks together to form protons and neutrons, involves three
+qualities analogous to mass. These are facetiously referred
+to as ``red,'' ``green,'' and ``blue,'' although they have
+nothing to do with the actual colors. The force between two
+of the same ``colors'' is repulsive: red repels red, green
+repels green, and blue repels blue. The force between two
+different ``colors'' is attractive: red and green attract
+each other, as do green and blue, and red and blue.
+
+When your freshly laundered socks cling together, that is an
+example of an electrical force. If the gravitational force
+involves one type of mass, and the nuclear force involves
+three colors, how many types of electrical ``stuff'' are
+there? In the days of Benjamin Franklin, some scientists\index{Franklin, Benjamin}
+thought there were two types of electrical ``charge'' or
+``fluid,'' while others thought there was only a single
+type. In this lab, you will try to find out experimentally
+how many types of electrical charge there are.
+
+\labobservations
+
+Stick a piece of scotch tape on a table, and then lay
+another piece on top of it. Pull both pieces off the table,
+and then separate them. If you now bring them close
+together, you will observe them exerting a force on each
+other. Electrical effects can also be created by rubbing the
+fur against the rubber rod.
+
+Your job in this lab is to use these techniques to test
+various hypotheses about electric charge. The most common
+difficulty students encounter is that the charge tends to
+leak off, especially if the weather is humid. If you have
+charged an object up, you should not wait any longer than
+necessary before making your measurements. It helps if you
+keep your hands dry.
+
+\labpart{Repulsion and/or attraction}
+
+Test the following hypotheses. Note that they are
+mutually exclusive, i.e. only one of them can be true.
+
+A1) Electrical forces are always attractive.
+
+A2) Electrical forces are always repulsive.
+
+A3) Electrical forces are sometimes attractive and
+sometimes repulsive.
+
+Interpretation: Once you think you have tested these
+hypotheses fairly well, discuss with your instructor what
+this implies about how many different types of charge there might be.
+
+\labpart{Are there forces on objects that have not been specially prepared?}
+
+So far, special preparations have been necessary in order to
+get objects to exhibit electrical forces. These preparations
+involved either rubbing objects against each other (against
+resistance from friction) or pulling objects apart (e.g.
+overcoming the sticky force that holds the tape together).
+In everyday life, we do not seem to notice electrical forces
+in objects that have not been prepared this way.
+
+Now try to test the following hypotheses. Bits of paper are
+a good thing to use as unprepared objects, since they are
+light and therefore would be easily moved by any force.
+\emph{Do not} use tape as an uncharged object, since it can
+become charged a little bit just by pulling off the roll.
+
+B1) Objects that have not been specially prepared are immune
+to electrical forces.
+
+B2) Unprepared objects can participate in electrical forces
+with prepared objects, and the forces involved are always attractive.
+
+B3) Unprepared objects can participate in electrical forces
+with prepared objects, and the forces involved are always repulsive.
+
+B4) Unprepared objects can participate in electrical forces
+with prepared objects, and the forces involved can be either
+repulsive of attractive.
+
+Hypotheses B1 through B4 are mutually exclusive.
+
+Interpretation: If you think your observations support a
+hypothesis other than B1, discuss with your instructor
+whether the forces seem to obey the rule given on page
+\pageref{thirdlaw} about forces occurring in equal-strength
+pairs, and
+discuss why an unprepared object might participate
+in electrical forces.
+
+\labpart{Rules of repulsion and/or attraction and the
+number of types of charge}
+
+Test the following mutually exclusive hypotheses:
+
+C1) There is only one type of electric charge, and the force
+is always attractive.
+
+C2) There is only one type of electric charge, and the force
+is always repulsive.
+
+C3) There are two types of electric charge, call them X
+and Y. Like charges repel (X repels X and Y repels Y)
+and opposite charges attract (X and Y attract each other).
+
+C4) There are two types of electric charge. Like charges
+attract and opposite charges repel.
+
+C5) There are three types of electric charge, X, Y and
+Z. Like charges repel and unlike charges attract.
+
+The only way to keep all your observations straight is
+to make a table, in which the rows and columns correspond
+to the different objects you're testing against each other
+for attraction and repulsion. To test C3 versus C5, you'll
+need to see if you can successfully explain your whole
+table by labeling the objects with only two labels, X and Y.
+
+Discuss your conclusions with your instructor.
+
+\labpart{Creation, transfer, and/or conservation of charge}
+
+Test the following mutually exclusive hypotheses:
+
+D1) Charge can be created, destroyed, or transferred without
+any particular restrictions. 
+
+D2) Putting a certain type of charge on one object always
+involves putting equal amounts of the other type(s) of
+charge on some other object.
+
+Discuss with your instructor whether your conclusion can be
+put in the form of a conservation law. Conservation laws in
+physics state that if you add up how much there is of
+something in a closed system, then that total amount can't
+change as long as the system stays closed.
+
+You will revisit this issue, using a much more accurate
+technique, in lab \ref{ch:em}\ref{lab:is-charge-conserved}.
+
+\labselfcheck
+
+The following are examples of incorrect reasoning about this
+lab. As a self-check, it would be a very good idea to figure
+out for yourself in each case why the reasoning is logically
+incorrect or inconsistent with Newton's laws. You do not
+need to do this in writing --- it is just to help you
+understand what's going on. If you can't figure some of them
+out, ask your instructor before leaving lab.
+
+(1) ``The first piece of tape exerted a force on the second,
+but the second did not exert a force on the first.''
+
+(2) ``The first piece of tape repelled the second, and the
+second attracted the first.''
+
+(3) ``I observed three types of charge: two that exert
+forces, and a third, neutral type.''
+
+(4) ``The piece of tape that came from the top was positive,
+and the piece from the bottom was negative.''
+
+(5) ``One piece of tape had electrons on it, and the other
+had protons on it.''
+
+(6) ``I know there were two types of charge, not three,
+because we observed two types of interactions, attraction
+and repulsion.''
+
+\labwriteup
+
+Explain what you have concluded about electrical charge and
+forces. Base your conclusions on your data!
+
+\end{lab}
+
+%--------------------------------- electrical measurements lab --------------------------------------
+\begin{lab}{Electrical Measurements}
+
+\apparatus
+\equip{banana-plug cables}\\
+\equip{alligator clips}\\
+\equip{DC power supplies}\\
+\equip{batteries}\\
+\equip{HP multimeters}\\
+\equip{2-amp fuses}
+\equip{lightbulbs and sockets}
+
+\goal{Learn how to measure current and voltage.}
+
+\labsection{Starting Out}
+
+Let's start out by taking a battery, a lightbulb, and two wires, and trying to make
+the bulb light up. Note that the bulb has two metal contacts: one at the tip, and another
+consisting of the metal screw threads. Once you get it to work, draw a circuit diagram.
+
+\newcommand{\spacefordiagram}{\vspace{40mm}}
+\spacefordiagram
+
+See if you can get it to work by hooking things up in different ways, and see if you can
+come up with a statement about what conditions are necessary in order to make it work:
+
+\spacefordiagram
+
+In the rest of the lab, you'll think about a circuit, predict how it will behave, and
+then test your prediction. Your prediction should say whether the lightbulbs light up,
+and if you expect that a bulb will be brighter or dimmer than normal, you should also
+say that.
+
+\labsection{Measuring Voltage and Current}
+
+From now on, it will be more convenient to use the DC power supply instead of the battery.
+While you're hooking up the circuit, turn the knob all the way down. You can stick the
+banana-plug cables directly into the top two terminals of the power supply. (Don't use
+the ground terminal at the bottom, which isn't meant to be a current-carrying connection.)
+To connect them to the screw heads on the lightbulb socket, use the alligator clips.
+
+Turn up the power supply until you can just barely see the lightbulb starting to glow.
+Use the voltmeter to measure the voltage difference across the lightbulb. A multimeter
+can be used to measure either current or voltage. To measure voltage, put the switch
+on a voltage scale, and connect wires to the V and COM (common) plug. The common plug
+is the one that's always used for every type of measurement, hence the name.
+Figure
+\figref{voltmeteruseschematic} on page \pageref{fig:voltmeteruseschematic} shows
+the right way to connect the meter to the circuit.
+Record your data in the table on the next page.
+
+Does it make any difference if you touch the voltmeter's probes to the terminals of
+the power supply rather than the screwheads on the lightbulb socket?
+
+Now disconnect the multimeter from the circuit, and change the switch so it's
+on a current (amps) scale. 
+Use it to measure the current, as shown in figure
+\figref{ammeteruseschematic} on page \pageref{fig:ammeteruseschematic}.
+If you mess up, you may blow a fuse in the meter. To avoid the hassle of replacing
+the fuse, you may want to turn off the power supply while you set up for the
+measurement. When you think you're ready to go, look carefull at what would happen
+to an electron that came out of the power supply. Would it ever come to a fork
+in the road and have a choice of whether to go through the meter or the bulb? If
+so, then you've hooking things in a way that won't work, and that will blow the fuse.
+
+Now repeat the same set of measurements with the voltage turned up higher, so the
+lightbulb glows more brightly. 
+
+\begin{tabular}{|p{20mm}|p{20mm}|p{20mm}|}
+\hline
+\emph{voltage (volts)} & \emph{current (amps)} & \emph{resistance (ohms)}\\
+\hline
+\raisebox{0mm}[0mm][12mm]{} & & \\
+\hline
+\raisebox{0mm}[0mm][12mm]{} & &\\
+\hline
+\end{tabular}
+
+Is it possible to find a single, consistent value
+for the resistance of the lightbulb?
+
+
+\end{lab}
+%--------------------------------- is charge conserved? lab --------------------------------------
+\begin{lab}[0]{Is Charge Conserved?}\index{charge!conservation of}\label{lab:is-charge-conserved}
+
+\apparatus
+\equip{wires}\\
+\equip{banana-plug cables}\\
+\equip{alligator clips}\\
+\equip{DC power supplies}\\
+\equip{multimeters}\\
+\equip{resistors}
+
+\goal{Find out whether charge is conserved.}
+
+In lab \ref{ch:em}\ref{lab:charge}, you made a crude test of whether charge was conserved. In this
+lab, you'll make an accurate numerical test.
+
+In the circuit diagram below, the zigzag lines represent resistors. Get two different
+resistors with two different values, both in the kiloohm range, and assemble the
+circuit.
+
+\labfig{lab-junction}
+
+At how many places in the circuit is it possible to measure the current? Are any of the
+possibilities redundant? Now go ahead and measure all these currents.
+
+Do your results support conservation of charge, or not?
+
+Notes: (1) The plus and minus signs of the current readings on the meter are only
+meaningful if you take into account which way the meter is hooked into the circuit ---
+if you reverse the meter's two connections, you'll get the opposite sign.
+(2) Make sure to record the units of the currents. Note that the meter may read in
+units of $\mu\zu{A}$ (microamps), mA (milliamps), or A (amps), depending on the
+scale you're using.
+\end{lab}
+%--------------------------------- circuits lab --------------------------------------
+\begin{lab}{Circuits}
+
+This lab is based on one created by Virginia Roundy.
+
+\apparatus
+\equip{batteries}\\
+\equip{lightbulbs and holders}\\
+\equip{wire}\\
+\equip{highlighting pens, 3 colors}
+
+\goal{Apply four methods of thinking about circuits.}
+
+\labintroduction
+
+When you first glance at this lab, it may look scary and intimidating --- all those
+circuits! It's not that bad once you understand the symbols:
+
+\labfig{lab-circuit-symbols}
+
+Also, all those wild-looking circuits can be analyzed using the following four
+guides to thinking:
+
+1. \emph{A circuit has to be complete\/}, i.e., it must be possible for charge to get recycled
+as it goes around the circuit. If it's not complete, then charge will build up at a dead end. This built-up
+charge will repel any other charge that tries to get in, and everything will rapidly grind to a stop.
+
+2. \emph{There is constant voltage everywhere along a piece of wire.} To apply this rule during
+this lab, I suggest you use the colored highlighting pens to mark the circuit. For instance, if there's
+one whole piece of the circuit that's all at the same voltage, you could highlight it in yellow.
+A second piece of the circuit, at some other voltage, could be highlighted in blue.
+
+3. \emph{Charge is conserved,} so charge can't ``get used up.''
+
+4. When in doubt, use a \emph{rollercoaster diagram}, like the one shown below. On this
+kind of diagram, height corresponds to voltage --- that's why the wires are drawn as horizontal
+tracks.
+
+\labfig{lab-circuit-rollercoaster}
+
+\vfill\pagebreak[4]
+
+
+\labsection{A Bulb and a Switch}
+
+Look at circuit 1, and try to predict what will happen when the switch is open, and what
+will happen when it's closed. Write both your predictions below before you build the circuit.
+When you build the circuit, you don't need an actual switch like a light switch; just 
+connect and disconnect the banana plugs.
+
+
+\newcommand{\circuittablestrut}{\raisebox{0mm}[0mm][25mm]{}}
+\newcommand{\circuittabletwocols}[2]{
+\begin{tabular}{|p{20mm}|p{42mm}|}
+\hline
+         & \emph{#1} \\
+\hline
+prediction & \\
+\hline
+explanation  \circuittablestrut &\\
+\hline
+observation & \\
+\hline
+explanation  & \\
+(if different) \circuittablestrut & \\
+\hline
+\end{tabular}
+
+\begin{tabular}{|p{20mm}|p{42mm}|}
+\hline
+         & \emph{#2} \\
+\hline
+prediction & \\
+\hline
+explanation \circuittablestrut  &\\
+\hline
+observation  & \\
+\hline
+explanation  & \\
+(if different) \circuittablestrut & \\
+\hline
+\end{tabular}
+}
+\newcommand{\circuittableonecol}{
+\begin{tabular}{|l|p{50mm}|}
+\hline
+prediction  &\\
+\hline
+explanation \circuittablestrut   &\\
+\hline
+observation &\\
+\hline
+explanation  & \\
+(if different) \circuittablestrut &\\
+\hline
+\end{tabular}
+}
+
+\labfigcaption{lab-circuit-simple}{Circuit 1}
+
+\vfill\pagebreak[4]
+
+\circuittabletwocols{switch open}{switch closed}
+
+Did it work the way you expected? If not, try to figure it out with the benefit of
+hindsight, and write your explanation in the table above.
+
+\vfill\pagebreak[4]
+
+\labfigcaption{lab-circuit-switch-shorts}{Circuit 2 (Don't leave the switched closed for a long time!)}
+
+\circuittabletwocols{switch open}{switch closed}
+
+\vfill\pagebreak[4]
+
+\labfigcaption{lab-circuit-irrelevant}{Circuit 3}
+
+\circuittabletwocols{switch open}{switch closed}
+
+\vfill\pagebreak[4]
+
+\labfigcaption{lab-circuit-far-side}{Circuit 4}
+
+\circuittabletwocols{switch open}{switch closed}
+
+\vfill\pagebreak[4]
+
+\labsection{Two Bulbs}
+
+Try a rollercoaster diagram on this one!
+
+\labfigcaption{lab-circuit-series}{Circuit 5}
+
+\circuittabletwocols{bulb a}{bulb b}
+
+\vfill\pagebreak[4]
+
+\labfigcaption{lab-circuit-corner}{Circuit 6}
+
+\circuittabletwocols{bulb a}{bulb b}
+
+\vfill\pagebreak[4]
+
+\labsection{Two Batteries}
+
+Circuits 7 and 8 are both good candidates for rollercoaster
+diagrams.
+
+\labfigcaption{lab-circuit-two-batteries}{Circuit 7}
+
+\circuittableonecol
+
+\labfigcaption{lab-circuit-reversed}{Circuit 8}
+
+\circuittableonecol
+
+\labsection{A Final Challenge}
+
+\labfigcaption{lab-circuit-inside}{Circuit 9}
+
+\circuittabletwocols{bulb a}{bulb b}
+
+\end{lab}
+
+
+%--------------------------------- electric fields lab --------------------------------------
+\begin{lab}{Electric Fields}\index{electric field!lab}
+\apparatus
+\equip{board and U-shaped probe   ruler}\\
+\equip{DC power supply (Thornton)}\\
+\equip{multimeter}\\
+\equip{scissors}\\
+\equip{stencils for drawing electrode shapes on paper}
+
+\goal{To be better able to visualize electric fields and
+understand their meaning.}
+
+\labintroduction
+
+The gravitational field is something we experience every day, but the electric field
+isn't usually quite as dramatic, except if you happen to get caught outside in a thunderstorm!
+Visualizing the electric field is more of a challenge, because we don't feel it physically,
+and it's also not usually uniform, as the gravitational field approximately is.
+
+Let's imagine a method for measuring the gravitational field. First you pick a certain point
+in space, let's say a point on the ceiling. Then you try to locate all the other points where an
+object would have the same gravitational energy. You'll find out that the all the other points
+on the ceiling have this property; a mass can be moved from any point on the ceiling to any
+other point without having to work against gravity. We call this an equal-energy surface.
+
+Next, we drop a 1-kg mass from the
+ceiling, and watch how far it has to fall before it's converted one joule worth of its
+gravitational energy into kinetic energy. Since the earth's gravitational field is about
+10 (in units of joules per kilogram per meter), this will happen when the mass has fallen
+about 1/10 of a meter. This new point is part of a new equal-energy surface 1/10 of a meter
+below the ceiling. We could continue this way until we'd constructed enough equal-energy
+surfaces to reach the floor; they'd be like the layers of a cake.
+
+\enlargethispage{-\baselineskip}
+
+Note how the field's strength is related to the distance between the equal-energy surfaces.
+Since the field's strength is a relatively big number, 10, the distance between the
+equal-energy surfaces is a relatively small number, 1/10. In general, the greater the field
+strength, the closer the spacing between the surfaces. If you've ever gone hiking and
+used a topographical map, the concept is similar: the closer together the contour lines
+are, the steeper the slope.
+
+\enlargethispage{-\baselineskip}
+
+\labfigcaption{lab-topo-map}{Each contour line on the map represents a set of points that are
+all at the same elevation. Where the contour lines are close together, the slope is steep.
+Notice how the streams run perpendicular to the contour lines. (19th century USGS map)}
+
+That tells us the strength of the field, but what about the direction? As suggested
+by the streams in the figure, the direction of the field is perpendicular to the equal-energy
+surfaces.
+
+This is essentially what you're going to do in this lab using electrical fields, with
+a few differences. One difference is that rather than releasing a charged particle from
+point A and watching it accelerate to point B --- not very practical! --- you'll 
+send it from point A through a voltmeter to point B. The other difference is that
+the experiment will be two-dimensional, not three-dimensional, so you'll end up with
+a flat map very much like the figure above.
+
+
+\labsection{Method}
+
+Turn your  board upside down. Find the board
+with pattern 1 on it, and screw
+it to the underside of the board, with the
+black side facing outward. Now connect the voltage source
+(using the provided wires) to the two large screws on either
+side of the board. Adjust the voltage source to give 8 volts.
+
+\labfigcaption{lab-efield-patterns}{You'll use pattern 1 plus
+one other pattern. The dark areas represent parts of the board
+that are conductive.}
+
+Once you turn this voltage on, charges flow between the
+connections on the field plate under the
+board. Two of the conductors in your pattern are connected
+directly to the voltage source, so these will be two of your
+constant-voltage curves, differing from each other by 8 volts. You
+can select one of these as your reference voltage level, so
+it is by definition at $V=0$ V, and other is at $V=8$ V. One
+of the probes of your voltmeter can be connected to the 0-V
+conductor indirectly, simply by connecting it to the
+appropriate terminal of the voltage supply.
+
+Now look at your U-probe. It has a conductor at the end of
+the bottom part and a wire going through the bottom part
+that connects to the screw at the back end of it. It also
+has a hole in the end of the top part that is directly above
+the end conductor on the bottom. You will be connecting one
+side of the voltmeter to the screw on the U-probe and the
+other to a fixed reference point of your choice. 
+
+Place a sheet of paper on the board.
+If you press down on the board, you can slip the paper
+between the board and the four buttons you see at the
+corners of the board. Now put the U-probe in place so that
+the top is above the board and the bottom of
+it is below the board. You will first be looking for places
+on the pattern board where the voltage is one volt --- look
+for places where the meter reads 1.0 and mark them through
+the hole on the top of your U-probe with a pencil or pen.
+You should find a whole bunch of places there the voltage
+equals one volt, so that you can draw a nice equal-energy
+curve connecting them. (If the line goes very far or curves
+strangely, you may have to do more.) You can then repeat the
+procedure for 2 V, 3 V, and so on.  Label each
+constant-voltage curve.
+
+Draw the electric field using arrows, with longer arrows
+to represent stronger fields.
+
+Repeat this procedure with another pattern.
+
+\end{lab}
+
+%--------------------------------- magnetic fields lab --------------------------------------
+\begin{lab}{Magnetic Fields}\index{magnetic field!lab}
+\apparatus
+\equip{bar magnet}\\
+\equip{old computer monitor}\\
+\equip{coil of wire (solenoid)}\\
+\equip{DC power supply}\\
+\equip{magnetic compass}\\
+\equip{2 neodymium magnets}\\
+\equip{1 tiny neodymium magnet}\\
+\equip{index cards}\\
+\equip{vacuum tube (Nakamura EM-1N)}
+
+\begin{goals}
+
+\item[] Observe magnetic field patterns.
+
+\item[] Discover the laws of nature governing sources and sinks in the magnetic field.
+
+\end{goals}
+
+\labpart{Deflecting a beam of electrons}
+
+Position the bar magnet as suggested in the figure, to the left of some
+identifying point on the monitor such as the mouse cursor. Use a monitor
+that your instructor has designated --- some types of monitors may be permanently
+damaged by this experiment! Mark the top end of the magnet with some masking tape
+so you won't forget which way you held it.
+
+\labfig{lab-fields-crt}
+
+\newcommand{\fieldslabshortanswer}{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+
+The first thing you'll notice is that the screen breaks out in psychedelic colors.
+The moving charges inside the magnet are interacting with the moving charges in the
+beam of electrons shooting from the back of the tube to the front.
+The phosphor coating inside a color monitor consists of red, green, and blue dots,
+and the beam isn't hitting the dots it normally would. Once you get done admiring
+the pretty colors, the point here is to observe the direction in which the beam
+is deflected. Is it attracted to the magnet, repelled by it, or deflected up or
+down? \fieldslabshortanswer
+
+Now think about --- but don't yet do! --- the following experiment. What do you
+think will happen if you bring the magnet over to the right side? \fieldslabshortanswer
+
+OK, now try it. What really happened? \fieldslabshortanswer
+
+\labpart{Two more examples}
+The setup with the computer monitor can be a little awkward, because you can't
+stick your hand inside the tube, near the beam. I'll keep on drawing that
+setup, but there's another one that you may find more convenient. In this
+alternative setup, we have a smaller bulb-shaped vacuum that isn't hidden
+inside a plastic box like the computer monitor. The beam goes up rather than
+horizontally as it comes out of the gun, but other than that it's very similar
+to the monitor. 
+(You'll have to imagine all of the figures in the lab manual
+as views from above the tube.)
+With this setup, you need to be careful not to magnetize
+the metal parts inside the tube, so use one of the tiny neodymium magnets,
+the size of a ladybug. Even though these magnets are relatively small and weak,
+you can deflect the beam a lot with them, because the setup allows you to
+place the magnet close to the beam. Tape it on the end of a pencil like this:
+
+\labfig{lab-magnet-on-pencil}
+
+Now bring the magnet in from above and below:\\
+above: \fieldslabshortanswer\\
+below: \fieldslabshortanswer\\
+
+Confusing, isn't it?
+
+\labpart{The left-hand rule}
+
+Now let's try to make some sense out of your data. As suggested by the figure below,
+you've probed the magnetic field in four regions near the magnet. For instance, when
+you held the magnet to the left of the beam, you were finding out about the magnetic
+field to the magnet's right.
+
+\labfigcaption{lab-fields-cross}{Record the directions of the forces you observed.}
+
+Now a magnetic field, unlike an electric or gravitational field, doesn't lie along
+the same line as the force it creates. First, in the diagram above, organize your
+information about the directions of the \emph{forces}.
+
+\labfigcaption{lab-fields-cross}{Infer the directions of the magnetic fields.}\index{magnetic field!of a bar magnet}
+
+Now use figure \figref{righthandrule} on page \pageref{fig:righthandrule} to figure
+out the direction of the bar magnet's \emph{field} in each of these regions, and draw arrows
+in the boxes to represent those directions. Note that there are two different geometric
+rules, one for each type of charge. For our purposes it doesn't really matter which
+type of charge we assume an electron has, but to make life easier for your instructor,
+let's all be consistent: assume that the electrons have a charge corresponding to the
+lighter-colored particle in the diagram, so that you're using the left-hand rule, not
+the right-hand one.
+
+Suppose someone tells you that this supposed magnet really isn't a magnet at all --- it's
+simply a piece of metal with some electric charge on it. This person claims that the
+forces you're observing are really electrical, not magnetic. Try to evaluate this claim
+based on the data you already have:
+
+\newcommand{\fieldslabonelineforwriting}{\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_}
+\newcommand{\fieldslabspaceforwriting}{\fieldslabonelineforwriting\\ \fieldslabonelineforwriting}
+\fieldslabspaceforwriting
+
+\labpart{Checking with a compass}
+
+Use the magnetic compass to check the field pattern you've inferred above. You may also be
+interested in finding out what the magnetic field does in regions you haven't mapped.
+For instance, what do you think the field would be like in the region diagonally
+above the magnet and to its right?
+
+\labpart{Charge going in circles}
+
+If you believe figure \figref{barmagnethanging}/2 on page \pageref{fig:barmagnethanging}, then
+the bar magnet has little charges inside it going around in circles. How do you know this isn't
+just a fairy tale? One good way to test this claim would be to observe the magnetic field made
+by an electric current going around a circular loop of wire, and see if it resembles the field
+pattern of the bar magnet. Another interesting possibility is to investigate the field pattern
+inside the loop --- there was no way to probe the magnetic field inside the bar magnet!
+
+\labfig{lab-fields-solenoid}
+
+It turns out that you need quite a large amount of current to get a measurable field from a single
+loop of wire. Rather than using large currents, and risking killing off too many students,
+we'll make a stronger field by using a spool of wire with hundreds of turns on it. This is known
+as a solenoid.\index{solenoid}\index{magnetic field!of a solenoid} Hook up the solenoid to
+the power supply to form a complete circuit. (Don't use the ground plug at the bottom of the
+power supply --- it's not meant to be a current-carrying connection.) You can crank up the
+current all the way.
+\footnote{To start out with, you may enjoy playing with the neodymium magnet in the space in and around
+the solenoid. Fun!}
+
+The blank figure above is for you to record your observations.
+Lay the coil on the desk so that it's oriented like a tunnel (not like a coffee mug).
+Note that the compass can only respond to horizontal magnetic fields. Therefore
+you can only probe the magnetic field in the horizontal plane cutting through the center
+of the coil, where we know by symmetry that the magnet's field is purely horizontal.
+(Since the coil has symmetry with respect to rotation about its central axis, determining
+the field in this plane also suffices to determine its field everywhere in space.)
+
+
+Map out the field. Does the field outside the coil make the same kind of pattern as the
+one you observed with the bar magnet?
+
+\labpart{Sources and sinks?}
+
+An important feature of any field is its sources and sinks. A sink is where all the field
+arrows converge on one point, like water going down the drain --- the earth is a sink of
+the gravitational field. A source is the same thing, but in reverse. The two types of
+charge form the sources and sinks of the electric field.
+
+We can now imagine two possible hypotheses:
+
+1. The magnetic field has sources and sinks. For example, one pole of a bar magnet
+is a source, and the other is a sink.
+
+2. The magnetic field has no sources or sinks.
+
+Think about how your data from the bar magnet and the coil relate to this.
+You'll see that there's a bit of ambiguity, since you can't probe the field inside
+the bar magnet, so we don't know how analogous it is to the solenoid. 
+
+Here's one way to get at this issue. Take two neodymium magnets, and, being careful
+not to pinch your skin or chip the magnets, let them come together with a small
+scrap of cardboard between them. The cardboard helps to avoid chipping the magnets,
+and also makes it easier to get them apart afterward. Use the compass to map the
+external field of this double magnet. Does it look like the field of the bar magnet?
+By separating them again, do you get one sink and one source?
+
+What do you think would happen if you broke the bar magnet in half?
+
+From these observations, what do you conclude about the sources and sinks
+of the magnetic field?
+
+
+\end{lab}
+%--------------------------------- induction lab --------------------------------------
+
+\begin{lab}{Induction}
+
+\apparatus
+\equipn{solenoid (Heath)}{1}\\
+\equipn{oscilloscope (HP1222A in rm. 418)}{1}\\
+\equipn{2-meter wire with banana plugs}{1}\\
+\equip{neodymium magnets}\\
+\equip{masking tape}
+
+\begin{goals}
+
+\item[] Observe electric fields induced by changing magnetic fields.
+
+\item[] Build a generator.
+
+\item[] Discover Lenz's law.
+\end{goals}
+
+\labintroduction\index{induction}\index{Faraday, Michael}\index{generator}\index{Lenz's law}
+
+Physicists hate complication, and when physicist Michael
+Faraday was first learning physics in the early 19th
+century, an embarrassingly complex aspect of the science was
+the multiplicity of types of forces. Friction, normal
+forces, gravity, electric forces, magnetic forces, surface
+tension --- the list went on and on. Today, 200 years later,
+ask a physicist to enumerate the fundamental forces of
+nature and the most likely response will be ``four: gravity,
+electromagnetism, the strong nuclear force and the weak
+nuclear force.'' Part of the simplification came from the
+study of matter at the atomic level, which showed that
+apparently unrelated forces such as friction, normal forces,
+and surface tension were all manifestations of electrical
+forces among atoms. The other big simplification came from
+Faraday's experimental work showing that electric and
+magnetic forces were intimately related in previously
+unexpected ways, so intimately related in fact that we now
+refer to the two sets of force-phenomena under a single
+term, ``electromagnetism.''
+
+Even before Faraday, Oersted had shown that there was at
+least some relationship between electric and magnetic
+forces. An electrical current creates a magnetic field, and
+magnetic fields exert forces on an electrical current. In
+other words, electric forces are forces of charges acting on
+charges, and magnetic forces are forces of moving charges on
+moving charges. (Even the magnetic field of a bar magnet is
+due to currents, the currents created by the orbiting
+electrons in its atoms.)
+
+Faraday took Oersted's work a step further, and showed that
+the relationship between electricity and magnetism was even
+deeper. He showed that a changing electric field produces a
+magnetic field, and a changing magnetic field produces an
+electric field. Faraday's work forms the basis for such
+technologies as the transformer, the electric guitar, the
+amplifier, and generator, and the electric motor.
+
+\labsection{Qualitative Observations}
+
+In this lab you will use a permanent magnet to produce
+changing magnetic fields. This causes an electric field to
+be induced, which you will detect using a solenoid (spool of
+wire) connected to an oscilloscope. The electric field
+drives electrons around the solenoid, producing a current
+which is detected by the oscilloscope.
+
+\labpart{ A changing magnetic field}
+
+Do you detect any signal when you move the magnet or wiggle
+it inside the solenoid or near it? What happens if you
+change the speed at which you move the magnet?
+
+\labpart{ A constant magnetic field}
+
+Do you detect any signal on the oscilloscope when the magnet
+is simply placed at rest inside the solenoid? Try the most
+sensitive voltage scale.
+
+\labpart{ Moving the solenoid}
+
+What happens if you hold the magnet still and move the solenoid? 
+
+\labpart{ A generator}
+
+Tape the magnet securely to the eraser end of a pencil so
+that its flat face (one of its two poles) is like the head
+of a hammer.
+Spin the pencil near the
+solenoid and observe the induced signal. You have built a
+generator. (I have unfortunately not had any luck lighting a
+lightbulb with the setup, due to the relatively high
+internal resistance of the solenoid.)
+
+\labfig{lab-spin-magnet}
+
+\labsection{Trying Out Your Understanding}
+
+\labpart{ Changing the speed of the generator}
+
+If you change the speed at which you spin the pencil, you
+will of course cause the induced signal to oscillate more rapidly
+(less time for each oscillation).
+Does it also have any effect on the
+\emph{strength} of the effect?
+
+\labpart{Dependence on distance}
+
+How does the signal picked up by your generator change with distance?
+
+Try to explain what you have observed, and discuss your
+interpretations with your instructor.
+
+\labpart{ A solenoid with fewer loops}
+
+Use the two-meter cable to make a second solenoid with the
+same diameter but fewer loops. Compare the strength of the
+induced signals.
+
+\end{lab}
+%--------------------------------- light waves lab --------------------------------------
+
+\begin{lab}{Light Waves}\label{lab:light-waves}
+
+\apparatus
+\equip{helium-neon laser}{1/group}\\
+\equipn{optical bench with posts \& holders   }{1/group}\\
+\equipn{double slits, 0.05 cm (Klinger)}{1/group}\\
+\equip{rulers}\\
+\equip{meter sticks}\\
+\equip{tape measures}
+
+\begin{goals}
+
+\item[] Observe evidence for the wave nature of light.
+
+\item[] Determine the wavelength of red light (specifically, the
+color emitted by the laser), by measuring a double-slit
+diffraction pattern.
+
+\end{goals}
+
+
+Isaac Newton's epitaph, written by Alexander Pope, reads:
+
+   Nature and Nature's laws lay hid in night.
+
+   God said let Newton be, and all was light.
+
+Notwithstanding Newton's stature as the greatest physical
+scientist who ever lived, it's a little ironic that Pope
+chose light as a metaphor, because it was in the study of
+light that Newton made some of his worst mistakes. Newton
+was a firm believer in the dogma, then unsupported by
+observation, that matter was composed of atoms, and it
+seemed logical to him that light as well should be composed
+of tiny particles, or ``corpuscles.'' His opinions on the
+subject were so strong that he influenced generations of his
+successors to discount the arguments of Huygens and Grimaldi
+for the wave nature of light. It was not until 150 years
+later that Thomas Young demonstrated conclusively that light was a wave.
+
+\labfig[b]{doubleslit}
+
+In this lab, you'll do an experiment similar to Young's, but with
+modern equipment to make things easier. To understand how it works,
+let's consider an analogy with water waves. Figure \figref{doubleslit} shows
+what happens when water waves encounter a barrier with two gaps in it:
+beyond the barrier, there are two overlapping sets of ripples,
+which form a fan pattern. (This is a real photo, but doctored slightly
+in order to make the fan pattern easier to see --- in reality, most of the
+wave energy is wasted when the wave pattern hits the barrier, and the amount
+of energy that gets through the slit is relatively small.)
+Along the center line, the crests of the ripples from the left-hand
+hole coincide with the crests of those coming from the one on the right,
+making double-height waves. Similarly, the troughs coincide with the troughs,
+making troughs of double depth. A bug, standing on the surface of the water 
+along this center line, would experience strong up and down motion. The reason
+that crests reinforce crests and troughs reinforce troughs along this line is that
+at any given point along the line, the waves coming from the two holes have had
+to travel an equal number of wavelengths. At the point marked A,
+for example, we have a double-height wave crest formed by coinciding waves that have
+each had to travel 15 wavelengths from the holes where they originated. It's as though
+two soldiers set out marching from the holes, both heading for this spot. Each one has performed
+the cycle of ``left-right'' fifteen times, so they're on the same foot when they meet up.
+
+This explains why there is strong wave motion along the center line, but what about
+the lines of strong wave motion coming out at other angles? These are the ones
+where the soldiers have taken a different number of steps, but are nevertheless on
+the same foot. For instance, point C 
+lies 16 wavelengths from the left-hand hole, and 15 wavelengths from the right one.
+
+In between the wedge-shaped regions of strong wave motion, we have lines along which the
+picture is a uniform gray. There is no up-and-down vibration at a point along these lines.
+For instance, point B
+lies 15.5 wavelengths from the left-hand hole, and 14 wavelengths from the right one.
+Here, the soldiers meet up, and one is on his left foot while the other is on his right.
+The crest of one wave coincides with the trough of the other, and they cancel out.
+
+Now let's think about how this would work with light waves. It's obvious that the water
+waves are waves, because you can just look at them and see the crests and troughs. As time
+goes on, you see the crests and troughs travel across the water. With light waves, however,
+this kind of direct observation won't work, and that's why it was possible for Newton
+and his successors to be misled about the true wave nature of light. Not only is the
+wavelength of a light wave microscopic in scale, but the waves travel through space
+at hundreds of thousands of kilometers per second. Not only that, but we don't normally
+see light traveling through the air unless there's something in the air to reflect some
+of the light. For instance, you can see a car's headlight beams in a fog, but when the
+air is clear, all you see is the spots where they hit the road, because the road is the
+only thing that can reflect light back to your eyes.
+
+That's why the overlapping-ripples type of experiment is useful here. With light waves, one
+can for example let the fan pattern hit a piece of paper; the paper's location would
+correspond to the top edge of the picture of the water waves. A point, such as the
+one at the center, that experiences strong wave motion will be steadily illuminated,
+while the gaps in between will be dark. This will not only confirm the wave nature of
+light, but it will also end up giving you a way to determine the wavelength of visible
+(red) light.
+
+\labobservations
+
+Set up your laser on your optical bench.
+Put the double slit in the beam, and observe the pattern
+of dark and bright spots on the wall across the room. You
+should see something like the pattern shown in the figure on page \pageref{fig:fringes}.
+
+\labwidefig{fringes}\label{fig:fringes}
+
+Measure the distance from the slits to the wall, and measure the spacing
+of the light and dark pattern. Also, write down the center-to-center distance
+between the slits, which is printed on them. 
+
+\labsection{Analysis}
+
+\labfig{radians}
+
+In the photo of the water waves, the fan pattern consisted of wedges, each of
+which made a certain angle. Your first job is to figure out what that angle
+was in the laser experiment. For instance, if the spacing of the pattern on the
+wall was 1/100 of the diameter of the imaginary circle, then the angle at the tip of
+the long, skinny pie slice would be 1/100 of a full circle, or 3.60 degrees.
+In general, you can set this up as a proportionality,
+\begin{equation*}
+\frac{\text{spacing of pattern}}{\text{circumference of circle}} = \frac{\text{angle}}{360\degunit} \qquad .
+\end{equation*}
+If you didn't remember that the circumference of a circle equals $2\pi$ times its radius, feel
+free to flagellate yourself now.
+
+\labfig{compareslits}\label{fig:compareslits}
+
+Now we have three things that are related: (1) the angle you've just calculated; (2) the distance
+between the slits, which you know; and (3) the wavelength of the light, which you want to find out.
+As shown in the figure above, a smaller spacing between the slits actually causes a \emph{bigger}
+angle. Since all the reasoning is purely geometric, the angle also can't change if we shrink or
+enlarge the whole diagram uniformly. For example, if we doubled both the distance between the slits
+and the wavelength, the result would be the same picture, just enlarged to twice the scale. Since
+the angle decreases with the slit distance, and depends only on the ratio between the slit distance
+and the wavelength, we must have a relationship of the form
+
+\begin{equation*}
+  \text{angle} = \text{constant}\times\frac{\text{wavelength}}{\text{slit distance}} \qquad ,
+\end{equation*}
+
+where the constant out in front only has to be determined once and for all from one example. If you
+measure carefully with a ruler and protractor on
+the second example in the diagram on page \pageref{fig:compareslits}, you'll find that the angle is $26\degunit$, the wavelength is 2 mm, and the slit distance
+is 5 mm, so we find that the constant is about 60 ($26\approx 60\times 2/5$). To solve for the wavelength
+of the light, we multiply both sides by the slit distance, and divide both sides by the constant, 60, giving
+
+\begin{equation*}
+  \text{wavelength} \approx \frac{\text{angle}\times\text{slit distance}}{60} \qquad .
+\end{equation*}
+
+
+You can now use this equation to determine the wavelength of the red light from the laser.
+
+\end{lab}
+
+%--------------------------------- electron waves lab --------------------------------------
+
+\begin{lab}{Electron Waves}
+
+\apparatus
+\emph{(two setups available)}\\
+\equip{cathode ray tube (Leybold 555 626)}\\
+\equip{high-voltage power supply (new Leybold)}\\
+\equip{100-k$\Omega$ resistor with banana-plug connectors}
+
+\begin{goals}
+
+\item[] Observe evidence for the wave nature of electrons.
+
+\item[] Determine whether an increase in an electron's speed
+lengths its wavelength, or shortens it.
+
+\end{goals}
+
+The most momentous discovery in physics during the last century was
+that matter behaves as both a particle and a wave. Electrons are one
+of the basic particles that matter is made of, and in this lab you'll
+see evidence that they behave not just as particles, but also as waves.
+
+
+Conceptually, the experiment is very similar to lab \ref{lab:light-waves}.
+As shown in the figure on the following page, what you are working with is basically the same kind of
+vacuum tube as the picture tube in your television. As in a
+TV, electrons are accelerated through a voltage and shot in
+a beam to the front (big end) of the tube, where they hit a
+phosphorescent coating and produce a glow. You cannot see
+the electron beam itself. There is a very thin carbon foil
+(it looks like a tiny piece of soap bubble) near where the
+neck joins the spherical part of the tube, and the electrons
+must pass through the foil before crossing over to the
+phosphorescent screen.
+
+The purpose of the carbon foil is to act sort of like the double slit
+in lab  \ref{lab:light-waves}. Because the wavelengths of the electrons
+are so short, we need a slit spacing that is on the same order of
+magnitude as the size of an atom. In this lab, the slits are the
+gaps between the carbon atoms themselves! The atoms in a graphite
+crystal are arranged in a complicated hexagonal pattern, and the foil
+contains many tiny graphite crystals, each with its hexagonal lattice
+oriented randomly in three dimensions.
+The resulting pattern of light and dark is therefore not quite the same as the one
+you got with a simple double slit, but it's conceptually similar.
+You'll see a bright spot at the center of the tube, which corresponds
+to the bright central spot you saw with the laser. Surrounding it, you'll
+see two somewhat fainter rings; these correspond to the spots of light
+on either side of the central spot made with the laser. The angles of these
+two rings with respect to the central axis of the tube are related to
+the spacings between the atoms labeled $d_1$ and $d_2$ in the figure.
+
+\labfigcaption{graphite}{The carbon atoms in the graphite crystal are
+arranged hexagonally. The distances between the atoms can be measured
+in units of nanometers (nm), one nanometer being a billionth of a meter.}
+
+\labfigcaption{electrondiffraction}{The vacuum tube.}\label{fig:electrondiffraction}
+
+\end{lab}
+
+%========================================== self-check answers ===============================================
+
+\startscanswers{ch:em}
+\scanshdr{foo}{The second river is shallower, but is flowing more
+rapidly. Although there is a smaller amount of water in the second picture, it will
+take less time to flow ``off stage,'' so the ratio of water divided by time is the
+same in the two pictures. Similarly, $\frac{1}{2}$ and $\frac{2}{4}$ represent the same number.}
+\scanshdr{alternator} Unless the engine is already turning over, the permanent magnet
+isn't spinning, so there is no change in the magnetic field. Only a changing magnetic
+field creates an induced electric field.
+
+%========================================== toc decoration ===============================================
+
+\addtocontents{toc}{\protect\figureintoc{sunspot}}
