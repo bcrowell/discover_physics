@@ -54,10 +54,8 @@ I maintain the originals of the photos in PNG format, but
 I compress them and put them in JPG format before
 using them in the book.
 
-I did the line art for this book using an old version Adobe Illustrator (AI).
-If you want to get one of these in a format such as SVG that is editable using open-source software, the easiest
-method is probably to look in one of my other physics books at lightandmatter.com;
-almost all the figures in Discover Physics occur as well in one of these other
-books, and those are all in SVG. The figures in this source-code archive are
-in .eps format, which is difficult to convert to other formats, except using
-Illustrator (of which I no longer own a copy).
+I did the line art for this book using an old version Adobe Illustrator (AI),
+and the files are in .eps.gz format. These can be converted into SVG format,
+which is editable using open-source sofwtare such as Inkscape.
+Use software such as gunzip to convert the .eps.gz to .eps, and then
+open the file using Inkscape and do a "Save as..." to save it in SVG format.
